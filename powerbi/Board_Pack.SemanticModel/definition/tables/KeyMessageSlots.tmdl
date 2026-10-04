@@ -1,0 +1,17 @@
+table KeyMessageSlots
+	lineageTag: 75100ded-440b-5f5a-94e4-4702982097bc
+
+	column '#'
+		dataType: int64
+		lineageTag: b9644bcd-2faf-59a0-8b66-15829b639251
+		summarizeBy: none
+		sourceColumn: #
+
+	partition KeyMessageSlots = m
+		mode: import
+		source =
+				// KeyMessageSlots - three rows (1, 2, 3) so a table visual can show the three key messages
+				// as wrapped paragraphs; the [Key Message] measure picks the text for each row.
+				#table(type table [#"#" = Int64.Type], {{1}, {2}, {3}})
+
+	annotation PBI_ResultType = Table

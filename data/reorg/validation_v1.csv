@@ -1,0 +1,7 @@
+Type,Rule ID,Rule,Old Department,Detail
+Blocker,R01,Unit not mapped,Information Security,15 positions would have no unit after go-live
+Blocker,R04,Unit head not an active employee,Platform Engineering,Person 100157 left before June 2026
+Blocker,R02,New unit not in target structure,IT Infrastructure,'Platform & Infrastucture' (typo)
+Blocker,R03,Cost center used by two new units,Market Data,CC-3150 already belongs to Platform & Infrastructure
+Blocker,R05,Effective date differs from the programme,Market Data,2026-08-01 instead of 2026-07-01
+Blocker,R06,Headcount does not reconcile,(all),"97 before, 82 after"

@@ -1,0 +1,69 @@
+table DQ_Rules
+	lineageTag: 8f620bfb-c2a2-5041-9db1-3a73d30e6d41
+
+	column 'Rule ID'
+		dataType: string
+		lineageTag: 55451c15-0522-5e4a-949a-432cbbcf1cfc
+		summarizeBy: none
+		sourceColumn: Rule ID
+
+	column Rule
+		dataType: string
+		lineageTag: a55393a1-10bf-5a1a-ac78-a3f7cf150718
+		summarizeBy: none
+		sourceColumn: Rule
+
+	column Severity
+		dataType: string
+		lineageTag: 042d44e1-67da-5d46-b7fc-18558962ed9b
+		summarizeBy: none
+		sourceColumn: Severity
+		sortByColumn: 'Severity Order'
+
+	column 'Action Taken'
+		dataType: string
+		lineageTag: a245bb00-4005-55f7-b43c-308a15d6e39f
+		summarizeBy: none
+		sourceColumn: Action Taken
+
+	column 'Rule Label'
+		dataType: string
+		lineageTag: 57f79b5c-7f12-55b5-91fa-5cf8c51b1618
+		summarizeBy: none
+		sourceColumn: Rule Label
+
+	column 'Severity Order'
+		dataType: int64
+		isHidden
+		lineageTag: e24a00f0-b2af-5435-a4d5-d75772da15e1
+		summarizeBy: none
+		sourceColumn: Severity Order
+
+	partition DQ_Rules = m
+		mode: import
+		source =
+				// DQ_Rules - the rule catalogue: what each rule checks, how serious it is, what we do about it.
+				// A dimension for the Data Quality page. Writing the action down is the governance part:
+				// every exception has an owner and an outcome, nothing is silently "fixed".
+				let
+				    Rules = #table(
+				        type table [#"Rule ID" = text, #"Rule" = text, #"Severity" = text, #"Action Taken" = text],
+				        {
+				            {"DQ01", "Duplicate row", "Medium", "Extra copy removed"},
+				            {"DQ02", "Missing manager", "Medium", "Kept; flagged to HR Services"},
+				            {"DQ03", "Manager not found", "Medium", "Kept; flagged to HR Services"},
+				            {"DQ04", "Future-dated record", "High", "Excluded until effective"},
+				            {"DQ05", "Non-standard location", "Low", "Standardised"},
+				            {"DQ06", "Non-ISO dates (file)", "Low", "Parsed as dd.MM.yyyy"},
+				            {"DQ07", "Currency mismatch", "High", "Excluded from pay metrics"},
+				            {"DQ08", "FTE out of range", "High", "Excluded from FTE and pay metrics"}
+				        }
+				    ),
+				    AddLabel = Table.AddColumn(Rules, "Rule Label", each [Rule ID] & " " & [Rule], type text),
+				    // Sort key so tables list High before Medium before Low
+				    AddOrder = Table.AddColumn(AddLabel, "Severity Order", each
+				        if [Severity] = "High" then 1 else if [Severity] = "Medium" then 2 else 3, Int64.Type)
+				in
+				    AddOrder
+
+	annotation PBI_ResultType = Table

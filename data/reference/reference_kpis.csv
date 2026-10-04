@@ -1,0 +1,3751 @@
+Month,Scope,KPI,Value
+2024-09,Company,Headcount,217.0
+2024-09,Company,FTE,212.9
+2024-09,Company,Hires,0.0
+2024-09,Company,Leavers,0.0
+2024-09,Company,Leavers Voluntary,0.0
+2024-09,Company,Leavers Regretted,0.0
+2024-09,Company,Transfers In,0.0
+2024-09,Company,Transfers Out,0.0
+2024-09,Company,Turnover R12 %,
+2024-09,Company,Voluntary Turnover R12 %,
+2024-09,Company,Early Leavers R12 %,
+2024-09,Company,Women in Leadership %,22.22
+2024-09,Company,Pay Gap Mean %,26.78
+2024-09,Company,Pay Gap Median %,24.67
+2024-09,Company,Pay Gap Adjusted %,2.45
+2024-10,Company,Headcount,217.0
+2024-10,Company,FTE,212.9
+2024-10,Company,Hires,2.0
+2024-10,Company,Leavers,2.0
+2024-10,Company,Leavers Voluntary,1.0
+2024-10,Company,Leavers Regretted,0.0
+2024-10,Company,Transfers In,1.0
+2024-10,Company,Transfers Out,1.0
+2024-10,Company,Turnover R12 %,
+2024-10,Company,Voluntary Turnover R12 %,
+2024-10,Company,Early Leavers R12 %,
+2024-10,Company,Women in Leadership %,22.22
+2024-10,Company,Pay Gap Mean %,25.96
+2024-10,Company,Pay Gap Median %,24.08
+2024-10,Company,Pay Gap Adjusted %,2.43
+2024-11,Company,Headcount,217.0
+2024-11,Company,FTE,212.7
+2024-11,Company,Hires,3.0
+2024-11,Company,Leavers,3.0
+2024-11,Company,Leavers Voluntary,1.0
+2024-11,Company,Leavers Regretted,1.0
+2024-11,Company,Transfers In,1.0
+2024-11,Company,Transfers Out,1.0
+2024-11,Company,Turnover R12 %,
+2024-11,Company,Voluntary Turnover R12 %,
+2024-11,Company,Early Leavers R12 %,
+2024-11,Company,Women in Leadership %,22.22
+2024-11,Company,Pay Gap Mean %,26.1
+2024-11,Company,Pay Gap Median %,24.8
+2024-11,Company,Pay Gap Adjusted %,2.51
+2024-12,Company,Headcount,214.0
+2024-12,Company,FTE,209.7
+2024-12,Company,Hires,0.0
+2024-12,Company,Leavers,3.0
+2024-12,Company,Leavers Voluntary,2.0
+2024-12,Company,Leavers Regretted,0.0
+2024-12,Company,Transfers In,1.0
+2024-12,Company,Transfers Out,1.0
+2024-12,Company,Turnover R12 %,
+2024-12,Company,Voluntary Turnover R12 %,
+2024-12,Company,Early Leavers R12 %,
+2024-12,Company,Women in Leadership %,22.22
+2024-12,Company,Pay Gap Mean %,25.71
+2024-12,Company,Pay Gap Median %,23.99
+2024-12,Company,Pay Gap Adjusted %,2.5
+2025-01,Company,Headcount,215.0
+2025-01,Company,FTE,210.7
+2025-01,Company,Hires,3.0
+2025-01,Company,Leavers,2.0
+2025-01,Company,Leavers Voluntary,2.0
+2025-01,Company,Leavers Regretted,1.0
+2025-01,Company,Transfers In,0.0
+2025-01,Company,Transfers Out,0.0
+2025-01,Company,Turnover R12 %,
+2025-01,Company,Voluntary Turnover R12 %,
+2025-01,Company,Early Leavers R12 %,
+2025-01,Company,Women in Leadership %,22.22
+2025-01,Company,Pay Gap Mean %,25.62
+2025-01,Company,Pay Gap Median %,23.46
+2025-01,Company,Pay Gap Adjusted %,3.11
+2025-02,Company,Headcount,220.0
+2025-02,Company,FTE,215.2
+2025-02,Company,Hires,5.0
+2025-02,Company,Leavers,0.0
+2025-02,Company,Leavers Voluntary,0.0
+2025-02,Company,Leavers Regretted,0.0
+2025-02,Company,Transfers In,0.0
+2025-02,Company,Transfers Out,0.0
+2025-02,Company,Turnover R12 %,
+2025-02,Company,Voluntary Turnover R12 %,
+2025-02,Company,Early Leavers R12 %,
+2025-02,Company,Women in Leadership %,22.22
+2025-02,Company,Pay Gap Mean %,25.55
+2025-02,Company,Pay Gap Median %,22.98
+2025-02,Company,Pay Gap Adjusted %,3.42
+2025-03,Company,Headcount,223.0
+2025-03,Company,FTE,218.0
+2025-03,Company,Hires,3.0
+2025-03,Company,Leavers,0.0
+2025-03,Company,Leavers Voluntary,0.0
+2025-03,Company,Leavers Regretted,0.0
+2025-03,Company,Transfers In,1.0
+2025-03,Company,Transfers Out,1.0
+2025-03,Company,Turnover R12 %,
+2025-03,Company,Voluntary Turnover R12 %,
+2025-03,Company,Early Leavers R12 %,
+2025-03,Company,Women in Leadership %,22.22
+2025-03,Company,Pay Gap Mean %,26.36
+2025-03,Company,Pay Gap Median %,23.95
+2025-03,Company,Pay Gap Adjusted %,3.6
+2025-04,Company,Headcount,223.0
+2025-04,Company,FTE,218.0
+2025-04,Company,Hires,2.0
+2025-04,Company,Leavers,2.0
+2025-04,Company,Leavers Voluntary,1.0
+2025-04,Company,Leavers Regretted,0.0
+2025-04,Company,Transfers In,0.0
+2025-04,Company,Transfers Out,0.0
+2025-04,Company,Turnover R12 %,
+2025-04,Company,Voluntary Turnover R12 %,
+2025-04,Company,Early Leavers R12 %,
+2025-04,Company,Women in Leadership %,22.22
+2025-04,Company,Pay Gap Mean %,26.11
+2025-04,Company,Pay Gap Median %,23.03
+2025-04,Company,Pay Gap Adjusted %,3.64
+2025-05,Company,Headcount,224.0
+2025-05,Company,FTE,219.0
+2025-05,Company,Hires,4.0
+2025-05,Company,Leavers,3.0
+2025-05,Company,Leavers Voluntary,3.0
+2025-05,Company,Leavers Regretted,2.0
+2025-05,Company,Transfers In,0.0
+2025-05,Company,Transfers Out,0.0
+2025-05,Company,Turnover R12 %,
+2025-05,Company,Voluntary Turnover R12 %,
+2025-05,Company,Early Leavers R12 %,
+2025-05,Company,Women in Leadership %,22.22
+2025-05,Company,Pay Gap Mean %,26.02
+2025-05,Company,Pay Gap Median %,23.58
+2025-05,Company,Pay Gap Adjusted %,3.77
+2025-06,Company,Headcount,221.0
+2025-06,Company,FTE,216.0
+2025-06,Company,Hires,1.0
+2025-06,Company,Leavers,4.0
+2025-06,Company,Leavers Voluntary,3.0
+2025-06,Company,Leavers Regretted,1.0
+2025-06,Company,Transfers In,0.0
+2025-06,Company,Transfers Out,0.0
+2025-06,Company,Turnover R12 %,
+2025-06,Company,Voluntary Turnover R12 %,
+2025-06,Company,Early Leavers R12 %,
+2025-06,Company,Women in Leadership %,22.22
+2025-06,Company,Pay Gap Mean %,25.5
+2025-06,Company,Pay Gap Median %,23.03
+2025-06,Company,Pay Gap Adjusted %,3.74
+2025-07,Company,Headcount,224.0
+2025-07,Company,FTE,219.0
+2025-07,Company,Hires,6.0
+2025-07,Company,Leavers,3.0
+2025-07,Company,Leavers Voluntary,3.0
+2025-07,Company,Leavers Regretted,2.0
+2025-07,Company,Transfers In,0.0
+2025-07,Company,Transfers Out,0.0
+2025-07,Company,Turnover R12 %,
+2025-07,Company,Voluntary Turnover R12 %,
+2025-07,Company,Early Leavers R12 %,
+2025-07,Company,Women in Leadership %,22.22
+2025-07,Company,Pay Gap Mean %,25.02
+2025-07,Company,Pay Gap Median %,24.51
+2025-07,Company,Pay Gap Adjusted %,3.56
+2025-08,Company,Headcount,226.0
+2025-08,Company,FTE,221.0
+2025-08,Company,Hires,4.0
+2025-08,Company,Leavers,2.0
+2025-08,Company,Leavers Voluntary,1.0
+2025-08,Company,Leavers Regretted,0.0
+2025-08,Company,Transfers In,0.0
+2025-08,Company,Transfers Out,0.0
+2025-08,Company,Turnover R12 %,
+2025-08,Company,Voluntary Turnover R12 %,
+2025-08,Company,Early Leavers R12 %,
+2025-08,Company,Women in Leadership %,22.22
+2025-08,Company,Pay Gap Mean %,23.86
+2025-08,Company,Pay Gap Median %,21.18
+2025-08,Company,Pay Gap Adjusted %,3.6
+2025-09,Company,Headcount,229.0
+2025-09,Company,FTE,224.0
+2025-09,Company,Hires,4.0
+2025-09,Company,Leavers,1.0
+2025-09,Company,Leavers Voluntary,1.0
+2025-09,Company,Leavers Regretted,1.0
+2025-09,Company,Transfers In,0.0
+2025-09,Company,Transfers Out,0.0
+2025-09,Company,Turnover R12 %,11.31
+2025-09,Company,Voluntary Turnover R12 %,8.14
+2025-09,Company,Early Leavers R12 %,24.0
+2025-09,Company,Women in Leadership %,22.22
+2025-09,Company,Pay Gap Mean %,24.05
+2025-09,Company,Pay Gap Median %,21.24
+2025-09,Company,Pay Gap Adjusted %,3.51
+2025-10,Company,Headcount,229.0
+2025-10,Company,FTE,224.0
+2025-10,Company,Hires,2.0
+2025-10,Company,Leavers,2.0
+2025-10,Company,Leavers Voluntary,2.0
+2025-10,Company,Leavers Regretted,1.0
+2025-10,Company,Transfers In,0.0
+2025-10,Company,Transfers Out,0.0
+2025-10,Company,Turnover R12 %,11.26
+2025-10,Company,Voluntary Turnover R12 %,8.56
+2025-10,Company,Early Leavers R12 %,28.0
+2025-10,Company,Women in Leadership %,22.22
+2025-10,Company,Pay Gap Mean %,24.07
+2025-10,Company,Pay Gap Median %,22.68
+2025-10,Company,Pay Gap Adjusted %,3.24
+2025-11,Company,Headcount,231.0
+2025-11,Company,FTE,226.0
+2025-11,Company,Hires,5.0
+2025-11,Company,Leavers,3.0
+2025-11,Company,Leavers Voluntary,2.0
+2025-11,Company,Leavers Regretted,2.0
+2025-11,Company,Transfers In,0.0
+2025-11,Company,Transfers Out,0.0
+2025-11,Company,Turnover R12 %,11.2
+2025-11,Company,Voluntary Turnover R12 %,8.96
+2025-11,Company,Early Leavers R12 %,28.0
+2025-11,Company,Women in Leadership %,22.22
+2025-11,Company,Pay Gap Mean %,22.81
+2025-11,Company,Pay Gap Median %,20.33
+2025-11,Company,Pay Gap Adjusted %,2.99
+2025-12,Company,Headcount,231.0
+2025-12,Company,FTE,226.0
+2025-12,Company,Hires,3.0
+2025-12,Company,Leavers,3.0
+2025-12,Company,Leavers Voluntary,2.0
+2025-12,Company,Leavers Regretted,1.0
+2025-12,Company,Transfers In,0.0
+2025-12,Company,Transfers Out,0.0
+2025-12,Company,Turnover R12 %,11.13
+2025-12,Company,Voluntary Turnover R12 %,8.9
+2025-12,Company,Early Leavers R12 %,28.0
+2025-12,Company,Women in Leadership %,22.22
+2025-12,Company,Pay Gap Mean %,22.7
+2025-12,Company,Pay Gap Median %,20.33
+2025-12,Company,Pay Gap Adjusted %,2.81
+2026-01,Company,Headcount,234.0
+2026-01,Company,FTE,229.0
+2026-01,Company,Hires,4.0
+2026-01,Company,Leavers,1.0
+2026-01,Company,Leavers Voluntary,1.0
+2026-01,Company,Leavers Regretted,0.0
+2026-01,Company,Transfers In,0.0
+2026-01,Company,Transfers Out,0.0
+2026-01,Company,Turnover R12 %,10.61
+2026-01,Company,Voluntary Turnover R12 %,8.4
+2026-01,Company,Early Leavers R12 %,25.0
+2026-01,Company,Women in Leadership %,22.22
+2026-01,Company,Pay Gap Mean %,22.44
+2026-01,Company,Pay Gap Median %,19.38
+2026-01,Company,Pay Gap Adjusted %,2.93
+2026-02,Company,Headcount,237.0
+2026-02,Company,FTE,231.8
+2026-02,Company,Hires,5.0
+2026-02,Company,Leavers,2.0
+2026-02,Company,Leavers Voluntary,2.0
+2026-02,Company,Leavers Regretted,0.0
+2026-02,Company,Transfers In,1.0
+2026-02,Company,Transfers Out,1.0
+2026-02,Company,Turnover R12 %,11.42
+2026-02,Company,Voluntary Turnover R12 %,9.22
+2026-02,Company,Early Leavers R12 %,26.92
+2026-02,Company,Women in Leadership %,22.22
+2026-02,Company,Pay Gap Mean %,23.47
+2026-02,Company,Pay Gap Median %,22.14
+2026-02,Company,Pay Gap Adjusted %,3.37
+2026-03,Company,Headcount,235.0
+2026-03,Company,FTE,229.6
+2026-03,Company,Hires,3.0
+2026-03,Company,Leavers,5.0
+2026-03,Company,Leavers Voluntary,5.0
+2026-03,Company,Leavers Regretted,1.0
+2026-03,Company,Transfers In,1.0
+2026-03,Company,Transfers Out,1.0
+2026-03,Company,Turnover R12 %,13.56
+2026-03,Company,Voluntary Turnover R12 %,11.37
+2026-03,Company,Early Leavers R12 %,25.81
+2026-03,Company,Women in Leadership %,22.22
+2026-03,Company,Pay Gap Mean %,22.57
+2026-03,Company,Pay Gap Median %,20.78
+2026-03,Company,Pay Gap Adjusted %,3.49
+2026-04,Company,Headcount,237.0
+2026-04,Company,FTE,231.6
+2026-04,Company,Hires,5.0
+2026-04,Company,Leavers,3.0
+2026-04,Company,Leavers Voluntary,2.0
+2026-04,Company,Leavers Regretted,2.0
+2026-04,Company,Transfers In,1.0
+2026-04,Company,Transfers Out,1.0
+2026-04,Company,Turnover R12 %,13.92
+2026-04,Company,Voluntary Turnover R12 %,11.75
+2026-04,Company,Early Leavers R12 %,31.25
+2026-04,Company,Women in Leadership %,22.22
+2026-04,Company,Pay Gap Mean %,21.05
+2026-04,Company,Pay Gap Median %,18.51
+2026-04,Company,Pay Gap Adjusted %,2.99
+2026-05,Company,Headcount,239.0
+2026-05,Company,FTE,233.1
+2026-05,Company,Hires,4.0
+2026-05,Company,Leavers,2.0
+2026-05,Company,Leavers Voluntary,0.0
+2026-05,Company,Leavers Regretted,0.0
+2026-05,Company,Transfers In,0.0
+2026-05,Company,Transfers Out,0.0
+2026-05,Company,Turnover R12 %,13.42
+2026-05,Company,Voluntary Turnover R12 %,10.39
+2026-05,Company,Early Leavers R12 %,29.03
+2026-05,Company,Women in Leadership %,27.78
+2026-05,Company,Pay Gap Mean %,18.55
+2026-05,Company,Pay Gap Median %,17.64
+2026-05,Company,Pay Gap Adjusted %,3.18
+2026-06,Company,Headcount,236.0
+2026-06,Company,FTE,230.1
+2026-06,Company,Hires,2.0
+2026-06,Company,Leavers,5.0
+2026-06,Company,Leavers Voluntary,5.0
+2026-06,Company,Leavers Regretted,3.0
+2026-06,Company,Transfers In,0.0
+2026-06,Company,Transfers Out,0.0
+2026-06,Company,Turnover R12 %,13.77
+2026-06,Company,Voluntary Turnover R12 %,11.19
+2026-06,Company,Early Leavers R12 %,34.38
+2026-06,Company,Women in Leadership %,27.78
+2026-06,Company,Pay Gap Mean %,19.17
+2026-06,Company,Pay Gap Median %,16.63
+2026-06,Company,Pay Gap Adjusted %,3.64
+2026-07,Company,Headcount,237.0
+2026-07,Company,FTE,230.3
+2026-07,Company,Hires,2.0
+2026-07,Company,Leavers,1.0
+2026-07,Company,Leavers Voluntary,1.0
+2026-07,Company,Leavers Regretted,0.0
+2026-07,Company,Transfers In,77.0
+2026-07,Company,Transfers Out,77.0
+2026-07,Company,Turnover R12 %,12.85
+2026-07,Company,Voluntary Turnover R12 %,10.28
+2026-07,Company,Early Leavers R12 %,40.0
+2026-07,Company,Women in Leadership %,27.78
+2026-07,Company,Pay Gap Mean %,19.2
+2026-07,Company,Pay Gap Median %,16.76
+2026-07,Company,Pay Gap Adjusted %,3.52
+2026-08,Company,Headcount,239.0
+2026-08,Company,FTE,233.1
+2026-08,Company,Hires,5.0
+2026-08,Company,Leavers,3.0
+2026-08,Company,Leavers Voluntary,2.0
+2026-08,Company,Leavers Regretted,0.0
+2026-08,Company,Transfers In,0.0
+2026-08,Company,Transfers Out,0.0
+2026-08,Company,Turnover R12 %,13.22
+2026-08,Company,Voluntary Turnover R12 %,10.66
+2026-08,Company,Early Leavers R12 %,41.94
+2026-08,Company,Women in Leadership %,27.78
+2026-08,Company,Pay Gap Mean %,18.83
+2026-08,Company,Pay Gap Median %,19.0
+2026-08,Company,Pay Gap Adjusted %,3.3
+2026-09,Company,Headcount,239.0
+2026-09,Company,FTE,232.9
+2026-09,Company,Hires,3.0
+2026-09,Company,Leavers,3.0
+2026-09,Company,Leavers Voluntary,3.0
+2026-09,Company,Leavers Regretted,2.0
+2026-09,Company,Transfers In,0.0
+2026-09,Company,Transfers Out,0.0
+2026-09,Company,Turnover R12 %,14.02
+2026-09,Company,Voluntary Turnover R12 %,11.47
+2026-09,Company,Early Leavers R12 %,48.48
+2026-09,Company,Women in Leadership %,27.78
+2026-09,Company,Pay Gap Mean %,19.59
+2026-09,Company,Pay Gap Median %,19.83
+2026-09,Company,Pay Gap Adjusted %,3.25
+2024-09,Corporate Functions,Headcount,51.0
+2024-09,Corporate Functions,FTE,50.3
+2024-09,Corporate Functions,Hires,0.0
+2024-09,Corporate Functions,Leavers,0.0
+2024-09,Corporate Functions,Leavers Voluntary,0.0
+2024-09,Corporate Functions,Leavers Regretted,0.0
+2024-09,Corporate Functions,Transfers In,0.0
+2024-09,Corporate Functions,Transfers Out,0.0
+2024-09,Corporate Functions,Turnover R12 %,
+2024-09,Corporate Functions,Voluntary Turnover R12 %,
+2024-09,Corporate Functions,Early Leavers R12 %,
+2024-09,Corporate Functions,Women in Leadership %,40.0
+2024-09,Corporate Functions,Pay Gap Mean %,13.14
+2024-09,Corporate Functions,Pay Gap Median %,23.17
+2024-09,Corporate Functions,Pay Gap Adjusted %,8.49
+2024-10,Corporate Functions,Headcount,50.0
+2024-10,Corporate Functions,FTE,49.3
+2024-10,Corporate Functions,Hires,0.0
+2024-10,Corporate Functions,Leavers,1.0
+2024-10,Corporate Functions,Leavers Voluntary,0.0
+2024-10,Corporate Functions,Leavers Regretted,0.0
+2024-10,Corporate Functions,Transfers In,0.0
+2024-10,Corporate Functions,Transfers Out,0.0
+2024-10,Corporate Functions,Turnover R12 %,
+2024-10,Corporate Functions,Voluntary Turnover R12 %,
+2024-10,Corporate Functions,Early Leavers R12 %,
+2024-10,Corporate Functions,Women in Leadership %,40.0
+2024-10,Corporate Functions,Pay Gap Mean %,13.36
+2024-10,Corporate Functions,Pay Gap Median %,23.65
+2024-10,Corporate Functions,Pay Gap Adjusted %,
+2024-11,Corporate Functions,Headcount,49.0
+2024-11,Corporate Functions,FTE,48.3
+2024-11,Corporate Functions,Hires,0.0
+2024-11,Corporate Functions,Leavers,1.0
+2024-11,Corporate Functions,Leavers Voluntary,0.0
+2024-11,Corporate Functions,Leavers Regretted,0.0
+2024-11,Corporate Functions,Transfers In,0.0
+2024-11,Corporate Functions,Transfers Out,0.0
+2024-11,Corporate Functions,Turnover R12 %,
+2024-11,Corporate Functions,Voluntary Turnover R12 %,
+2024-11,Corporate Functions,Early Leavers R12 %,
+2024-11,Corporate Functions,Women in Leadership %,40.0
+2024-11,Corporate Functions,Pay Gap Mean %,12.47
+2024-11,Corporate Functions,Pay Gap Median %,23.04
+2024-11,Corporate Functions,Pay Gap Adjusted %,
+2024-12,Corporate Functions,Headcount,48.0
+2024-12,Corporate Functions,FTE,47.3
+2024-12,Corporate Functions,Hires,0.0
+2024-12,Corporate Functions,Leavers,1.0
+2024-12,Corporate Functions,Leavers Voluntary,1.0
+2024-12,Corporate Functions,Leavers Regretted,0.0
+2024-12,Corporate Functions,Transfers In,0.0
+2024-12,Corporate Functions,Transfers Out,0.0
+2024-12,Corporate Functions,Turnover R12 %,
+2024-12,Corporate Functions,Voluntary Turnover R12 %,
+2024-12,Corporate Functions,Early Leavers R12 %,
+2024-12,Corporate Functions,Women in Leadership %,40.0
+2024-12,Corporate Functions,Pay Gap Mean %,12.3
+2024-12,Corporate Functions,Pay Gap Median %,22.61
+2024-12,Corporate Functions,Pay Gap Adjusted %,
+2025-01,Corporate Functions,Headcount,48.0
+2025-01,Corporate Functions,FTE,47.3
+2025-01,Corporate Functions,Hires,1.0
+2025-01,Corporate Functions,Leavers,1.0
+2025-01,Corporate Functions,Leavers Voluntary,1.0
+2025-01,Corporate Functions,Leavers Regretted,0.0
+2025-01,Corporate Functions,Transfers In,0.0
+2025-01,Corporate Functions,Transfers Out,0.0
+2025-01,Corporate Functions,Turnover R12 %,
+2025-01,Corporate Functions,Voluntary Turnover R12 %,
+2025-01,Corporate Functions,Early Leavers R12 %,
+2025-01,Corporate Functions,Women in Leadership %,40.0
+2025-01,Corporate Functions,Pay Gap Mean %,9.82
+2025-01,Corporate Functions,Pay Gap Median %,21.68
+2025-01,Corporate Functions,Pay Gap Adjusted %,
+2025-02,Corporate Functions,Headcount,50.0
+2025-02,Corporate Functions,FTE,49.3
+2025-02,Corporate Functions,Hires,2.0
+2025-02,Corporate Functions,Leavers,0.0
+2025-02,Corporate Functions,Leavers Voluntary,0.0
+2025-02,Corporate Functions,Leavers Regretted,0.0
+2025-02,Corporate Functions,Transfers In,0.0
+2025-02,Corporate Functions,Transfers Out,0.0
+2025-02,Corporate Functions,Turnover R12 %,
+2025-02,Corporate Functions,Voluntary Turnover R12 %,
+2025-02,Corporate Functions,Early Leavers R12 %,
+2025-02,Corporate Functions,Women in Leadership %,40.0
+2025-02,Corporate Functions,Pay Gap Mean %,8.68
+2025-02,Corporate Functions,Pay Gap Median %,18.49
+2025-02,Corporate Functions,Pay Gap Adjusted %,11.38
+2025-03,Corporate Functions,Headcount,50.0
+2025-03,Corporate Functions,FTE,49.3
+2025-03,Corporate Functions,Hires,0.0
+2025-03,Corporate Functions,Leavers,0.0
+2025-03,Corporate Functions,Leavers Voluntary,0.0
+2025-03,Corporate Functions,Leavers Regretted,0.0
+2025-03,Corporate Functions,Transfers In,0.0
+2025-03,Corporate Functions,Transfers Out,0.0
+2025-03,Corporate Functions,Turnover R12 %,
+2025-03,Corporate Functions,Voluntary Turnover R12 %,
+2025-03,Corporate Functions,Early Leavers R12 %,
+2025-03,Corporate Functions,Women in Leadership %,40.0
+2025-03,Corporate Functions,Pay Gap Mean %,8.68
+2025-03,Corporate Functions,Pay Gap Median %,18.49
+2025-03,Corporate Functions,Pay Gap Adjusted %,11.38
+2025-04,Corporate Functions,Headcount,50.0
+2025-04,Corporate Functions,FTE,49.3
+2025-04,Corporate Functions,Hires,0.0
+2025-04,Corporate Functions,Leavers,0.0
+2025-04,Corporate Functions,Leavers Voluntary,0.0
+2025-04,Corporate Functions,Leavers Regretted,0.0
+2025-04,Corporate Functions,Transfers In,0.0
+2025-04,Corporate Functions,Transfers Out,0.0
+2025-04,Corporate Functions,Turnover R12 %,
+2025-04,Corporate Functions,Voluntary Turnover R12 %,
+2025-04,Corporate Functions,Early Leavers R12 %,
+2025-04,Corporate Functions,Women in Leadership %,40.0
+2025-04,Corporate Functions,Pay Gap Mean %,8.32
+2025-04,Corporate Functions,Pay Gap Median %,18.6
+2025-04,Corporate Functions,Pay Gap Adjusted %,11.53
+2025-05,Corporate Functions,Headcount,50.0
+2025-05,Corporate Functions,FTE,49.3
+2025-05,Corporate Functions,Hires,0.0
+2025-05,Corporate Functions,Leavers,0.0
+2025-05,Corporate Functions,Leavers Voluntary,0.0
+2025-05,Corporate Functions,Leavers Regretted,0.0
+2025-05,Corporate Functions,Transfers In,0.0
+2025-05,Corporate Functions,Transfers Out,0.0
+2025-05,Corporate Functions,Turnover R12 %,
+2025-05,Corporate Functions,Voluntary Turnover R12 %,
+2025-05,Corporate Functions,Early Leavers R12 %,
+2025-05,Corporate Functions,Women in Leadership %,40.0
+2025-05,Corporate Functions,Pay Gap Mean %,8.33
+2025-05,Corporate Functions,Pay Gap Median %,18.6
+2025-05,Corporate Functions,Pay Gap Adjusted %,11.53
+2025-06,Corporate Functions,Headcount,49.0
+2025-06,Corporate Functions,FTE,48.3
+2025-06,Corporate Functions,Hires,0.0
+2025-06,Corporate Functions,Leavers,1.0
+2025-06,Corporate Functions,Leavers Voluntary,0.0
+2025-06,Corporate Functions,Leavers Regretted,0.0
+2025-06,Corporate Functions,Transfers In,0.0
+2025-06,Corporate Functions,Transfers Out,0.0
+2025-06,Corporate Functions,Turnover R12 %,
+2025-06,Corporate Functions,Voluntary Turnover R12 %,
+2025-06,Corporate Functions,Early Leavers R12 %,
+2025-06,Corporate Functions,Women in Leadership %,40.0
+2025-06,Corporate Functions,Pay Gap Mean %,9.35
+2025-06,Corporate Functions,Pay Gap Median %,21.23
+2025-06,Corporate Functions,Pay Gap Adjusted %,11.53
+2025-07,Corporate Functions,Headcount,50.0
+2025-07,Corporate Functions,FTE,49.3
+2025-07,Corporate Functions,Hires,1.0
+2025-07,Corporate Functions,Leavers,0.0
+2025-07,Corporate Functions,Leavers Voluntary,0.0
+2025-07,Corporate Functions,Leavers Regretted,0.0
+2025-07,Corporate Functions,Transfers In,0.0
+2025-07,Corporate Functions,Transfers Out,0.0
+2025-07,Corporate Functions,Turnover R12 %,
+2025-07,Corporate Functions,Voluntary Turnover R12 %,
+2025-07,Corporate Functions,Early Leavers R12 %,
+2025-07,Corporate Functions,Women in Leadership %,40.0
+2025-07,Corporate Functions,Pay Gap Mean %,9.31
+2025-07,Corporate Functions,Pay Gap Median %,20.6
+2025-07,Corporate Functions,Pay Gap Adjusted %,11.53
+2025-08,Corporate Functions,Headcount,50.0
+2025-08,Corporate Functions,FTE,49.3
+2025-08,Corporate Functions,Hires,1.0
+2025-08,Corporate Functions,Leavers,1.0
+2025-08,Corporate Functions,Leavers Voluntary,0.0
+2025-08,Corporate Functions,Leavers Regretted,0.0
+2025-08,Corporate Functions,Transfers In,0.0
+2025-08,Corporate Functions,Transfers Out,0.0
+2025-08,Corporate Functions,Turnover R12 %,
+2025-08,Corporate Functions,Voluntary Turnover R12 %,
+2025-08,Corporate Functions,Early Leavers R12 %,
+2025-08,Corporate Functions,Women in Leadership %,40.0
+2025-08,Corporate Functions,Pay Gap Mean %,9.57
+2025-08,Corporate Functions,Pay Gap Median %,19.73
+2025-08,Corporate Functions,Pay Gap Adjusted %,10.03
+2025-09,Corporate Functions,Headcount,51.0
+2025-09,Corporate Functions,FTE,50.3
+2025-09,Corporate Functions,Hires,1.0
+2025-09,Corporate Functions,Leavers,0.0
+2025-09,Corporate Functions,Leavers Voluntary,0.0
+2025-09,Corporate Functions,Leavers Regretted,0.0
+2025-09,Corporate Functions,Transfers In,0.0
+2025-09,Corporate Functions,Transfers Out,0.0
+2025-09,Corporate Functions,Turnover R12 %,12.1
+2025-09,Corporate Functions,Voluntary Turnover R12 %,4.03
+2025-09,Corporate Functions,Early Leavers R12 %,0.0
+2025-09,Corporate Functions,Women in Leadership %,40.0
+2025-09,Corporate Functions,Pay Gap Mean %,10.1
+2025-09,Corporate Functions,Pay Gap Median %,19.97
+2025-09,Corporate Functions,Pay Gap Adjusted %,10.03
+2025-10,Corporate Functions,Headcount,50.0
+2025-10,Corporate Functions,FTE,49.3
+2025-10,Corporate Functions,Hires,0.0
+2025-10,Corporate Functions,Leavers,1.0
+2025-10,Corporate Functions,Leavers Voluntary,1.0
+2025-10,Corporate Functions,Leavers Regretted,1.0
+2025-10,Corporate Functions,Transfers In,0.0
+2025-10,Corporate Functions,Transfers Out,0.0
+2025-10,Corporate Functions,Turnover R12 %,12.1
+2025-10,Corporate Functions,Voluntary Turnover R12 %,6.05
+2025-10,Corporate Functions,Early Leavers R12 %,16.67
+2025-10,Corporate Functions,Women in Leadership %,40.0
+2025-10,Corporate Functions,Pay Gap Mean %,9.6
+2025-10,Corporate Functions,Pay Gap Median %,19.89
+2025-10,Corporate Functions,Pay Gap Adjusted %,9.38
+2025-11,Corporate Functions,Headcount,50.0
+2025-11,Corporate Functions,FTE,49.3
+2025-11,Corporate Functions,Hires,0.0
+2025-11,Corporate Functions,Leavers,0.0
+2025-11,Corporate Functions,Leavers Voluntary,0.0
+2025-11,Corporate Functions,Leavers Regretted,0.0
+2025-11,Corporate Functions,Transfers In,0.0
+2025-11,Corporate Functions,Transfers Out,0.0
+2025-11,Corporate Functions,Turnover R12 %,10.07
+2025-11,Corporate Functions,Voluntary Turnover R12 %,6.04
+2025-11,Corporate Functions,Early Leavers R12 %,20.0
+2025-11,Corporate Functions,Women in Leadership %,40.0
+2025-11,Corporate Functions,Pay Gap Mean %,9.6
+2025-11,Corporate Functions,Pay Gap Median %,19.89
+2025-11,Corporate Functions,Pay Gap Adjusted %,9.38
+2025-12,Corporate Functions,Headcount,52.0
+2025-12,Corporate Functions,FTE,51.3
+2025-12,Corporate Functions,Hires,2.0
+2025-12,Corporate Functions,Leavers,0.0
+2025-12,Corporate Functions,Leavers Voluntary,0.0
+2025-12,Corporate Functions,Leavers Regretted,0.0
+2025-12,Corporate Functions,Transfers In,0.0
+2025-12,Corporate Functions,Transfers Out,0.0
+2025-12,Corporate Functions,Turnover R12 %,8.0
+2025-12,Corporate Functions,Voluntary Turnover R12 %,4.0
+2025-12,Corporate Functions,Early Leavers R12 %,
+2025-12,Corporate Functions,Women in Leadership %,40.0
+2025-12,Corporate Functions,Pay Gap Mean %,10.94
+2025-12,Corporate Functions,Pay Gap Median %,19.89
+2025-12,Corporate Functions,Pay Gap Adjusted %,9.38
+2026-01,Corporate Functions,Headcount,52.0
+2026-01,Corporate Functions,FTE,51.3
+2026-01,Corporate Functions,Hires,0.0
+2026-01,Corporate Functions,Leavers,0.0
+2026-01,Corporate Functions,Leavers Voluntary,0.0
+2026-01,Corporate Functions,Leavers Regretted,0.0
+2026-01,Corporate Functions,Transfers In,0.0
+2026-01,Corporate Functions,Transfers Out,0.0
+2026-01,Corporate Functions,Turnover R12 %,5.96
+2026-01,Corporate Functions,Voluntary Turnover R12 %,1.99
+2026-01,Corporate Functions,Early Leavers R12 %,
+2026-01,Corporate Functions,Women in Leadership %,40.0
+2026-01,Corporate Functions,Pay Gap Mean %,10.94
+2026-01,Corporate Functions,Pay Gap Median %,19.89
+2026-01,Corporate Functions,Pay Gap Adjusted %,9.38
+2026-02,Corporate Functions,Headcount,52.0
+2026-02,Corporate Functions,FTE,51.3
+2026-02,Corporate Functions,Hires,0.0
+2026-02,Corporate Functions,Leavers,0.0
+2026-02,Corporate Functions,Leavers Voluntary,0.0
+2026-02,Corporate Functions,Leavers Regretted,0.0
+2026-02,Corporate Functions,Transfers In,0.0
+2026-02,Corporate Functions,Transfers Out,0.0
+2026-02,Corporate Functions,Turnover R12 %,5.94
+2026-02,Corporate Functions,Voluntary Turnover R12 %,1.98
+2026-02,Corporate Functions,Early Leavers R12 %,
+2026-02,Corporate Functions,Women in Leadership %,40.0
+2026-02,Corporate Functions,Pay Gap Mean %,10.67
+2026-02,Corporate Functions,Pay Gap Median %,19.89
+2026-02,Corporate Functions,Pay Gap Adjusted %,
+2026-03,Corporate Functions,Headcount,52.0
+2026-03,Corporate Functions,FTE,51.3
+2026-03,Corporate Functions,Hires,1.0
+2026-03,Corporate Functions,Leavers,1.0
+2026-03,Corporate Functions,Leavers Voluntary,1.0
+2026-03,Corporate Functions,Leavers Regretted,1.0
+2026-03,Corporate Functions,Transfers In,0.0
+2026-03,Corporate Functions,Transfers Out,0.0
+2026-03,Corporate Functions,Turnover R12 %,7.89
+2026-03,Corporate Functions,Voluntary Turnover R12 %,3.95
+2026-03,Corporate Functions,Early Leavers R12 %,
+2026-03,Corporate Functions,Women in Leadership %,40.0
+2026-03,Corporate Functions,Pay Gap Mean %,9.17
+2026-03,Corporate Functions,Pay Gap Median %,18.26
+2026-03,Corporate Functions,Pay Gap Adjusted %,
+2026-04,Corporate Functions,Headcount,52.0
+2026-04,Corporate Functions,FTE,51.3
+2026-04,Corporate Functions,Hires,0.0
+2026-04,Corporate Functions,Leavers,0.0
+2026-04,Corporate Functions,Leavers Voluntary,0.0
+2026-04,Corporate Functions,Leavers Regretted,0.0
+2026-04,Corporate Functions,Transfers In,0.0
+2026-04,Corporate Functions,Transfers Out,0.0
+2026-04,Corporate Functions,Turnover R12 %,7.87
+2026-04,Corporate Functions,Voluntary Turnover R12 %,3.93
+2026-04,Corporate Functions,Early Leavers R12 %,
+2026-04,Corporate Functions,Women in Leadership %,40.0
+2026-04,Corporate Functions,Pay Gap Mean %,9.32
+2026-04,Corporate Functions,Pay Gap Median %,18.31
+2026-04,Corporate Functions,Pay Gap Adjusted %,
+2026-05,Corporate Functions,Headcount,53.0
+2026-05,Corporate Functions,FTE,52.3
+2026-05,Corporate Functions,Hires,1.0
+2026-05,Corporate Functions,Leavers,0.0
+2026-05,Corporate Functions,Leavers Voluntary,0.0
+2026-05,Corporate Functions,Leavers Regretted,0.0
+2026-05,Corporate Functions,Transfers In,0.0
+2026-05,Corporate Functions,Transfers Out,0.0
+2026-05,Corporate Functions,Turnover R12 %,7.83
+2026-05,Corporate Functions,Voluntary Turnover R12 %,3.92
+2026-05,Corporate Functions,Early Leavers R12 %,
+2026-05,Corporate Functions,Women in Leadership %,40.0
+2026-05,Corporate Functions,Pay Gap Mean %,7.36
+2026-05,Corporate Functions,Pay Gap Median %,17.99
+2026-05,Corporate Functions,Pay Gap Adjusted %,
+2026-06,Corporate Functions,Headcount,53.0
+2026-06,Corporate Functions,FTE,52.3
+2026-06,Corporate Functions,Hires,0.0
+2026-06,Corporate Functions,Leavers,0.0
+2026-06,Corporate Functions,Leavers Voluntary,0.0
+2026-06,Corporate Functions,Leavers Regretted,0.0
+2026-06,Corporate Functions,Transfers In,0.0
+2026-06,Corporate Functions,Transfers Out,0.0
+2026-06,Corporate Functions,Turnover R12 %,5.83
+2026-06,Corporate Functions,Voluntary Turnover R12 %,3.89
+2026-06,Corporate Functions,Early Leavers R12 %,
+2026-06,Corporate Functions,Women in Leadership %,40.0
+2026-06,Corporate Functions,Pay Gap Mean %,7.38
+2026-06,Corporate Functions,Pay Gap Median %,17.99
+2026-06,Corporate Functions,Pay Gap Adjusted %,
+2026-07,Corporate Functions,Headcount,53.0
+2026-07,Corporate Functions,FTE,52.3
+2026-07,Corporate Functions,Hires,0.0
+2026-07,Corporate Functions,Leavers,0.0
+2026-07,Corporate Functions,Leavers Voluntary,0.0
+2026-07,Corporate Functions,Leavers Regretted,0.0
+2026-07,Corporate Functions,Transfers In,0.0
+2026-07,Corporate Functions,Transfers Out,0.0
+2026-07,Corporate Functions,Turnover R12 %,5.81
+2026-07,Corporate Functions,Voluntary Turnover R12 %,3.87
+2026-07,Corporate Functions,Early Leavers R12 %,
+2026-07,Corporate Functions,Women in Leadership %,40.0
+2026-07,Corporate Functions,Pay Gap Mean %,7.38
+2026-07,Corporate Functions,Pay Gap Median %,17.99
+2026-07,Corporate Functions,Pay Gap Adjusted %,
+2026-08,Corporate Functions,Headcount,53.0
+2026-08,Corporate Functions,FTE,52.3
+2026-08,Corporate Functions,Hires,0.0
+2026-08,Corporate Functions,Leavers,0.0
+2026-08,Corporate Functions,Leavers Voluntary,0.0
+2026-08,Corporate Functions,Leavers Regretted,0.0
+2026-08,Corporate Functions,Transfers In,0.0
+2026-08,Corporate Functions,Transfers Out,0.0
+2026-08,Corporate Functions,Turnover R12 %,3.85
+2026-08,Corporate Functions,Voluntary Turnover R12 %,3.85
+2026-08,Corporate Functions,Early Leavers R12 %,
+2026-08,Corporate Functions,Women in Leadership %,40.0
+2026-08,Corporate Functions,Pay Gap Mean %,7.38
+2026-08,Corporate Functions,Pay Gap Median %,17.99
+2026-08,Corporate Functions,Pay Gap Adjusted %,
+2026-09,Corporate Functions,Headcount,52.0
+2026-09,Corporate Functions,FTE,51.3
+2026-09,Corporate Functions,Hires,0.0
+2026-09,Corporate Functions,Leavers,1.0
+2026-09,Corporate Functions,Leavers Voluntary,1.0
+2026-09,Corporate Functions,Leavers Regretted,1.0
+2026-09,Corporate Functions,Transfers In,0.0
+2026-09,Corporate Functions,Transfers Out,0.0
+2026-09,Corporate Functions,Turnover R12 %,5.77
+2026-09,Corporate Functions,Voluntary Turnover R12 %,5.77
+2026-09,Corporate Functions,Early Leavers R12 %,
+2026-09,Corporate Functions,Women in Leadership %,40.0
+2026-09,Corporate Functions,Pay Gap Mean %,9.02
+2026-09,Corporate Functions,Pay Gap Median %,18.31
+2026-09,Corporate Functions,Pay Gap Adjusted %,
+2024-09,Executive Board,Headcount,3.0
+2024-09,Executive Board,FTE,3.0
+2024-09,Executive Board,Hires,0.0
+2024-09,Executive Board,Leavers,0.0
+2024-09,Executive Board,Leavers Voluntary,0.0
+2024-09,Executive Board,Leavers Regretted,0.0
+2024-09,Executive Board,Transfers In,0.0
+2024-09,Executive Board,Transfers Out,0.0
+2024-09,Executive Board,Turnover R12 %,
+2024-09,Executive Board,Voluntary Turnover R12 %,
+2024-09,Executive Board,Early Leavers R12 %,
+2024-09,Executive Board,Women in Leadership %,
+2024-09,Executive Board,Pay Gap Mean %,
+2024-09,Executive Board,Pay Gap Median %,
+2024-09,Executive Board,Pay Gap Adjusted %,
+2024-10,Executive Board,Headcount,3.0
+2024-10,Executive Board,FTE,3.0
+2024-10,Executive Board,Hires,0.0
+2024-10,Executive Board,Leavers,0.0
+2024-10,Executive Board,Leavers Voluntary,0.0
+2024-10,Executive Board,Leavers Regretted,0.0
+2024-10,Executive Board,Transfers In,0.0
+2024-10,Executive Board,Transfers Out,0.0
+2024-10,Executive Board,Turnover R12 %,
+2024-10,Executive Board,Voluntary Turnover R12 %,
+2024-10,Executive Board,Early Leavers R12 %,
+2024-10,Executive Board,Women in Leadership %,
+2024-10,Executive Board,Pay Gap Mean %,
+2024-10,Executive Board,Pay Gap Median %,
+2024-10,Executive Board,Pay Gap Adjusted %,
+2024-11,Executive Board,Headcount,3.0
+2024-11,Executive Board,FTE,3.0
+2024-11,Executive Board,Hires,0.0
+2024-11,Executive Board,Leavers,0.0
+2024-11,Executive Board,Leavers Voluntary,0.0
+2024-11,Executive Board,Leavers Regretted,0.0
+2024-11,Executive Board,Transfers In,0.0
+2024-11,Executive Board,Transfers Out,0.0
+2024-11,Executive Board,Turnover R12 %,
+2024-11,Executive Board,Voluntary Turnover R12 %,
+2024-11,Executive Board,Early Leavers R12 %,
+2024-11,Executive Board,Women in Leadership %,
+2024-11,Executive Board,Pay Gap Mean %,
+2024-11,Executive Board,Pay Gap Median %,
+2024-11,Executive Board,Pay Gap Adjusted %,
+2024-12,Executive Board,Headcount,3.0
+2024-12,Executive Board,FTE,3.0
+2024-12,Executive Board,Hires,0.0
+2024-12,Executive Board,Leavers,0.0
+2024-12,Executive Board,Leavers Voluntary,0.0
+2024-12,Executive Board,Leavers Regretted,0.0
+2024-12,Executive Board,Transfers In,0.0
+2024-12,Executive Board,Transfers Out,0.0
+2024-12,Executive Board,Turnover R12 %,
+2024-12,Executive Board,Voluntary Turnover R12 %,
+2024-12,Executive Board,Early Leavers R12 %,
+2024-12,Executive Board,Women in Leadership %,
+2024-12,Executive Board,Pay Gap Mean %,
+2024-12,Executive Board,Pay Gap Median %,
+2024-12,Executive Board,Pay Gap Adjusted %,
+2025-01,Executive Board,Headcount,3.0
+2025-01,Executive Board,FTE,3.0
+2025-01,Executive Board,Hires,0.0
+2025-01,Executive Board,Leavers,0.0
+2025-01,Executive Board,Leavers Voluntary,0.0
+2025-01,Executive Board,Leavers Regretted,0.0
+2025-01,Executive Board,Transfers In,0.0
+2025-01,Executive Board,Transfers Out,0.0
+2025-01,Executive Board,Turnover R12 %,
+2025-01,Executive Board,Voluntary Turnover R12 %,
+2025-01,Executive Board,Early Leavers R12 %,
+2025-01,Executive Board,Women in Leadership %,
+2025-01,Executive Board,Pay Gap Mean %,
+2025-01,Executive Board,Pay Gap Median %,
+2025-01,Executive Board,Pay Gap Adjusted %,
+2025-02,Executive Board,Headcount,3.0
+2025-02,Executive Board,FTE,3.0
+2025-02,Executive Board,Hires,0.0
+2025-02,Executive Board,Leavers,0.0
+2025-02,Executive Board,Leavers Voluntary,0.0
+2025-02,Executive Board,Leavers Regretted,0.0
+2025-02,Executive Board,Transfers In,0.0
+2025-02,Executive Board,Transfers Out,0.0
+2025-02,Executive Board,Turnover R12 %,
+2025-02,Executive Board,Voluntary Turnover R12 %,
+2025-02,Executive Board,Early Leavers R12 %,
+2025-02,Executive Board,Women in Leadership %,
+2025-02,Executive Board,Pay Gap Mean %,
+2025-02,Executive Board,Pay Gap Median %,
+2025-02,Executive Board,Pay Gap Adjusted %,
+2025-03,Executive Board,Headcount,3.0
+2025-03,Executive Board,FTE,3.0
+2025-03,Executive Board,Hires,0.0
+2025-03,Executive Board,Leavers,0.0
+2025-03,Executive Board,Leavers Voluntary,0.0
+2025-03,Executive Board,Leavers Regretted,0.0
+2025-03,Executive Board,Transfers In,0.0
+2025-03,Executive Board,Transfers Out,0.0
+2025-03,Executive Board,Turnover R12 %,
+2025-03,Executive Board,Voluntary Turnover R12 %,
+2025-03,Executive Board,Early Leavers R12 %,
+2025-03,Executive Board,Women in Leadership %,
+2025-03,Executive Board,Pay Gap Mean %,
+2025-03,Executive Board,Pay Gap Median %,
+2025-03,Executive Board,Pay Gap Adjusted %,
+2025-04,Executive Board,Headcount,3.0
+2025-04,Executive Board,FTE,3.0
+2025-04,Executive Board,Hires,0.0
+2025-04,Executive Board,Leavers,0.0
+2025-04,Executive Board,Leavers Voluntary,0.0
+2025-04,Executive Board,Leavers Regretted,0.0
+2025-04,Executive Board,Transfers In,0.0
+2025-04,Executive Board,Transfers Out,0.0
+2025-04,Executive Board,Turnover R12 %,
+2025-04,Executive Board,Voluntary Turnover R12 %,
+2025-04,Executive Board,Early Leavers R12 %,
+2025-04,Executive Board,Women in Leadership %,
+2025-04,Executive Board,Pay Gap Mean %,
+2025-04,Executive Board,Pay Gap Median %,
+2025-04,Executive Board,Pay Gap Adjusted %,
+2025-05,Executive Board,Headcount,3.0
+2025-05,Executive Board,FTE,3.0
+2025-05,Executive Board,Hires,0.0
+2025-05,Executive Board,Leavers,0.0
+2025-05,Executive Board,Leavers Voluntary,0.0
+2025-05,Executive Board,Leavers Regretted,0.0
+2025-05,Executive Board,Transfers In,0.0
+2025-05,Executive Board,Transfers Out,0.0
+2025-05,Executive Board,Turnover R12 %,
+2025-05,Executive Board,Voluntary Turnover R12 %,
+2025-05,Executive Board,Early Leavers R12 %,
+2025-05,Executive Board,Women in Leadership %,
+2025-05,Executive Board,Pay Gap Mean %,
+2025-05,Executive Board,Pay Gap Median %,
+2025-05,Executive Board,Pay Gap Adjusted %,
+2025-06,Executive Board,Headcount,3.0
+2025-06,Executive Board,FTE,3.0
+2025-06,Executive Board,Hires,0.0
+2025-06,Executive Board,Leavers,0.0
+2025-06,Executive Board,Leavers Voluntary,0.0
+2025-06,Executive Board,Leavers Regretted,0.0
+2025-06,Executive Board,Transfers In,0.0
+2025-06,Executive Board,Transfers Out,0.0
+2025-06,Executive Board,Turnover R12 %,
+2025-06,Executive Board,Voluntary Turnover R12 %,
+2025-06,Executive Board,Early Leavers R12 %,
+2025-06,Executive Board,Women in Leadership %,
+2025-06,Executive Board,Pay Gap Mean %,
+2025-06,Executive Board,Pay Gap Median %,
+2025-06,Executive Board,Pay Gap Adjusted %,
+2025-07,Executive Board,Headcount,3.0
+2025-07,Executive Board,FTE,3.0
+2025-07,Executive Board,Hires,0.0
+2025-07,Executive Board,Leavers,0.0
+2025-07,Executive Board,Leavers Voluntary,0.0
+2025-07,Executive Board,Leavers Regretted,0.0
+2025-07,Executive Board,Transfers In,0.0
+2025-07,Executive Board,Transfers Out,0.0
+2025-07,Executive Board,Turnover R12 %,
+2025-07,Executive Board,Voluntary Turnover R12 %,
+2025-07,Executive Board,Early Leavers R12 %,
+2025-07,Executive Board,Women in Leadership %,
+2025-07,Executive Board,Pay Gap Mean %,
+2025-07,Executive Board,Pay Gap Median %,
+2025-07,Executive Board,Pay Gap Adjusted %,
+2025-08,Executive Board,Headcount,3.0
+2025-08,Executive Board,FTE,3.0
+2025-08,Executive Board,Hires,0.0
+2025-08,Executive Board,Leavers,0.0
+2025-08,Executive Board,Leavers Voluntary,0.0
+2025-08,Executive Board,Leavers Regretted,0.0
+2025-08,Executive Board,Transfers In,0.0
+2025-08,Executive Board,Transfers Out,0.0
+2025-08,Executive Board,Turnover R12 %,
+2025-08,Executive Board,Voluntary Turnover R12 %,
+2025-08,Executive Board,Early Leavers R12 %,
+2025-08,Executive Board,Women in Leadership %,
+2025-08,Executive Board,Pay Gap Mean %,
+2025-08,Executive Board,Pay Gap Median %,
+2025-08,Executive Board,Pay Gap Adjusted %,
+2025-09,Executive Board,Headcount,3.0
+2025-09,Executive Board,FTE,3.0
+2025-09,Executive Board,Hires,0.0
+2025-09,Executive Board,Leavers,0.0
+2025-09,Executive Board,Leavers Voluntary,0.0
+2025-09,Executive Board,Leavers Regretted,0.0
+2025-09,Executive Board,Transfers In,0.0
+2025-09,Executive Board,Transfers Out,0.0
+2025-09,Executive Board,Turnover R12 %,
+2025-09,Executive Board,Voluntary Turnover R12 %,
+2025-09,Executive Board,Early Leavers R12 %,
+2025-09,Executive Board,Women in Leadership %,
+2025-09,Executive Board,Pay Gap Mean %,
+2025-09,Executive Board,Pay Gap Median %,
+2025-09,Executive Board,Pay Gap Adjusted %,
+2025-10,Executive Board,Headcount,3.0
+2025-10,Executive Board,FTE,3.0
+2025-10,Executive Board,Hires,0.0
+2025-10,Executive Board,Leavers,0.0
+2025-10,Executive Board,Leavers Voluntary,0.0
+2025-10,Executive Board,Leavers Regretted,0.0
+2025-10,Executive Board,Transfers In,0.0
+2025-10,Executive Board,Transfers Out,0.0
+2025-10,Executive Board,Turnover R12 %,
+2025-10,Executive Board,Voluntary Turnover R12 %,
+2025-10,Executive Board,Early Leavers R12 %,
+2025-10,Executive Board,Women in Leadership %,
+2025-10,Executive Board,Pay Gap Mean %,
+2025-10,Executive Board,Pay Gap Median %,
+2025-10,Executive Board,Pay Gap Adjusted %,
+2025-11,Executive Board,Headcount,3.0
+2025-11,Executive Board,FTE,3.0
+2025-11,Executive Board,Hires,0.0
+2025-11,Executive Board,Leavers,0.0
+2025-11,Executive Board,Leavers Voluntary,0.0
+2025-11,Executive Board,Leavers Regretted,0.0
+2025-11,Executive Board,Transfers In,0.0
+2025-11,Executive Board,Transfers Out,0.0
+2025-11,Executive Board,Turnover R12 %,
+2025-11,Executive Board,Voluntary Turnover R12 %,
+2025-11,Executive Board,Early Leavers R12 %,
+2025-11,Executive Board,Women in Leadership %,
+2025-11,Executive Board,Pay Gap Mean %,
+2025-11,Executive Board,Pay Gap Median %,
+2025-11,Executive Board,Pay Gap Adjusted %,
+2025-12,Executive Board,Headcount,3.0
+2025-12,Executive Board,FTE,3.0
+2025-12,Executive Board,Hires,0.0
+2025-12,Executive Board,Leavers,0.0
+2025-12,Executive Board,Leavers Voluntary,0.0
+2025-12,Executive Board,Leavers Regretted,0.0
+2025-12,Executive Board,Transfers In,0.0
+2025-12,Executive Board,Transfers Out,0.0
+2025-12,Executive Board,Turnover R12 %,
+2025-12,Executive Board,Voluntary Turnover R12 %,
+2025-12,Executive Board,Early Leavers R12 %,
+2025-12,Executive Board,Women in Leadership %,
+2025-12,Executive Board,Pay Gap Mean %,
+2025-12,Executive Board,Pay Gap Median %,
+2025-12,Executive Board,Pay Gap Adjusted %,
+2026-01,Executive Board,Headcount,3.0
+2026-01,Executive Board,FTE,3.0
+2026-01,Executive Board,Hires,0.0
+2026-01,Executive Board,Leavers,0.0
+2026-01,Executive Board,Leavers Voluntary,0.0
+2026-01,Executive Board,Leavers Regretted,0.0
+2026-01,Executive Board,Transfers In,0.0
+2026-01,Executive Board,Transfers Out,0.0
+2026-01,Executive Board,Turnover R12 %,
+2026-01,Executive Board,Voluntary Turnover R12 %,
+2026-01,Executive Board,Early Leavers R12 %,
+2026-01,Executive Board,Women in Leadership %,
+2026-01,Executive Board,Pay Gap Mean %,
+2026-01,Executive Board,Pay Gap Median %,
+2026-01,Executive Board,Pay Gap Adjusted %,
+2026-02,Executive Board,Headcount,3.0
+2026-02,Executive Board,FTE,3.0
+2026-02,Executive Board,Hires,0.0
+2026-02,Executive Board,Leavers,0.0
+2026-02,Executive Board,Leavers Voluntary,0.0
+2026-02,Executive Board,Leavers Regretted,0.0
+2026-02,Executive Board,Transfers In,0.0
+2026-02,Executive Board,Transfers Out,0.0
+2026-02,Executive Board,Turnover R12 %,
+2026-02,Executive Board,Voluntary Turnover R12 %,
+2026-02,Executive Board,Early Leavers R12 %,
+2026-02,Executive Board,Women in Leadership %,
+2026-02,Executive Board,Pay Gap Mean %,
+2026-02,Executive Board,Pay Gap Median %,
+2026-02,Executive Board,Pay Gap Adjusted %,
+2026-03,Executive Board,Headcount,3.0
+2026-03,Executive Board,FTE,3.0
+2026-03,Executive Board,Hires,0.0
+2026-03,Executive Board,Leavers,0.0
+2026-03,Executive Board,Leavers Voluntary,0.0
+2026-03,Executive Board,Leavers Regretted,0.0
+2026-03,Executive Board,Transfers In,0.0
+2026-03,Executive Board,Transfers Out,0.0
+2026-03,Executive Board,Turnover R12 %,
+2026-03,Executive Board,Voluntary Turnover R12 %,
+2026-03,Executive Board,Early Leavers R12 %,
+2026-03,Executive Board,Women in Leadership %,
+2026-03,Executive Board,Pay Gap Mean %,
+2026-03,Executive Board,Pay Gap Median %,
+2026-03,Executive Board,Pay Gap Adjusted %,
+2026-04,Executive Board,Headcount,3.0
+2026-04,Executive Board,FTE,3.0
+2026-04,Executive Board,Hires,0.0
+2026-04,Executive Board,Leavers,0.0
+2026-04,Executive Board,Leavers Voluntary,0.0
+2026-04,Executive Board,Leavers Regretted,0.0
+2026-04,Executive Board,Transfers In,0.0
+2026-04,Executive Board,Transfers Out,0.0
+2026-04,Executive Board,Turnover R12 %,
+2026-04,Executive Board,Voluntary Turnover R12 %,
+2026-04,Executive Board,Early Leavers R12 %,
+2026-04,Executive Board,Women in Leadership %,
+2026-04,Executive Board,Pay Gap Mean %,
+2026-04,Executive Board,Pay Gap Median %,
+2026-04,Executive Board,Pay Gap Adjusted %,
+2026-05,Executive Board,Headcount,3.0
+2026-05,Executive Board,FTE,3.0
+2026-05,Executive Board,Hires,0.0
+2026-05,Executive Board,Leavers,0.0
+2026-05,Executive Board,Leavers Voluntary,0.0
+2026-05,Executive Board,Leavers Regretted,0.0
+2026-05,Executive Board,Transfers In,0.0
+2026-05,Executive Board,Transfers Out,0.0
+2026-05,Executive Board,Turnover R12 %,
+2026-05,Executive Board,Voluntary Turnover R12 %,
+2026-05,Executive Board,Early Leavers R12 %,
+2026-05,Executive Board,Women in Leadership %,
+2026-05,Executive Board,Pay Gap Mean %,
+2026-05,Executive Board,Pay Gap Median %,
+2026-05,Executive Board,Pay Gap Adjusted %,
+2026-06,Executive Board,Headcount,3.0
+2026-06,Executive Board,FTE,3.0
+2026-06,Executive Board,Hires,0.0
+2026-06,Executive Board,Leavers,0.0
+2026-06,Executive Board,Leavers Voluntary,0.0
+2026-06,Executive Board,Leavers Regretted,0.0
+2026-06,Executive Board,Transfers In,0.0
+2026-06,Executive Board,Transfers Out,0.0
+2026-06,Executive Board,Turnover R12 %,
+2026-06,Executive Board,Voluntary Turnover R12 %,
+2026-06,Executive Board,Early Leavers R12 %,
+2026-06,Executive Board,Women in Leadership %,
+2026-06,Executive Board,Pay Gap Mean %,
+2026-06,Executive Board,Pay Gap Median %,
+2026-06,Executive Board,Pay Gap Adjusted %,
+2026-07,Executive Board,Headcount,3.0
+2026-07,Executive Board,FTE,3.0
+2026-07,Executive Board,Hires,0.0
+2026-07,Executive Board,Leavers,0.0
+2026-07,Executive Board,Leavers Voluntary,0.0
+2026-07,Executive Board,Leavers Regretted,0.0
+2026-07,Executive Board,Transfers In,0.0
+2026-07,Executive Board,Transfers Out,0.0
+2026-07,Executive Board,Turnover R12 %,
+2026-07,Executive Board,Voluntary Turnover R12 %,
+2026-07,Executive Board,Early Leavers R12 %,
+2026-07,Executive Board,Women in Leadership %,
+2026-07,Executive Board,Pay Gap Mean %,
+2026-07,Executive Board,Pay Gap Median %,
+2026-07,Executive Board,Pay Gap Adjusted %,
+2026-08,Executive Board,Headcount,3.0
+2026-08,Executive Board,FTE,3.0
+2026-08,Executive Board,Hires,0.0
+2026-08,Executive Board,Leavers,0.0
+2026-08,Executive Board,Leavers Voluntary,0.0
+2026-08,Executive Board,Leavers Regretted,0.0
+2026-08,Executive Board,Transfers In,0.0
+2026-08,Executive Board,Transfers Out,0.0
+2026-08,Executive Board,Turnover R12 %,
+2026-08,Executive Board,Voluntary Turnover R12 %,
+2026-08,Executive Board,Early Leavers R12 %,
+2026-08,Executive Board,Women in Leadership %,
+2026-08,Executive Board,Pay Gap Mean %,
+2026-08,Executive Board,Pay Gap Median %,
+2026-08,Executive Board,Pay Gap Adjusted %,
+2026-09,Executive Board,Headcount,3.0
+2026-09,Executive Board,FTE,3.0
+2026-09,Executive Board,Hires,0.0
+2026-09,Executive Board,Leavers,0.0
+2026-09,Executive Board,Leavers Voluntary,0.0
+2026-09,Executive Board,Leavers Regretted,0.0
+2026-09,Executive Board,Transfers In,0.0
+2026-09,Executive Board,Transfers Out,0.0
+2026-09,Executive Board,Turnover R12 %,
+2026-09,Executive Board,Voluntary Turnover R12 %,
+2026-09,Executive Board,Early Leavers R12 %,
+2026-09,Executive Board,Women in Leadership %,
+2026-09,Executive Board,Pay Gap Mean %,
+2026-09,Executive Board,Pay Gap Median %,
+2026-09,Executive Board,Pay Gap Adjusted %,
+2024-09,Markets,Headcount,57.0
+2024-09,Markets,FTE,56.0
+2024-09,Markets,Hires,0.0
+2024-09,Markets,Leavers,0.0
+2024-09,Markets,Leavers Voluntary,0.0
+2024-09,Markets,Leavers Regretted,0.0
+2024-09,Markets,Transfers In,0.0
+2024-09,Markets,Transfers Out,0.0
+2024-09,Markets,Turnover R12 %,
+2024-09,Markets,Voluntary Turnover R12 %,
+2024-09,Markets,Early Leavers R12 %,
+2024-09,Markets,Women in Leadership %,
+2024-09,Markets,Pay Gap Mean %,29.56
+2024-09,Markets,Pay Gap Median %,25.09
+2024-09,Markets,Pay Gap Adjusted %,
+2024-10,Markets,Headcount,57.0
+2024-10,Markets,FTE,56.0
+2024-10,Markets,Hires,0.0
+2024-10,Markets,Leavers,0.0
+2024-10,Markets,Leavers Voluntary,0.0
+2024-10,Markets,Leavers Regretted,0.0
+2024-10,Markets,Transfers In,1.0
+2024-10,Markets,Transfers Out,1.0
+2024-10,Markets,Turnover R12 %,
+2024-10,Markets,Voluntary Turnover R12 %,
+2024-10,Markets,Early Leavers R12 %,
+2024-10,Markets,Women in Leadership %,
+2024-10,Markets,Pay Gap Mean %,29.53
+2024-10,Markets,Pay Gap Median %,25.09
+2024-10,Markets,Pay Gap Adjusted %,
+2024-11,Markets,Headcount,55.0
+2024-11,Markets,FTE,54.0
+2024-11,Markets,Hires,0.0
+2024-11,Markets,Leavers,1.0
+2024-11,Markets,Leavers Voluntary,0.0
+2024-11,Markets,Leavers Regretted,0.0
+2024-11,Markets,Transfers In,0.0
+2024-11,Markets,Transfers Out,1.0
+2024-11,Markets,Turnover R12 %,
+2024-11,Markets,Voluntary Turnover R12 %,
+2024-11,Markets,Early Leavers R12 %,
+2024-11,Markets,Women in Leadership %,
+2024-11,Markets,Pay Gap Mean %,29.3
+2024-11,Markets,Pay Gap Median %,25.03
+2024-11,Markets,Pay Gap Adjusted %,
+2024-12,Markets,Headcount,54.0
+2024-12,Markets,FTE,53.0
+2024-12,Markets,Hires,0.0
+2024-12,Markets,Leavers,1.0
+2024-12,Markets,Leavers Voluntary,0.0
+2024-12,Markets,Leavers Regretted,0.0
+2024-12,Markets,Transfers In,1.0
+2024-12,Markets,Transfers Out,1.0
+2024-12,Markets,Turnover R12 %,
+2024-12,Markets,Voluntary Turnover R12 %,
+2024-12,Markets,Early Leavers R12 %,
+2024-12,Markets,Women in Leadership %,
+2024-12,Markets,Pay Gap Mean %,29.07
+2024-12,Markets,Pay Gap Median %,23.88
+2024-12,Markets,Pay Gap Adjusted %,
+2025-01,Markets,Headcount,54.0
+2025-01,Markets,FTE,53.0
+2025-01,Markets,Hires,1.0
+2025-01,Markets,Leavers,1.0
+2025-01,Markets,Leavers Voluntary,1.0
+2025-01,Markets,Leavers Regretted,1.0
+2025-01,Markets,Transfers In,0.0
+2025-01,Markets,Transfers Out,0.0
+2025-01,Markets,Turnover R12 %,
+2025-01,Markets,Voluntary Turnover R12 %,
+2025-01,Markets,Early Leavers R12 %,
+2025-01,Markets,Women in Leadership %,
+2025-01,Markets,Pay Gap Mean %,31.18
+2025-01,Markets,Pay Gap Median %,23.11
+2025-01,Markets,Pay Gap Adjusted %,
+2025-02,Markets,Headcount,56.0
+2025-02,Markets,FTE,54.5
+2025-02,Markets,Hires,2.0
+2025-02,Markets,Leavers,0.0
+2025-02,Markets,Leavers Voluntary,0.0
+2025-02,Markets,Leavers Regretted,0.0
+2025-02,Markets,Transfers In,0.0
+2025-02,Markets,Transfers Out,0.0
+2025-02,Markets,Turnover R12 %,
+2025-02,Markets,Voluntary Turnover R12 %,
+2025-02,Markets,Early Leavers R12 %,
+2025-02,Markets,Women in Leadership %,
+2025-02,Markets,Pay Gap Mean %,31.44
+2025-02,Markets,Pay Gap Median %,25.39
+2025-02,Markets,Pay Gap Adjusted %,
+2025-03,Markets,Headcount,58.0
+2025-03,Markets,FTE,56.3
+2025-03,Markets,Hires,2.0
+2025-03,Markets,Leavers,0.0
+2025-03,Markets,Leavers Voluntary,0.0
+2025-03,Markets,Leavers Regretted,0.0
+2025-03,Markets,Transfers In,1.0
+2025-03,Markets,Transfers Out,1.0
+2025-03,Markets,Turnover R12 %,
+2025-03,Markets,Voluntary Turnover R12 %,
+2025-03,Markets,Early Leavers R12 %,
+2025-03,Markets,Women in Leadership %,
+2025-03,Markets,Pay Gap Mean %,33.82
+2025-03,Markets,Pay Gap Median %,25.96
+2025-03,Markets,Pay Gap Adjusted %,
+2025-04,Markets,Headcount,58.0
+2025-04,Markets,FTE,56.3
+2025-04,Markets,Hires,0.0
+2025-04,Markets,Leavers,0.0
+2025-04,Markets,Leavers Voluntary,0.0
+2025-04,Markets,Leavers Regretted,0.0
+2025-04,Markets,Transfers In,0.0
+2025-04,Markets,Transfers Out,0.0
+2025-04,Markets,Turnover R12 %,
+2025-04,Markets,Voluntary Turnover R12 %,
+2025-04,Markets,Early Leavers R12 %,
+2025-04,Markets,Women in Leadership %,
+2025-04,Markets,Pay Gap Mean %,33.77
+2025-04,Markets,Pay Gap Median %,27.35
+2025-04,Markets,Pay Gap Adjusted %,
+2025-05,Markets,Headcount,57.0
+2025-05,Markets,FTE,55.3
+2025-05,Markets,Hires,0.0
+2025-05,Markets,Leavers,1.0
+2025-05,Markets,Leavers Voluntary,1.0
+2025-05,Markets,Leavers Regretted,0.0
+2025-05,Markets,Transfers In,0.0
+2025-05,Markets,Transfers Out,0.0
+2025-05,Markets,Turnover R12 %,
+2025-05,Markets,Voluntary Turnover R12 %,
+2025-05,Markets,Early Leavers R12 %,
+2025-05,Markets,Women in Leadership %,
+2025-05,Markets,Pay Gap Mean %,32.21
+2025-05,Markets,Pay Gap Median %,27.21
+2025-05,Markets,Pay Gap Adjusted %,
+2025-06,Markets,Headcount,57.0
+2025-06,Markets,FTE,55.3
+2025-06,Markets,Hires,0.0
+2025-06,Markets,Leavers,0.0
+2025-06,Markets,Leavers Voluntary,0.0
+2025-06,Markets,Leavers Regretted,0.0
+2025-06,Markets,Transfers In,0.0
+2025-06,Markets,Transfers Out,0.0
+2025-06,Markets,Turnover R12 %,
+2025-06,Markets,Voluntary Turnover R12 %,
+2025-06,Markets,Early Leavers R12 %,
+2025-06,Markets,Women in Leadership %,
+2025-06,Markets,Pay Gap Mean %,32.0
+2025-06,Markets,Pay Gap Median %,27.21
+2025-06,Markets,Pay Gap Adjusted %,
+2025-07,Markets,Headcount,57.0
+2025-07,Markets,FTE,55.3
+2025-07,Markets,Hires,1.0
+2025-07,Markets,Leavers,1.0
+2025-07,Markets,Leavers Voluntary,1.0
+2025-07,Markets,Leavers Regretted,0.0
+2025-07,Markets,Transfers In,0.0
+2025-07,Markets,Transfers Out,0.0
+2025-07,Markets,Turnover R12 %,
+2025-07,Markets,Voluntary Turnover R12 %,
+2025-07,Markets,Early Leavers R12 %,
+2025-07,Markets,Women in Leadership %,
+2025-07,Markets,Pay Gap Mean %,34.71
+2025-07,Markets,Pay Gap Median %,27.98
+2025-07,Markets,Pay Gap Adjusted %,
+2025-08,Markets,Headcount,57.0
+2025-08,Markets,FTE,55.3
+2025-08,Markets,Hires,0.0
+2025-08,Markets,Leavers,0.0
+2025-08,Markets,Leavers Voluntary,0.0
+2025-08,Markets,Leavers Regretted,0.0
+2025-08,Markets,Transfers In,0.0
+2025-08,Markets,Transfers Out,0.0
+2025-08,Markets,Turnover R12 %,
+2025-08,Markets,Voluntary Turnover R12 %,
+2025-08,Markets,Early Leavers R12 %,
+2025-08,Markets,Women in Leadership %,
+2025-08,Markets,Pay Gap Mean %,34.69
+2025-08,Markets,Pay Gap Median %,27.97
+2025-08,Markets,Pay Gap Adjusted %,
+2025-09,Markets,Headcount,57.0
+2025-09,Markets,FTE,55.3
+2025-09,Markets,Hires,0.0
+2025-09,Markets,Leavers,0.0
+2025-09,Markets,Leavers Voluntary,0.0
+2025-09,Markets,Leavers Regretted,0.0
+2025-09,Markets,Transfers In,0.0
+2025-09,Markets,Transfers Out,0.0
+2025-09,Markets,Turnover R12 %,8.86
+2025-09,Markets,Voluntary Turnover R12 %,5.32
+2025-09,Markets,Early Leavers R12 %,40.0
+2025-09,Markets,Women in Leadership %,
+2025-09,Markets,Pay Gap Mean %,34.83
+2025-09,Markets,Pay Gap Median %,28.45
+2025-09,Markets,Pay Gap Adjusted %,
+2025-10,Markets,Headcount,56.0
+2025-10,Markets,FTE,54.3
+2025-10,Markets,Hires,0.0
+2025-10,Markets,Leavers,1.0
+2025-10,Markets,Leavers Voluntary,1.0
+2025-10,Markets,Leavers Regretted,0.0
+2025-10,Markets,Transfers In,0.0
+2025-10,Markets,Transfers Out,0.0
+2025-10,Markets,Turnover R12 %,10.65
+2025-10,Markets,Voluntary Turnover R12 %,7.1
+2025-10,Markets,Early Leavers R12 %,33.33
+2025-10,Markets,Women in Leadership %,
+2025-10,Markets,Pay Gap Mean %,35.12
+2025-10,Markets,Pay Gap Median %,28.67
+2025-10,Markets,Pay Gap Adjusted %,
+2025-11,Markets,Headcount,56.0
+2025-11,Markets,FTE,54.3
+2025-11,Markets,Hires,1.0
+2025-11,Markets,Leavers,1.0
+2025-11,Markets,Leavers Voluntary,1.0
+2025-11,Markets,Leavers Regretted,1.0
+2025-11,Markets,Transfers In,0.0
+2025-11,Markets,Transfers Out,0.0
+2025-11,Markets,Turnover R12 %,10.64
+2025-11,Markets,Voluntary Turnover R12 %,8.86
+2025-11,Markets,Early Leavers R12 %,33.33
+2025-11,Markets,Women in Leadership %,
+2025-11,Markets,Pay Gap Mean %,33.06
+2025-11,Markets,Pay Gap Median %,27.37
+2025-11,Markets,Pay Gap Adjusted %,
+2025-12,Markets,Headcount,55.0
+2025-12,Markets,FTE,53.3
+2025-12,Markets,Hires,1.0
+2025-12,Markets,Leavers,2.0
+2025-12,Markets,Leavers Voluntary,1.0
+2025-12,Markets,Leavers Regretted,0.0
+2025-12,Markets,Transfers In,0.0
+2025-12,Markets,Transfers Out,0.0
+2025-12,Markets,Turnover R12 %,12.39
+2025-12,Markets,Voluntary Turnover R12 %,10.62
+2025-12,Markets,Early Leavers R12 %,28.57
+2025-12,Markets,Women in Leadership %,
+2025-12,Markets,Pay Gap Mean %,32.02
+2025-12,Markets,Pay Gap Median %,27.57
+2025-12,Markets,Pay Gap Adjusted %,
+2026-01,Markets,Headcount,56.0
+2026-01,Markets,FTE,54.3
+2026-01,Markets,Hires,1.0
+2026-01,Markets,Leavers,0.0
+2026-01,Markets,Leavers Voluntary,0.0
+2026-01,Markets,Leavers Regretted,0.0
+2026-01,Markets,Transfers In,0.0
+2026-01,Markets,Transfers Out,0.0
+2026-01,Markets,Turnover R12 %,10.59
+2026-01,Markets,Voluntary Turnover R12 %,8.82
+2026-01,Markets,Early Leavers R12 %,16.67
+2026-01,Markets,Women in Leadership %,
+2026-01,Markets,Pay Gap Mean %,32.92
+2026-01,Markets,Pay Gap Median %,28.18
+2026-01,Markets,Pay Gap Adjusted %,
+2026-02,Markets,Headcount,56.0
+2026-02,Markets,FTE,54.3
+2026-02,Markets,Hires,1.0
+2026-02,Markets,Leavers,1.0
+2026-02,Markets,Leavers Voluntary,1.0
+2026-02,Markets,Leavers Regretted,0.0
+2026-02,Markets,Transfers In,1.0
+2026-02,Markets,Transfers Out,1.0
+2026-02,Markets,Turnover R12 %,12.35
+2026-02,Markets,Voluntary Turnover R12 %,10.59
+2026-02,Markets,Early Leavers R12 %,14.29
+2026-02,Markets,Women in Leadership %,
+2026-02,Markets,Pay Gap Mean %,33.68
+2026-02,Markets,Pay Gap Median %,28.73
+2026-02,Markets,Pay Gap Adjusted %,
+2026-03,Markets,Headcount,56.0
+2026-03,Markets,FTE,54.3
+2026-03,Markets,Hires,1.0
+2026-03,Markets,Leavers,1.0
+2026-03,Markets,Leavers Voluntary,1.0
+2026-03,Markets,Leavers Regretted,0.0
+2026-03,Markets,Transfers In,0.0
+2026-03,Markets,Transfers Out,0.0
+2026-03,Markets,Turnover R12 %,14.16
+2026-03,Markets,Voluntary Turnover R12 %,12.39
+2026-03,Markets,Early Leavers R12 %,12.5
+2026-03,Markets,Women in Leadership %,
+2026-03,Markets,Pay Gap Mean %,33.26
+2026-03,Markets,Pay Gap Median %,28.89
+2026-03,Markets,Pay Gap Adjusted %,
+2026-04,Markets,Headcount,56.0
+2026-04,Markets,FTE,54.3
+2026-04,Markets,Hires,1.0
+2026-04,Markets,Leavers,1.0
+2026-04,Markets,Leavers Voluntary,0.0
+2026-04,Markets,Leavers Regretted,0.0
+2026-04,Markets,Transfers In,0.0
+2026-04,Markets,Transfers Out,0.0
+2026-04,Markets,Turnover R12 %,15.98
+2026-04,Markets,Voluntary Turnover R12 %,12.43
+2026-04,Markets,Early Leavers R12 %,22.22
+2026-04,Markets,Women in Leadership %,
+2026-04,Markets,Pay Gap Mean %,31.87
+2026-04,Markets,Pay Gap Median %,28.31
+2026-04,Markets,Pay Gap Adjusted %,
+2026-05,Markets,Headcount,56.0
+2026-05,Markets,FTE,54.3
+2026-05,Markets,Hires,0.0
+2026-05,Markets,Leavers,0.0
+2026-05,Markets,Leavers Voluntary,0.0
+2026-05,Markets,Leavers Regretted,0.0
+2026-05,Markets,Transfers In,0.0
+2026-05,Markets,Transfers Out,0.0
+2026-05,Markets,Turnover R12 %,14.22
+2026-05,Markets,Voluntary Turnover R12 %,10.67
+2026-05,Markets,Early Leavers R12 %,12.5
+2026-05,Markets,Women in Leadership %,
+2026-05,Markets,Pay Gap Mean %,31.83
+2026-05,Markets,Pay Gap Median %,28.45
+2026-05,Markets,Pay Gap Adjusted %,
+2026-06,Markets,Headcount,56.0
+2026-06,Markets,FTE,54.3
+2026-06,Markets,Hires,1.0
+2026-06,Markets,Leavers,1.0
+2026-06,Markets,Leavers Voluntary,1.0
+2026-06,Markets,Leavers Regretted,1.0
+2026-06,Markets,Transfers In,0.0
+2026-06,Markets,Transfers Out,0.0
+2026-06,Markets,Turnover R12 %,16.02
+2026-06,Markets,Voluntary Turnover R12 %,12.46
+2026-06,Markets,Early Leavers R12 %,22.22
+2026-06,Markets,Women in Leadership %,
+2026-06,Markets,Pay Gap Mean %,30.67
+2026-06,Markets,Pay Gap Median %,28.45
+2026-06,Markets,Pay Gap Adjusted %,
+2026-07,Markets,Headcount,44.0
+2026-07,Markets,FTE,42.5
+2026-07,Markets,Hires,0.0
+2026-07,Markets,Leavers,0.0
+2026-07,Markets,Leavers Voluntary,0.0
+2026-07,Markets,Leavers Regretted,0.0
+2026-07,Markets,Transfers In,0.0
+2026-07,Markets,Transfers Out,12.0
+2026-07,Markets,Turnover R12 %,14.52
+2026-07,Markets,Voluntary Turnover R12 %,10.89
+2026-07,Markets,Early Leavers R12 %,25.0
+2026-07,Markets,Women in Leadership %,
+2026-07,Markets,Pay Gap Mean %,33.42
+2026-07,Markets,Pay Gap Median %,27.83
+2026-07,Markets,Pay Gap Adjusted %,
+2026-08,Markets,Headcount,45.0
+2026-08,Markets,FTE,43.5
+2026-08,Markets,Hires,1.0
+2026-08,Markets,Leavers,0.0
+2026-08,Markets,Leavers Voluntary,0.0
+2026-08,Markets,Leavers Regretted,0.0
+2026-08,Markets,Transfers In,0.0
+2026-08,Markets,Transfers Out,0.0
+2026-08,Markets,Turnover R12 %,14.79
+2026-08,Markets,Voluntary Turnover R12 %,11.09
+2026-08,Markets,Early Leavers R12 %,25.0
+2026-08,Markets,Women in Leadership %,
+2026-08,Markets,Pay Gap Mean %,31.8
+2026-08,Markets,Pay Gap Median %,27.78
+2026-08,Markets,Pay Gap Adjusted %,
+2026-09,Markets,Headcount,44.0
+2026-09,Markets,FTE,42.5
+2026-09,Markets,Hires,0.0
+2026-09,Markets,Leavers,1.0
+2026-09,Markets,Leavers Voluntary,1.0
+2026-09,Markets,Leavers Regretted,1.0
+2026-09,Markets,Transfers In,0.0
+2026-09,Markets,Transfers Out,0.0
+2026-09,Markets,Turnover R12 %,16.98
+2026-09,Markets,Voluntary Turnover R12 %,13.21
+2026-09,Markets,Early Leavers R12 %,33.33
+2026-09,Markets,Women in Leadership %,
+2026-09,Markets,Pay Gap Mean %,33.48
+2026-09,Markets,Pay Gap Median %,27.83
+2026-09,Markets,Pay Gap Adjusted %,
+2024-09,Operations,Headcount,38.0
+2024-09,Operations,FTE,37.1
+2024-09,Operations,Hires,0.0
+2024-09,Operations,Leavers,0.0
+2024-09,Operations,Leavers Voluntary,0.0
+2024-09,Operations,Leavers Regretted,0.0
+2024-09,Operations,Transfers In,0.0
+2024-09,Operations,Transfers Out,0.0
+2024-09,Operations,Turnover R12 %,
+2024-09,Operations,Voluntary Turnover R12 %,
+2024-09,Operations,Early Leavers R12 %,
+2024-09,Operations,Women in Leadership %,
+2024-09,Operations,Pay Gap Mean %,17.2
+2024-09,Operations,Pay Gap Median %,-0.36
+2024-09,Operations,Pay Gap Adjusted %,
+2024-10,Operations,Headcount,37.0
+2024-10,Operations,FTE,36.1
+2024-10,Operations,Hires,0.0
+2024-10,Operations,Leavers,1.0
+2024-10,Operations,Leavers Voluntary,1.0
+2024-10,Operations,Leavers Regretted,0.0
+2024-10,Operations,Transfers In,0.0
+2024-10,Operations,Transfers Out,0.0
+2024-10,Operations,Turnover R12 %,
+2024-10,Operations,Voluntary Turnover R12 %,
+2024-10,Operations,Early Leavers R12 %,
+2024-10,Operations,Women in Leadership %,
+2024-10,Operations,Pay Gap Mean %,14.67
+2024-10,Operations,Pay Gap Median %,-3.76
+2024-10,Operations,Pay Gap Adjusted %,
+2024-11,Operations,Headcount,38.0
+2024-11,Operations,FTE,36.9
+2024-11,Operations,Hires,1.0
+2024-11,Operations,Leavers,0.0
+2024-11,Operations,Leavers Voluntary,0.0
+2024-11,Operations,Leavers Regretted,0.0
+2024-11,Operations,Transfers In,0.0
+2024-11,Operations,Transfers Out,0.0
+2024-11,Operations,Turnover R12 %,
+2024-11,Operations,Voluntary Turnover R12 %,
+2024-11,Operations,Early Leavers R12 %,
+2024-11,Operations,Women in Leadership %,
+2024-11,Operations,Pay Gap Mean %,16.16
+2024-11,Operations,Pay Gap Median %,5.38
+2024-11,Operations,Pay Gap Adjusted %,
+2024-12,Operations,Headcount,38.0
+2024-12,Operations,FTE,36.9
+2024-12,Operations,Hires,0.0
+2024-12,Operations,Leavers,0.0
+2024-12,Operations,Leavers Voluntary,0.0
+2024-12,Operations,Leavers Regretted,0.0
+2024-12,Operations,Transfers In,0.0
+2024-12,Operations,Transfers Out,0.0
+2024-12,Operations,Turnover R12 %,
+2024-12,Operations,Voluntary Turnover R12 %,
+2024-12,Operations,Early Leavers R12 %,
+2024-12,Operations,Women in Leadership %,
+2024-12,Operations,Pay Gap Mean %,16.04
+2024-12,Operations,Pay Gap Median %,5.71
+2024-12,Operations,Pay Gap Adjusted %,
+2025-01,Operations,Headcount,38.0
+2025-01,Operations,FTE,36.9
+2025-01,Operations,Hires,0.0
+2025-01,Operations,Leavers,0.0
+2025-01,Operations,Leavers Voluntary,0.0
+2025-01,Operations,Leavers Regretted,0.0
+2025-01,Operations,Transfers In,0.0
+2025-01,Operations,Transfers Out,0.0
+2025-01,Operations,Turnover R12 %,
+2025-01,Operations,Voluntary Turnover R12 %,
+2025-01,Operations,Early Leavers R12 %,
+2025-01,Operations,Women in Leadership %,
+2025-01,Operations,Pay Gap Mean %,16.09
+2025-01,Operations,Pay Gap Median %,5.66
+2025-01,Operations,Pay Gap Adjusted %,
+2025-02,Operations,Headcount,38.0
+2025-02,Operations,FTE,36.9
+2025-02,Operations,Hires,0.0
+2025-02,Operations,Leavers,0.0
+2025-02,Operations,Leavers Voluntary,0.0
+2025-02,Operations,Leavers Regretted,0.0
+2025-02,Operations,Transfers In,0.0
+2025-02,Operations,Transfers Out,0.0
+2025-02,Operations,Turnover R12 %,
+2025-02,Operations,Voluntary Turnover R12 %,
+2025-02,Operations,Early Leavers R12 %,
+2025-02,Operations,Women in Leadership %,
+2025-02,Operations,Pay Gap Mean %,16.02
+2025-02,Operations,Pay Gap Median %,5.83
+2025-02,Operations,Pay Gap Adjusted %,
+2025-03,Operations,Headcount,38.0
+2025-03,Operations,FTE,36.9
+2025-03,Operations,Hires,0.0
+2025-03,Operations,Leavers,0.0
+2025-03,Operations,Leavers Voluntary,0.0
+2025-03,Operations,Leavers Regretted,0.0
+2025-03,Operations,Transfers In,0.0
+2025-03,Operations,Transfers Out,0.0
+2025-03,Operations,Turnover R12 %,
+2025-03,Operations,Voluntary Turnover R12 %,
+2025-03,Operations,Early Leavers R12 %,
+2025-03,Operations,Women in Leadership %,
+2025-03,Operations,Pay Gap Mean %,15.99
+2025-03,Operations,Pay Gap Median %,5.99
+2025-03,Operations,Pay Gap Adjusted %,
+2025-04,Operations,Headcount,38.0
+2025-04,Operations,FTE,36.9
+2025-04,Operations,Hires,0.0
+2025-04,Operations,Leavers,0.0
+2025-04,Operations,Leavers Voluntary,0.0
+2025-04,Operations,Leavers Regretted,0.0
+2025-04,Operations,Transfers In,0.0
+2025-04,Operations,Transfers Out,0.0
+2025-04,Operations,Turnover R12 %,
+2025-04,Operations,Voluntary Turnover R12 %,
+2025-04,Operations,Early Leavers R12 %,
+2025-04,Operations,Women in Leadership %,
+2025-04,Operations,Pay Gap Mean %,15.65
+2025-04,Operations,Pay Gap Median %,5.32
+2025-04,Operations,Pay Gap Adjusted %,
+2025-05,Operations,Headcount,38.0
+2025-05,Operations,FTE,36.9
+2025-05,Operations,Hires,1.0
+2025-05,Operations,Leavers,1.0
+2025-05,Operations,Leavers Voluntary,1.0
+2025-05,Operations,Leavers Regretted,1.0
+2025-05,Operations,Transfers In,0.0
+2025-05,Operations,Transfers Out,0.0
+2025-05,Operations,Turnover R12 %,
+2025-05,Operations,Voluntary Turnover R12 %,
+2025-05,Operations,Early Leavers R12 %,
+2025-05,Operations,Women in Leadership %,
+2025-05,Operations,Pay Gap Mean %,16.75
+2025-05,Operations,Pay Gap Median %,5.56
+2025-05,Operations,Pay Gap Adjusted %,
+2025-06,Operations,Headcount,37.0
+2025-06,Operations,FTE,35.9
+2025-06,Operations,Hires,1.0
+2025-06,Operations,Leavers,2.0
+2025-06,Operations,Leavers Voluntary,2.0
+2025-06,Operations,Leavers Regretted,1.0
+2025-06,Operations,Transfers In,0.0
+2025-06,Operations,Transfers Out,0.0
+2025-06,Operations,Turnover R12 %,
+2025-06,Operations,Voluntary Turnover R12 %,
+2025-06,Operations,Early Leavers R12 %,
+2025-06,Operations,Women in Leadership %,
+2025-06,Operations,Pay Gap Mean %,13.21
+2025-06,Operations,Pay Gap Median %,3.44
+2025-06,Operations,Pay Gap Adjusted %,
+2025-07,Operations,Headcount,39.0
+2025-07,Operations,FTE,37.9
+2025-07,Operations,Hires,2.0
+2025-07,Operations,Leavers,0.0
+2025-07,Operations,Leavers Voluntary,0.0
+2025-07,Operations,Leavers Regretted,0.0
+2025-07,Operations,Transfers In,0.0
+2025-07,Operations,Transfers Out,0.0
+2025-07,Operations,Turnover R12 %,
+2025-07,Operations,Voluntary Turnover R12 %,
+2025-07,Operations,Early Leavers R12 %,
+2025-07,Operations,Women in Leadership %,
+2025-07,Operations,Pay Gap Mean %,10.78
+2025-07,Operations,Pay Gap Median %,-0.37
+2025-07,Operations,Pay Gap Adjusted %,
+2025-08,Operations,Headcount,41.0
+2025-08,Operations,FTE,39.9
+2025-08,Operations,Hires,3.0
+2025-08,Operations,Leavers,1.0
+2025-08,Operations,Leavers Voluntary,1.0
+2025-08,Operations,Leavers Regretted,0.0
+2025-08,Operations,Transfers In,0.0
+2025-08,Operations,Transfers Out,0.0
+2025-08,Operations,Turnover R12 %,
+2025-08,Operations,Voluntary Turnover R12 %,
+2025-08,Operations,Early Leavers R12 %,
+2025-08,Operations,Women in Leadership %,
+2025-08,Operations,Pay Gap Mean %,4.44
+2025-08,Operations,Pay Gap Median %,-5.83
+2025-08,Operations,Pay Gap Adjusted %,
+2025-09,Operations,Headcount,41.0
+2025-09,Operations,FTE,39.9
+2025-09,Operations,Hires,1.0
+2025-09,Operations,Leavers,1.0
+2025-09,Operations,Leavers Voluntary,1.0
+2025-09,Operations,Leavers Regretted,1.0
+2025-09,Operations,Transfers In,0.0
+2025-09,Operations,Transfers Out,0.0
+2025-09,Operations,Turnover R12 %,15.62
+2025-09,Operations,Voluntary Turnover R12 %,15.62
+2025-09,Operations,Early Leavers R12 %,16.67
+2025-09,Operations,Women in Leadership %,
+2025-09,Operations,Pay Gap Mean %,3.72
+2025-09,Operations,Pay Gap Median %,-5.45
+2025-09,Operations,Pay Gap Adjusted %,
+2025-10,Operations,Headcount,42.0
+2025-10,Operations,FTE,40.9
+2025-10,Operations,Hires,1.0
+2025-10,Operations,Leavers,0.0
+2025-10,Operations,Leavers Voluntary,0.0
+2025-10,Operations,Leavers Regretted,0.0
+2025-10,Operations,Transfers In,0.0
+2025-10,Operations,Transfers Out,0.0
+2025-10,Operations,Turnover R12 %,12.88
+2025-10,Operations,Voluntary Turnover R12 %,12.88
+2025-10,Operations,Early Leavers R12 %,20.0
+2025-10,Operations,Women in Leadership %,
+2025-10,Operations,Pay Gap Mean %,1.83
+2025-10,Operations,Pay Gap Median %,-16.23
+2025-10,Operations,Pay Gap Adjusted %,
+2025-11,Operations,Headcount,45.0
+2025-11,Operations,FTE,43.9
+2025-11,Operations,Hires,3.0
+2025-11,Operations,Leavers,0.0
+2025-11,Operations,Leavers Voluntary,0.0
+2025-11,Operations,Leavers Regretted,0.0
+2025-11,Operations,Transfers In,0.0
+2025-11,Operations,Transfers Out,0.0
+2025-11,Operations,Turnover R12 %,12.68
+2025-11,Operations,Voluntary Turnover R12 %,12.68
+2025-11,Operations,Early Leavers R12 %,20.0
+2025-11,Operations,Women in Leadership %,
+2025-11,Operations,Pay Gap Mean %,2.24
+2025-11,Operations,Pay Gap Median %,-22.23
+2025-11,Operations,Pay Gap Adjusted %,
+2025-12,Operations,Headcount,45.0
+2025-12,Operations,FTE,43.9
+2025-12,Operations,Hires,0.0
+2025-12,Operations,Leavers,0.0
+2025-12,Operations,Leavers Voluntary,0.0
+2025-12,Operations,Leavers Regretted,0.0
+2025-12,Operations,Transfers In,0.0
+2025-12,Operations,Transfers Out,0.0
+2025-12,Operations,Turnover R12 %,12.5
+2025-12,Operations,Voluntary Turnover R12 %,12.5
+2025-12,Operations,Early Leavers R12 %,20.0
+2025-12,Operations,Women in Leadership %,
+2025-12,Operations,Pay Gap Mean %,2.23
+2025-12,Operations,Pay Gap Median %,-22.29
+2025-12,Operations,Pay Gap Adjusted %,
+2026-01,Operations,Headcount,47.0
+2026-01,Operations,FTE,45.9
+2026-01,Operations,Hires,2.0
+2026-01,Operations,Leavers,0.0
+2026-01,Operations,Leavers Voluntary,0.0
+2026-01,Operations,Leavers Regretted,0.0
+2026-01,Operations,Transfers In,0.0
+2026-01,Operations,Transfers Out,0.0
+2026-01,Operations,Turnover R12 %,12.27
+2026-01,Operations,Voluntary Turnover R12 %,12.27
+2026-01,Operations,Early Leavers R12 %,20.0
+2026-01,Operations,Women in Leadership %,
+2026-01,Operations,Pay Gap Mean %,1.58
+2026-01,Operations,Pay Gap Median %,-23.97
+2026-01,Operations,Pay Gap Adjusted %,
+2026-02,Operations,Headcount,48.0
+2026-02,Operations,FTE,46.9
+2026-02,Operations,Hires,1.0
+2026-02,Operations,Leavers,0.0
+2026-02,Operations,Leavers Voluntary,0.0
+2026-02,Operations,Leavers Regretted,0.0
+2026-02,Operations,Transfers In,0.0
+2026-02,Operations,Transfers Out,0.0
+2026-02,Operations,Turnover R12 %,12.02
+2026-02,Operations,Voluntary Turnover R12 %,12.02
+2026-02,Operations,Early Leavers R12 %,20.0
+2026-02,Operations,Women in Leadership %,
+2026-02,Operations,Pay Gap Mean %,3.65
+2026-02,Operations,Pay Gap Median %,-19.18
+2026-02,Operations,Pay Gap Adjusted %,
+2026-03,Operations,Headcount,46.0
+2026-03,Operations,FTE,44.9
+2026-03,Operations,Hires,0.0
+2026-03,Operations,Leavers,2.0
+2026-03,Operations,Leavers Voluntary,2.0
+2026-03,Operations,Leavers Regretted,0.0
+2026-03,Operations,Transfers In,0.0
+2026-03,Operations,Transfers Out,0.0
+2026-03,Operations,Turnover R12 %,16.57
+2026-03,Operations,Voluntary Turnover R12 %,16.57
+2026-03,Operations,Early Leavers R12 %,28.57
+2026-03,Operations,Women in Leadership %,
+2026-03,Operations,Pay Gap Mean %,4.18
+2026-03,Operations,Pay Gap Median %,-11.61
+2026-03,Operations,Pay Gap Adjusted %,
+2026-04,Operations,Headcount,46.0
+2026-04,Operations,FTE,44.9
+2026-04,Operations,Hires,2.0
+2026-04,Operations,Leavers,2.0
+2026-04,Operations,Leavers Voluntary,2.0
+2026-04,Operations,Leavers Regretted,2.0
+2026-04,Operations,Transfers In,0.0
+2026-04,Operations,Transfers Out,0.0
+2026-04,Operations,Turnover R12 %,20.97
+2026-04,Operations,Voluntary Turnover R12 %,20.97
+2026-04,Operations,Early Leavers R12 %,33.33
+2026-04,Operations,Women in Leadership %,
+2026-04,Operations,Pay Gap Mean %,-1.89
+2026-04,Operations,Pay Gap Median %,-28.5
+2026-04,Operations,Pay Gap Adjusted %,
+2026-05,Operations,Headcount,47.0
+2026-05,Operations,FTE,45.9
+2026-05,Operations,Hires,2.0
+2026-05,Operations,Leavers,1.0
+2026-05,Operations,Leavers Voluntary,0.0
+2026-05,Operations,Leavers Regretted,0.0
+2026-05,Operations,Transfers In,0.0
+2026-05,Operations,Transfers Out,0.0
+2026-05,Operations,Turnover R12 %,20.61
+2026-05,Operations,Voluntary Turnover R12 %,18.32
+2026-05,Operations,Early Leavers R12 %,44.44
+2026-05,Operations,Women in Leadership %,
+2026-05,Operations,Pay Gap Mean %,-2.09
+2026-05,Operations,Pay Gap Median %,-26.86
+2026-05,Operations,Pay Gap Adjusted %,
+2026-06,Operations,Headcount,45.0
+2026-06,Operations,FTE,43.9
+2026-06,Operations,Hires,0.0
+2026-06,Operations,Leavers,2.0
+2026-06,Operations,Leavers Voluntary,2.0
+2026-06,Operations,Leavers Regretted,1.0
+2026-06,Operations,Transfers In,0.0
+2026-06,Operations,Transfers Out,0.0
+2026-06,Operations,Turnover R12 %,20.3
+2026-06,Operations,Voluntary Turnover R12 %,18.05
+2026-06,Operations,Early Leavers R12 %,55.56
+2026-06,Operations,Women in Leadership %,
+2026-06,Operations,Pay Gap Mean %,-0.84
+2026-06,Operations,Pay Gap Median %,-26.57
+2026-06,Operations,Pay Gap Adjusted %,
+2026-07,Operations,Headcount,45.0
+2026-07,Operations,FTE,43.9
+2026-07,Operations,Hires,1.0
+2026-07,Operations,Leavers,1.0
+2026-07,Operations,Leavers Voluntary,1.0
+2026-07,Operations,Leavers Regretted,0.0
+2026-07,Operations,Transfers In,0.0
+2026-07,Operations,Transfers Out,0.0
+2026-07,Operations,Turnover R12 %,22.3
+2026-07,Operations,Voluntary Turnover R12 %,20.07
+2026-07,Operations,Early Leavers R12 %,60.0
+2026-07,Operations,Women in Leadership %,
+2026-07,Operations,Pay Gap Mean %,1.18
+2026-07,Operations,Pay Gap Median %,-19.02
+2026-07,Operations,Pay Gap Adjusted %,
+2026-08,Operations,Headcount,46.0
+2026-08,Operations,FTE,44.9
+2026-08,Operations,Hires,2.0
+2026-08,Operations,Leavers,1.0
+2026-08,Operations,Leavers Voluntary,1.0
+2026-08,Operations,Leavers Regretted,0.0
+2026-08,Operations,Transfers In,0.0
+2026-08,Operations,Transfers Out,0.0
+2026-08,Operations,Turnover R12 %,22.1
+2026-08,Operations,Voluntary Turnover R12 %,19.89
+2026-08,Operations,Early Leavers R12 %,60.0
+2026-08,Operations,Women in Leadership %,
+2026-08,Operations,Pay Gap Mean %,5.38
+2026-08,Operations,Pay Gap Median %,-13.54
+2026-08,Operations,Pay Gap Adjusted %,
+2026-09,Operations,Headcount,47.0
+2026-09,Operations,FTE,45.7
+2026-09,Operations,Hires,2.0
+2026-09,Operations,Leavers,1.0
+2026-09,Operations,Leavers Voluntary,1.0
+2026-09,Operations,Leavers Regretted,0.0
+2026-09,Operations,Transfers In,0.0
+2026-09,Operations,Transfers Out,0.0
+2026-09,Operations,Turnover R12 %,21.86
+2026-09,Operations,Voluntary Turnover R12 %,19.67
+2026-09,Operations,Early Leavers R12 %,70.0
+2026-09,Operations,Women in Leadership %,
+2026-09,Operations,Pay Gap Mean %,6.62
+2026-09,Operations,Pay Gap Median %,-12.02
+2026-09,Operations,Pay Gap Adjusted %,
+2024-09,Technology,Headcount,68.0
+2024-09,Technology,FTE,66.5
+2024-09,Technology,Hires,0.0
+2024-09,Technology,Leavers,0.0
+2024-09,Technology,Leavers Voluntary,0.0
+2024-09,Technology,Leavers Regretted,0.0
+2024-09,Technology,Transfers In,0.0
+2024-09,Technology,Transfers Out,0.0
+2024-09,Technology,Turnover R12 %,
+2024-09,Technology,Voluntary Turnover R12 %,
+2024-09,Technology,Early Leavers R12 %,
+2024-09,Technology,Women in Leadership %,
+2024-09,Technology,Pay Gap Mean %,31.12
+2024-09,Technology,Pay Gap Median %,37.96
+2024-09,Technology,Pay Gap Adjusted %,6.57
+2024-10,Technology,Headcount,70.0
+2024-10,Technology,FTE,68.5
+2024-10,Technology,Hires,2.0
+2024-10,Technology,Leavers,0.0
+2024-10,Technology,Leavers Voluntary,0.0
+2024-10,Technology,Leavers Regretted,0.0
+2024-10,Technology,Transfers In,0.0
+2024-10,Technology,Transfers Out,0.0
+2024-10,Technology,Turnover R12 %,
+2024-10,Technology,Voluntary Turnover R12 %,
+2024-10,Technology,Early Leavers R12 %,
+2024-10,Technology,Women in Leadership %,
+2024-10,Technology,Pay Gap Mean %,28.82
+2024-10,Technology,Pay Gap Median %,36.09
+2024-10,Technology,Pay Gap Adjusted %,5.38
+2024-11,Technology,Headcount,72.0
+2024-11,Technology,FTE,70.5
+2024-11,Technology,Hires,2.0
+2024-11,Technology,Leavers,1.0
+2024-11,Technology,Leavers Voluntary,1.0
+2024-11,Technology,Leavers Regretted,1.0
+2024-11,Technology,Transfers In,1.0
+2024-11,Technology,Transfers Out,0.0
+2024-11,Technology,Turnover R12 %,
+2024-11,Technology,Voluntary Turnover R12 %,
+2024-11,Technology,Early Leavers R12 %,
+2024-11,Technology,Women in Leadership %,
+2024-11,Technology,Pay Gap Mean %,29.15
+2024-11,Technology,Pay Gap Median %,34.54
+2024-11,Technology,Pay Gap Adjusted %,4.93
+2024-12,Technology,Headcount,71.0
+2024-12,Technology,FTE,69.5
+2024-12,Technology,Hires,0.0
+2024-12,Technology,Leavers,1.0
+2024-12,Technology,Leavers Voluntary,1.0
+2024-12,Technology,Leavers Regretted,0.0
+2024-12,Technology,Transfers In,0.0
+2024-12,Technology,Transfers Out,0.0
+2024-12,Technology,Turnover R12 %,
+2024-12,Technology,Voluntary Turnover R12 %,
+2024-12,Technology,Early Leavers R12 %,
+2024-12,Technology,Women in Leadership %,
+2024-12,Technology,Pay Gap Mean %,28.41
+2024-12,Technology,Pay Gap Median %,34.24
+2024-12,Technology,Pay Gap Adjusted %,4.93
+2025-01,Technology,Headcount,72.0
+2025-01,Technology,FTE,70.5
+2025-01,Technology,Hires,1.0
+2025-01,Technology,Leavers,0.0
+2025-01,Technology,Leavers Voluntary,0.0
+2025-01,Technology,Leavers Regretted,0.0
+2025-01,Technology,Transfers In,0.0
+2025-01,Technology,Transfers Out,0.0
+2025-01,Technology,Turnover R12 %,
+2025-01,Technology,Voluntary Turnover R12 %,
+2025-01,Technology,Early Leavers R12 %,
+2025-01,Technology,Women in Leadership %,
+2025-01,Technology,Pay Gap Mean %,27.99
+2025-01,Technology,Pay Gap Median %,33.17
+2025-01,Technology,Pay Gap Adjusted %,4.93
+2025-02,Technology,Headcount,73.0
+2025-02,Technology,FTE,71.5
+2025-02,Technology,Hires,1.0
+2025-02,Technology,Leavers,0.0
+2025-02,Technology,Leavers Voluntary,0.0
+2025-02,Technology,Leavers Regretted,0.0
+2025-02,Technology,Transfers In,0.0
+2025-02,Technology,Transfers Out,0.0
+2025-02,Technology,Turnover R12 %,
+2025-02,Technology,Voluntary Turnover R12 %,
+2025-02,Technology,Early Leavers R12 %,
+2025-02,Technology,Women in Leadership %,
+2025-02,Technology,Pay Gap Mean %,28.78
+2025-02,Technology,Pay Gap Median %,34.16
+2025-02,Technology,Pay Gap Adjusted %,4.93
+2025-03,Technology,Headcount,74.0
+2025-03,Technology,FTE,72.5
+2025-03,Technology,Hires,1.0
+2025-03,Technology,Leavers,0.0
+2025-03,Technology,Leavers Voluntary,0.0
+2025-03,Technology,Leavers Regretted,0.0
+2025-03,Technology,Transfers In,0.0
+2025-03,Technology,Transfers Out,0.0
+2025-03,Technology,Turnover R12 %,
+2025-03,Technology,Voluntary Turnover R12 %,
+2025-03,Technology,Early Leavers R12 %,
+2025-03,Technology,Women in Leadership %,
+2025-03,Technology,Pay Gap Mean %,29.27
+2025-03,Technology,Pay Gap Median %,34.17
+2025-03,Technology,Pay Gap Adjusted %,5.48
+2025-04,Technology,Headcount,74.0
+2025-04,Technology,FTE,72.5
+2025-04,Technology,Hires,2.0
+2025-04,Technology,Leavers,2.0
+2025-04,Technology,Leavers Voluntary,1.0
+2025-04,Technology,Leavers Regretted,0.0
+2025-04,Technology,Transfers In,0.0
+2025-04,Technology,Transfers Out,0.0
+2025-04,Technology,Turnover R12 %,
+2025-04,Technology,Voluntary Turnover R12 %,
+2025-04,Technology,Early Leavers R12 %,
+2025-04,Technology,Women in Leadership %,
+2025-04,Technology,Pay Gap Mean %,29.28
+2025-04,Technology,Pay Gap Median %,33.58
+2025-04,Technology,Pay Gap Adjusted %,5.22
+2025-05,Technology,Headcount,76.0
+2025-05,Technology,FTE,74.5
+2025-05,Technology,Hires,3.0
+2025-05,Technology,Leavers,1.0
+2025-05,Technology,Leavers Voluntary,1.0
+2025-05,Technology,Leavers Regretted,1.0
+2025-05,Technology,Transfers In,0.0
+2025-05,Technology,Transfers Out,0.0
+2025-05,Technology,Turnover R12 %,
+2025-05,Technology,Voluntary Turnover R12 %,
+2025-05,Technology,Early Leavers R12 %,
+2025-05,Technology,Women in Leadership %,
+2025-05,Technology,Pay Gap Mean %,29.59
+2025-05,Technology,Pay Gap Median %,33.59
+2025-05,Technology,Pay Gap Adjusted %,6.14
+2025-06,Technology,Headcount,75.0
+2025-06,Technology,FTE,73.5
+2025-06,Technology,Hires,0.0
+2025-06,Technology,Leavers,1.0
+2025-06,Technology,Leavers Voluntary,1.0
+2025-06,Technology,Leavers Regretted,0.0
+2025-06,Technology,Transfers In,0.0
+2025-06,Technology,Transfers Out,0.0
+2025-06,Technology,Turnover R12 %,
+2025-06,Technology,Voluntary Turnover R12 %,
+2025-06,Technology,Early Leavers R12 %,
+2025-06,Technology,Women in Leadership %,
+2025-06,Technology,Pay Gap Mean %,29.16
+2025-06,Technology,Pay Gap Median %,32.98
+2025-06,Technology,Pay Gap Adjusted %,6.14
+2025-07,Technology,Headcount,75.0
+2025-07,Technology,FTE,73.5
+2025-07,Technology,Hires,2.0
+2025-07,Technology,Leavers,2.0
+2025-07,Technology,Leavers Voluntary,2.0
+2025-07,Technology,Leavers Regretted,2.0
+2025-07,Technology,Transfers In,0.0
+2025-07,Technology,Transfers Out,0.0
+2025-07,Technology,Turnover R12 %,
+2025-07,Technology,Voluntary Turnover R12 %,
+2025-07,Technology,Early Leavers R12 %,
+2025-07,Technology,Women in Leadership %,
+2025-07,Technology,Pay Gap Mean %,27.06
+2025-07,Technology,Pay Gap Median %,31.55
+2025-07,Technology,Pay Gap Adjusted %,5.43
+2025-08,Technology,Headcount,75.0
+2025-08,Technology,FTE,73.5
+2025-08,Technology,Hires,0.0
+2025-08,Technology,Leavers,0.0
+2025-08,Technology,Leavers Voluntary,0.0
+2025-08,Technology,Leavers Regretted,0.0
+2025-08,Technology,Transfers In,0.0
+2025-08,Technology,Transfers Out,0.0
+2025-08,Technology,Turnover R12 %,
+2025-08,Technology,Voluntary Turnover R12 %,
+2025-08,Technology,Early Leavers R12 %,
+2025-08,Technology,Women in Leadership %,
+2025-08,Technology,Pay Gap Mean %,27.19
+2025-08,Technology,Pay Gap Median %,31.25
+2025-08,Technology,Pay Gap Adjusted %,5.43
+2025-09,Technology,Headcount,77.0
+2025-09,Technology,FTE,75.5
+2025-09,Technology,Hires,2.0
+2025-09,Technology,Leavers,0.0
+2025-09,Technology,Leavers Voluntary,0.0
+2025-09,Technology,Leavers Regretted,0.0
+2025-09,Technology,Transfers In,0.0
+2025-09,Technology,Transfers Out,0.0
+2025-09,Technology,Turnover R12 %,10.86
+2025-09,Technology,Voluntary Turnover R12 %,9.5
+2025-09,Technology,Early Leavers R12 %,37.5
+2025-09,Technology,Women in Leadership %,
+2025-09,Technology,Pay Gap Mean %,27.76
+2025-09,Technology,Pay Gap Median %,30.99
+2025-09,Technology,Pay Gap Adjusted %,6.77
+2025-10,Technology,Headcount,78.0
+2025-10,Technology,FTE,76.5
+2025-10,Technology,Hires,1.0
+2025-10,Technology,Leavers,0.0
+2025-10,Technology,Leavers Voluntary,0.0
+2025-10,Technology,Leavers Regretted,0.0
+2025-10,Technology,Transfers In,0.0
+2025-10,Technology,Transfers Out,0.0
+2025-10,Technology,Turnover R12 %,10.76
+2025-10,Technology,Voluntary Turnover R12 %,9.42
+2025-10,Technology,Early Leavers R12 %,37.5
+2025-10,Technology,Women in Leadership %,
+2025-10,Technology,Pay Gap Mean %,28.33
+2025-10,Technology,Pay Gap Median %,31.46
+2025-10,Technology,Pay Gap Adjusted %,6.77
+2025-11,Technology,Headcount,77.0
+2025-11,Technology,FTE,75.5
+2025-11,Technology,Hires,1.0
+2025-11,Technology,Leavers,2.0
+2025-11,Technology,Leavers Voluntary,1.0
+2025-11,Technology,Leavers Regretted,1.0
+2025-11,Technology,Transfers In,0.0
+2025-11,Technology,Transfers Out,0.0
+2025-11,Technology,Turnover R12 %,12.04
+2025-11,Technology,Voluntary Turnover R12 %,9.36
+2025-11,Technology,Early Leavers R12 %,33.33
+2025-11,Technology,Women in Leadership %,
+2025-11,Technology,Pay Gap Mean %,26.54
+2025-11,Technology,Pay Gap Median %,31.1
+2025-11,Technology,Pay Gap Adjusted %,6.4
+2025-12,Technology,Headcount,76.0
+2025-12,Technology,FTE,74.5
+2025-12,Technology,Hires,0.0
+2025-12,Technology,Leavers,1.0
+2025-12,Technology,Leavers Voluntary,1.0
+2025-12,Technology,Leavers Regretted,1.0
+2025-12,Technology,Transfers In,0.0
+2025-12,Technology,Transfers Out,0.0
+2025-12,Technology,Turnover R12 %,11.97
+2025-12,Technology,Voluntary Turnover R12 %,9.31
+2025-12,Technology,Early Leavers R12 %,33.33
+2025-12,Technology,Women in Leadership %,
+2025-12,Technology,Pay Gap Mean %,27.28
+2025-12,Technology,Pay Gap Median %,31.3
+2025-12,Technology,Pay Gap Adjusted %,6.4
+2026-01,Technology,Headcount,76.0
+2026-01,Technology,FTE,74.5
+2026-01,Technology,Hires,1.0
+2026-01,Technology,Leavers,1.0
+2026-01,Technology,Leavers Voluntary,1.0
+2026-01,Technology,Leavers Regretted,0.0
+2026-01,Technology,Transfers In,0.0
+2026-01,Technology,Transfers Out,0.0
+2026-01,Technology,Turnover R12 %,13.25
+2026-01,Technology,Voluntary Turnover R12 %,10.6
+2026-01,Technology,Early Leavers R12 %,30.0
+2026-01,Technology,Women in Leadership %,
+2026-01,Technology,Pay Gap Mean %,26.65
+2026-01,Technology,Pay Gap Median %,32.7
+2026-01,Technology,Pay Gap Adjusted %,6.4
+2026-02,Technology,Headcount,78.0
+2026-02,Technology,FTE,76.3
+2026-02,Technology,Hires,3.0
+2026-02,Technology,Leavers,1.0
+2026-02,Technology,Leavers Voluntary,1.0
+2026-02,Technology,Leavers Regretted,0.0
+2026-02,Technology,Transfers In,0.0
+2026-02,Technology,Transfers Out,0.0
+2026-02,Technology,Turnover R12 %,14.49
+2026-02,Technology,Voluntary Turnover R12 %,11.86
+2026-02,Technology,Early Leavers R12 %,36.36
+2026-02,Technology,Women in Leadership %,
+2026-02,Technology,Pay Gap Mean %,27.33
+2026-02,Technology,Pay Gap Median %,31.3
+2026-02,Technology,Pay Gap Adjusted %,6.63
+2026-03,Technology,Headcount,78.0
+2026-03,Technology,FTE,76.1
+2026-03,Technology,Hires,1.0
+2026-03,Technology,Leavers,1.0
+2026-03,Technology,Leavers Voluntary,1.0
+2026-03,Technology,Leavers Regretted,0.0
+2026-03,Technology,Transfers In,1.0
+2026-03,Technology,Transfers Out,1.0
+2026-03,Technology,Turnover R12 %,15.74
+2026-03,Technology,Voluntary Turnover R12 %,13.11
+2026-03,Technology,Early Leavers R12 %,33.33
+2026-03,Technology,Women in Leadership %,
+2026-03,Technology,Pay Gap Mean %,25.88
+2026-03,Technology,Pay Gap Median %,31.54
+2026-03,Technology,Pay Gap Adjusted %,6.63
+2026-04,Technology,Headcount,80.0
+2026-04,Technology,FTE,78.1
+2026-04,Technology,Hires,2.0
+2026-04,Technology,Leavers,0.0
+2026-04,Technology,Leavers Voluntary,0.0
+2026-04,Technology,Leavers Regretted,0.0
+2026-04,Technology,Transfers In,1.0
+2026-04,Technology,Transfers Out,1.0
+2026-04,Technology,Turnover R12 %,13.03
+2026-04,Technology,Voluntary Turnover R12 %,11.73
+2026-04,Technology,Early Leavers R12 %,40.0
+2026-04,Technology,Women in Leadership %,
+2026-04,Technology,Pay Gap Mean %,26.05
+2026-04,Technology,Pay Gap Median %,32.59
+2026-04,Technology,Pay Gap Adjusted %,6.47
+2026-05,Technology,Headcount,80.0
+2026-05,Technology,FTE,77.6
+2026-05,Technology,Hires,1.0
+2026-05,Technology,Leavers,1.0
+2026-05,Technology,Leavers Voluntary,0.0
+2026-05,Technology,Leavers Regretted,0.0
+2026-05,Technology,Transfers In,0.0
+2026-05,Technology,Transfers Out,0.0
+2026-05,Technology,Turnover R12 %,12.97
+2026-05,Technology,Voluntary Turnover R12 %,10.38
+2026-05,Technology,Early Leavers R12 %,30.0
+2026-05,Technology,Women in Leadership %,
+2026-05,Technology,Pay Gap Mean %,20.17
+2026-05,Technology,Pay Gap Median %,30.33
+2026-05,Technology,Pay Gap Adjusted %,6.47
+2026-06,Technology,Headcount,79.0
+2026-06,Technology,FTE,76.6
+2026-06,Technology,Hires,1.0
+2026-06,Technology,Leavers,2.0
+2026-06,Technology,Leavers Voluntary,2.0
+2026-06,Technology,Leavers Regretted,1.0
+2026-06,Technology,Transfers In,0.0
+2026-06,Technology,Transfers Out,0.0
+2026-06,Technology,Turnover R12 %,14.21
+2026-06,Technology,Voluntary Turnover R12 %,11.63
+2026-06,Technology,Early Leavers R12 %,27.27
+2026-06,Technology,Women in Leadership %,
+2026-06,Technology,Pay Gap Mean %,21.3
+2026-06,Technology,Pay Gap Median %,29.8
+2026-06,Technology,Pay Gap Adjusted %,5.21
+2026-07,Technology,Headcount,92.0
+2026-07,Technology,FTE,88.6
+2026-07,Technology,Hires,1.0
+2026-07,Technology,Leavers,0.0
+2026-07,Technology,Leavers Voluntary,0.0
+2026-07,Technology,Leavers Regretted,0.0
+2026-07,Technology,Transfers In,77.0
+2026-07,Technology,Transfers Out,65.0
+2026-07,Technology,Turnover R12 %,11.42
+2026-07,Technology,Voluntary Turnover R12 %,8.88
+2026-07,Technology,Early Leavers R12 %,33.33
+2026-07,Technology,Women in Leadership %,20.0
+2026-07,Technology,Pay Gap Mean %,19.27
+2026-07,Technology,Pay Gap Median %,29.44
+2026-07,Technology,Pay Gap Adjusted %,6.19
+2026-08,Technology,Headcount,92.0
+2026-08,Technology,FTE,89.4
+2026-08,Technology,Hires,2.0
+2026-08,Technology,Leavers,2.0
+2026-08,Technology,Leavers Voluntary,1.0
+2026-08,Technology,Leavers Regretted,0.0
+2026-08,Technology,Transfers In,0.0
+2026-08,Technology,Transfers Out,0.0
+2026-08,Technology,Turnover R12 %,13.71
+2026-08,Technology,Voluntary Turnover R12 %,9.97
+2026-08,Technology,Early Leavers R12 %,36.36
+2026-08,Technology,Women in Leadership %,20.0
+2026-08,Technology,Pay Gap Mean %,17.92
+2026-08,Technology,Pay Gap Median %,28.61
+2026-08,Technology,Pay Gap Adjusted %,4.07
+2026-09,Technology,Headcount,93.0
+2026-09,Technology,FTE,90.4
+2026-09,Technology,Hires,1.0
+2026-09,Technology,Leavers,0.0
+2026-09,Technology,Leavers Voluntary,0.0
+2026-09,Technology,Leavers Regretted,0.0
+2026-09,Technology,Transfers In,0.0
+2026-09,Technology,Transfers Out,0.0
+2026-09,Technology,Turnover R12 %,13.48
+2026-09,Technology,Voluntary Turnover R12 %,9.81
+2026-09,Technology,Early Leavers R12 %,36.36
+2026-09,Technology,Women in Leadership %,20.0
+2026-09,Technology,Pay Gap Mean %,17.2
+2026-09,Technology,Pay Gap Median %,26.57
+2026-09,Technology,Pay Gap Adjusted %,3.26
+2024-09,VMG Czech Republic s.r.o.,Headcount,69.0
+2024-09,VMG Czech Republic s.r.o.,FTE,68.2
+2024-09,VMG Czech Republic s.r.o.,Hires,0.0
+2024-09,VMG Czech Republic s.r.o.,Leavers,0.0
+2024-09,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2024-09,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2024-09,VMG Czech Republic s.r.o.,Transfers In,0.0
+2024-09,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2024-09,VMG Czech Republic s.r.o.,Turnover R12 %,
+2024-09,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2024-09,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2024-09,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2024-09,VMG Czech Republic s.r.o.,Pay Gap Mean %,15.32
+2024-09,VMG Czech Republic s.r.o.,Pay Gap Median %,15.05
+2024-09,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.79
+2024-10,VMG Czech Republic s.r.o.,Headcount,71.0
+2024-10,VMG Czech Republic s.r.o.,FTE,70.2
+2024-10,VMG Czech Republic s.r.o.,Hires,2.0
+2024-10,VMG Czech Republic s.r.o.,Leavers,0.0
+2024-10,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2024-10,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2024-10,VMG Czech Republic s.r.o.,Transfers In,0.0
+2024-10,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2024-10,VMG Czech Republic s.r.o.,Turnover R12 %,
+2024-10,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2024-10,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2024-10,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2024-10,VMG Czech Republic s.r.o.,Pay Gap Mean %,13.25
+2024-10,VMG Czech Republic s.r.o.,Pay Gap Median %,14.28
+2024-10,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.71
+2024-11,VMG Czech Republic s.r.o.,Headcount,73.0
+2024-11,VMG Czech Republic s.r.o.,FTE,72.0
+2024-11,VMG Czech Republic s.r.o.,Hires,3.0
+2024-11,VMG Czech Republic s.r.o.,Leavers,1.0
+2024-11,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2024-11,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2024-11,VMG Czech Republic s.r.o.,Transfers In,0.0
+2024-11,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2024-11,VMG Czech Republic s.r.o.,Turnover R12 %,
+2024-11,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2024-11,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2024-11,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2024-11,VMG Czech Republic s.r.o.,Pay Gap Mean %,13.7
+2024-11,VMG Czech Republic s.r.o.,Pay Gap Median %,15.03
+2024-11,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.25
+2024-12,VMG Czech Republic s.r.o.,Headcount,73.0
+2024-12,VMG Czech Republic s.r.o.,FTE,72.0
+2024-12,VMG Czech Republic s.r.o.,Hires,0.0
+2024-12,VMG Czech Republic s.r.o.,Leavers,0.0
+2024-12,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2024-12,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2024-12,VMG Czech Republic s.r.o.,Transfers In,0.0
+2024-12,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2024-12,VMG Czech Republic s.r.o.,Turnover R12 %,
+2024-12,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2024-12,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2024-12,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2024-12,VMG Czech Republic s.r.o.,Pay Gap Mean %,13.7
+2024-12,VMG Czech Republic s.r.o.,Pay Gap Median %,15.03
+2024-12,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.25
+2025-01,VMG Czech Republic s.r.o.,Headcount,73.0
+2025-01,VMG Czech Republic s.r.o.,FTE,72.0
+2025-01,VMG Czech Republic s.r.o.,Hires,1.0
+2025-01,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-01,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-01,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-01,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-01,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-01,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-01,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-01,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-01,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-01,VMG Czech Republic s.r.o.,Pay Gap Mean %,14.12
+2025-01,VMG Czech Republic s.r.o.,Pay Gap Median %,15.03
+2025-01,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.39
+2025-02,VMG Czech Republic s.r.o.,Headcount,75.0
+2025-02,VMG Czech Republic s.r.o.,FTE,74.0
+2025-02,VMG Czech Republic s.r.o.,Hires,2.0
+2025-02,VMG Czech Republic s.r.o.,Leavers,0.0
+2025-02,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2025-02,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-02,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-02,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-02,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-02,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-02,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-02,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-02,VMG Czech Republic s.r.o.,Pay Gap Mean %,14.02
+2025-02,VMG Czech Republic s.r.o.,Pay Gap Median %,15.0
+2025-02,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.7
+2025-03,VMG Czech Republic s.r.o.,Headcount,78.0
+2025-03,VMG Czech Republic s.r.o.,FTE,76.8
+2025-03,VMG Czech Republic s.r.o.,Hires,3.0
+2025-03,VMG Czech Republic s.r.o.,Leavers,0.0
+2025-03,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2025-03,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-03,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-03,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-03,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-03,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-03,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-03,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-03,VMG Czech Republic s.r.o.,Pay Gap Mean %,14.51
+2025-03,VMG Czech Republic s.r.o.,Pay Gap Median %,16.02
+2025-03,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.07
+2025-04,VMG Czech Republic s.r.o.,Headcount,78.0
+2025-04,VMG Czech Republic s.r.o.,FTE,76.8
+2025-04,VMG Czech Republic s.r.o.,Hires,1.0
+2025-04,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-04,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-04,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-04,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-04,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-04,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-04,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-04,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-04,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-04,VMG Czech Republic s.r.o.,Pay Gap Mean %,13.44
+2025-04,VMG Czech Republic s.r.o.,Pay Gap Median %,13.82
+2025-04,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.41
+2025-05,VMG Czech Republic s.r.o.,Headcount,78.0
+2025-05,VMG Czech Republic s.r.o.,FTE,76.8
+2025-05,VMG Czech Republic s.r.o.,Hires,3.0
+2025-05,VMG Czech Republic s.r.o.,Leavers,3.0
+2025-05,VMG Czech Republic s.r.o.,Leavers Voluntary,3.0
+2025-05,VMG Czech Republic s.r.o.,Leavers Regretted,2.0
+2025-05,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-05,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-05,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-05,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-05,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-05,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-05,VMG Czech Republic s.r.o.,Pay Gap Mean %,13.34
+2025-05,VMG Czech Republic s.r.o.,Pay Gap Median %,13.82
+2025-05,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.83
+2025-06,VMG Czech Republic s.r.o.,Headcount,78.0
+2025-06,VMG Czech Republic s.r.o.,FTE,76.8
+2025-06,VMG Czech Republic s.r.o.,Hires,1.0
+2025-06,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-06,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-06,VMG Czech Republic s.r.o.,Leavers Regretted,1.0
+2025-06,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-06,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-06,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-06,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-06,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-06,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-06,VMG Czech Republic s.r.o.,Pay Gap Mean %,12.73
+2025-06,VMG Czech Republic s.r.o.,Pay Gap Median %,14.3
+2025-06,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.99
+2025-07,VMG Czech Republic s.r.o.,Headcount,82.0
+2025-07,VMG Czech Republic s.r.o.,FTE,80.8
+2025-07,VMG Czech Republic s.r.o.,Hires,5.0
+2025-07,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-07,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-07,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-07,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-07,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-07,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-07,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-07,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-07,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-07,VMG Czech Republic s.r.o.,Pay Gap Mean %,10.86
+2025-07,VMG Czech Republic s.r.o.,Pay Gap Median %,8.4
+2025-07,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,5.06
+2025-08,VMG Czech Republic s.r.o.,Headcount,84.0
+2025-08,VMG Czech Republic s.r.o.,FTE,82.8
+2025-08,VMG Czech Republic s.r.o.,Hires,3.0
+2025-08,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-08,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-08,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-08,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-08,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-08,VMG Czech Republic s.r.o.,Turnover R12 %,
+2025-08,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,
+2025-08,VMG Czech Republic s.r.o.,Early Leavers R12 %,
+2025-08,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-08,VMG Czech Republic s.r.o.,Pay Gap Mean %,10.23
+2025-08,VMG Czech Republic s.r.o.,Pay Gap Median %,6.71
+2025-08,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,5.38
+2025-09,VMG Czech Republic s.r.o.,Headcount,85.0
+2025-09,VMG Czech Republic s.r.o.,FTE,83.8
+2025-09,VMG Czech Republic s.r.o.,Hires,2.0
+2025-09,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-09,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-09,VMG Czech Republic s.r.o.,Leavers Regretted,1.0
+2025-09,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-09,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-09,VMG Czech Republic s.r.o.,Turnover R12 %,12.93
+2025-09,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,11.64
+2025-09,VMG Czech Republic s.r.o.,Early Leavers R12 %,20.0
+2025-09,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-09,VMG Czech Republic s.r.o.,Pay Gap Mean %,10.37
+2025-09,VMG Czech Republic s.r.o.,Pay Gap Median %,4.73
+2025-09,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,5.6
+2025-10,VMG Czech Republic s.r.o.,Headcount,87.0
+2025-10,VMG Czech Republic s.r.o.,FTE,85.8
+2025-10,VMG Czech Republic s.r.o.,Hires,2.0
+2025-10,VMG Czech Republic s.r.o.,Leavers,0.0
+2025-10,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2025-10,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2025-10,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-10,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-10,VMG Czech Republic s.r.o.,Turnover R12 %,12.71
+2025-10,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,11.44
+2025-10,VMG Czech Republic s.r.o.,Early Leavers R12 %,20.0
+2025-10,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-10,VMG Czech Republic s.r.o.,Pay Gap Mean %,10.04
+2025-10,VMG Czech Republic s.r.o.,Pay Gap Median %,3.58
+2025-10,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,5.29
+2025-11,VMG Czech Republic s.r.o.,Headcount,87.0
+2025-11,VMG Czech Republic s.r.o.,FTE,85.8
+2025-11,VMG Czech Republic s.r.o.,Hires,3.0
+2025-11,VMG Czech Republic s.r.o.,Leavers,3.0
+2025-11,VMG Czech Republic s.r.o.,Leavers Voluntary,2.0
+2025-11,VMG Czech Republic s.r.o.,Leavers Regretted,2.0
+2025-11,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-11,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-11,VMG Czech Republic s.r.o.,Turnover R12 %,15.03
+2025-11,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,13.78
+2025-11,VMG Czech Republic s.r.o.,Early Leavers R12 %,25.0
+2025-11,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-11,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.53
+2025-11,VMG Czech Republic s.r.o.,Pay Gap Median %,3.58
+2025-11,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.83
+2025-12,VMG Czech Republic s.r.o.,Headcount,87.0
+2025-12,VMG Czech Republic s.r.o.,FTE,85.8
+2025-12,VMG Czech Republic s.r.o.,Hires,1.0
+2025-12,VMG Czech Republic s.r.o.,Leavers,1.0
+2025-12,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2025-12,VMG Czech Republic s.r.o.,Leavers Regretted,1.0
+2025-12,VMG Czech Republic s.r.o.,Transfers In,0.0
+2025-12,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2025-12,VMG Czech Republic s.r.o.,Turnover R12 %,16.05
+2025-12,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,14.81
+2025-12,VMG Czech Republic s.r.o.,Early Leavers R12 %,23.08
+2025-12,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2025-12,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.59
+2025-12,VMG Czech Republic s.r.o.,Pay Gap Median %,3.58
+2025-12,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.39
+2026-01,VMG Czech Republic s.r.o.,Headcount,90.0
+2026-01,VMG Czech Republic s.r.o.,FTE,88.8
+2026-01,VMG Czech Republic s.r.o.,Hires,3.0
+2026-01,VMG Czech Republic s.r.o.,Leavers,0.0
+2026-01,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2026-01,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2026-01,VMG Czech Republic s.r.o.,Transfers In,0.0
+2026-01,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2026-01,VMG Czech Republic s.r.o.,Turnover R12 %,14.56
+2026-01,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,13.35
+2026-01,VMG Czech Republic s.r.o.,Early Leavers R12 %,25.0
+2026-01,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-01,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.01
+2026-01,VMG Czech Republic s.r.o.,Pay Gap Median %,1.61
+2026-01,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.56
+2026-02,VMG Czech Republic s.r.o.,Headcount,92.0
+2026-02,VMG Czech Republic s.r.o.,FTE,90.8
+2026-02,VMG Czech Republic s.r.o.,Hires,2.0
+2026-02,VMG Czech Republic s.r.o.,Leavers,0.0
+2026-02,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2026-02,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2026-02,VMG Czech Republic s.r.o.,Transfers In,0.0
+2026-02,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2026-02,VMG Czech Republic s.r.o.,Turnover R12 %,14.31
+2026-02,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,13.12
+2026-02,VMG Czech Republic s.r.o.,Early Leavers R12 %,25.0
+2026-02,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-02,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.77
+2026-02,VMG Czech Republic s.r.o.,Pay Gap Median %,3.34
+2026-02,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.55
+2026-03,VMG Czech Republic s.r.o.,Headcount,92.0
+2026-03,VMG Czech Republic s.r.o.,FTE,90.6
+2026-03,VMG Czech Republic s.r.o.,Hires,1.0
+2026-03,VMG Czech Republic s.r.o.,Leavers,1.0
+2026-03,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2026-03,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2026-03,VMG Czech Republic s.r.o.,Transfers In,1.0
+2026-03,VMG Czech Republic s.r.o.,Transfers Out,1.0
+2026-03,VMG Czech Republic s.r.o.,Turnover R12 %,15.29
+2026-03,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,14.12
+2026-03,VMG Czech Republic s.r.o.,Early Leavers R12 %,30.77
+2026-03,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-03,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.99
+2026-03,VMG Czech Republic s.r.o.,Pay Gap Median %,3.95
+2026-03,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.81
+2026-04,VMG Czech Republic s.r.o.,Headcount,94.0
+2026-04,VMG Czech Republic s.r.o.,FTE,92.6
+2026-04,VMG Czech Republic s.r.o.,Hires,4.0
+2026-04,VMG Czech Republic s.r.o.,Leavers,2.0
+2026-04,VMG Czech Republic s.r.o.,Leavers Voluntary,2.0
+2026-04,VMG Czech Republic s.r.o.,Leavers Regretted,2.0
+2026-04,VMG Czech Republic s.r.o.,Transfers In,1.0
+2026-04,VMG Czech Republic s.r.o.,Transfers Out,1.0
+2026-04,VMG Czech Republic s.r.o.,Turnover R12 %,16.22
+2026-04,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,15.06
+2026-04,VMG Czech Republic s.r.o.,Early Leavers R12 %,35.71
+2026-04,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-04,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.66
+2026-04,VMG Czech Republic s.r.o.,Pay Gap Median %,3.47
+2026-04,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.16
+2026-05,VMG Czech Republic s.r.o.,Headcount,95.0
+2026-05,VMG Czech Republic s.r.o.,FTE,93.6
+2026-05,VMG Czech Republic s.r.o.,Hires,2.0
+2026-05,VMG Czech Republic s.r.o.,Leavers,1.0
+2026-05,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2026-05,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2026-05,VMG Czech Republic s.r.o.,Transfers In,0.0
+2026-05,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2026-05,VMG Czech Republic s.r.o.,Turnover R12 %,13.68
+2026-05,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,11.4
+2026-05,VMG Czech Republic s.r.o.,Early Leavers R12 %,33.33
+2026-05,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-05,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.09
+2026-05,VMG Czech Republic s.r.o.,Pay Gap Median %,2.24
+2026-05,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.62
+2026-06,VMG Czech Republic s.r.o.,Headcount,92.0
+2026-06,VMG Czech Republic s.r.o.,FTE,90.6
+2026-06,VMG Czech Republic s.r.o.,Hires,0.0
+2026-06,VMG Czech Republic s.r.o.,Leavers,3.0
+2026-06,VMG Czech Republic s.r.o.,Leavers Voluntary,3.0
+2026-06,VMG Czech Republic s.r.o.,Leavers Regretted,2.0
+2026-06,VMG Czech Republic s.r.o.,Transfers In,0.0
+2026-06,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2026-06,VMG Czech Republic s.r.o.,Turnover R12 %,15.75
+2026-06,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,13.5
+2026-06,VMG Czech Republic s.r.o.,Early Leavers R12 %,42.86
+2026-06,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-06,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.97
+2026-06,VMG Czech Republic s.r.o.,Pay Gap Median %,4.17
+2026-06,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.92
+2026-07,VMG Czech Republic s.r.o.,Headcount,93.0
+2026-07,VMG Czech Republic s.r.o.,FTE,90.8
+2026-07,VMG Czech Republic s.r.o.,Hires,1.0
+2026-07,VMG Czech Republic s.r.o.,Leavers,0.0
+2026-07,VMG Czech Republic s.r.o.,Leavers Voluntary,0.0
+2026-07,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2026-07,VMG Czech Republic s.r.o.,Transfers In,43.0
+2026-07,VMG Czech Republic s.r.o.,Transfers Out,43.0
+2026-07,VMG Czech Republic s.r.o.,Turnover R12 %,14.47
+2026-07,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,12.24
+2026-07,VMG Czech Republic s.r.o.,Early Leavers R12 %,46.15
+2026-07,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-07,VMG Czech Republic s.r.o.,Pay Gap Mean %,9.82
+2026-07,VMG Czech Republic s.r.o.,Pay Gap Median %,4.17
+2026-07,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.67
+2026-08,VMG Czech Republic s.r.o.,Headcount,97.0
+2026-08,VMG Czech Republic s.r.o.,FTE,95.6
+2026-08,VMG Czech Republic s.r.o.,Hires,5.0
+2026-08,VMG Czech Republic s.r.o.,Leavers,1.0
+2026-08,VMG Czech Republic s.r.o.,Leavers Voluntary,1.0
+2026-08,VMG Czech Republic s.r.o.,Leavers Regretted,0.0
+2026-08,VMG Czech Republic s.r.o.,Transfers In,0.0
+2026-08,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2026-08,VMG Czech Republic s.r.o.,Turnover R12 %,14.3
+2026-08,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,12.1
+2026-08,VMG Czech Republic s.r.o.,Early Leavers R12 %,46.15
+2026-08,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-08,VMG Czech Republic s.r.o.,Pay Gap Mean %,10.34
+2026-08,VMG Czech Republic s.r.o.,Pay Gap Median %,4.84
+2026-08,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,4.17
+2026-09,VMG Czech Republic s.r.o.,Headcount,98.0
+2026-09,VMG Czech Republic s.r.o.,FTE,96.4
+2026-09,VMG Czech Republic s.r.o.,Hires,3.0
+2026-09,VMG Czech Republic s.r.o.,Leavers,2.0
+2026-09,VMG Czech Republic s.r.o.,Leavers Voluntary,2.0
+2026-09,VMG Czech Republic s.r.o.,Leavers Regretted,1.0
+2026-09,VMG Czech Republic s.r.o.,Transfers In,0.0
+2026-09,VMG Czech Republic s.r.o.,Transfers Out,0.0
+2026-09,VMG Czech Republic s.r.o.,Turnover R12 %,15.22
+2026-09,VMG Czech Republic s.r.o.,Voluntary Turnover R12 %,13.04
+2026-09,VMG Czech Republic s.r.o.,Early Leavers R12 %,57.14
+2026-09,VMG Czech Republic s.r.o.,Women in Leadership %,40.0
+2026-09,VMG Czech Republic s.r.o.,Pay Gap Mean %,10.4
+2026-09,VMG Czech Republic s.r.o.,Pay Gap Median %,5.08
+2026-09,VMG Czech Republic s.r.o.,Pay Gap Adjusted %,3.94
+2024-09,VMG Deutschland GmbH,Headcount,112.0
+2024-09,VMG Deutschland GmbH,FTE,109.4
+2024-09,VMG Deutschland GmbH,Hires,0.0
+2024-09,VMG Deutschland GmbH,Leavers,0.0
+2024-09,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2024-09,VMG Deutschland GmbH,Leavers Regretted,0.0
+2024-09,VMG Deutschland GmbH,Transfers In,0.0
+2024-09,VMG Deutschland GmbH,Transfers Out,0.0
+2024-09,VMG Deutschland GmbH,Turnover R12 %,
+2024-09,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2024-09,VMG Deutschland GmbH,Early Leavers R12 %,
+2024-09,VMG Deutschland GmbH,Women in Leadership %,18.18
+2024-09,VMG Deutschland GmbH,Pay Gap Mean %,18.58
+2024-09,VMG Deutschland GmbH,Pay Gap Median %,18.91
+2024-09,VMG Deutschland GmbH,Pay Gap Adjusted %,1.52
+2024-10,VMG Deutschland GmbH,Headcount,110.0
+2024-10,VMG Deutschland GmbH,FTE,107.4
+2024-10,VMG Deutschland GmbH,Hires,0.0
+2024-10,VMG Deutschland GmbH,Leavers,2.0
+2024-10,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2024-10,VMG Deutschland GmbH,Leavers Regretted,0.0
+2024-10,VMG Deutschland GmbH,Transfers In,1.0
+2024-10,VMG Deutschland GmbH,Transfers Out,1.0
+2024-10,VMG Deutschland GmbH,Turnover R12 %,
+2024-10,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2024-10,VMG Deutschland GmbH,Early Leavers R12 %,
+2024-10,VMG Deutschland GmbH,Women in Leadership %,18.18
+2024-10,VMG Deutschland GmbH,Pay Gap Mean %,18.26
+2024-10,VMG Deutschland GmbH,Pay Gap Median %,18.7
+2024-10,VMG Deutschland GmbH,Pay Gap Adjusted %,1.48
+2024-11,VMG Deutschland GmbH,Headcount,108.0
+2024-11,VMG Deutschland GmbH,FTE,105.4
+2024-11,VMG Deutschland GmbH,Hires,0.0
+2024-11,VMG Deutschland GmbH,Leavers,2.0
+2024-11,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2024-11,VMG Deutschland GmbH,Leavers Regretted,1.0
+2024-11,VMG Deutschland GmbH,Transfers In,0.0
+2024-11,VMG Deutschland GmbH,Transfers Out,0.0
+2024-11,VMG Deutschland GmbH,Turnover R12 %,
+2024-11,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2024-11,VMG Deutschland GmbH,Early Leavers R12 %,
+2024-11,VMG Deutschland GmbH,Women in Leadership %,18.18
+2024-11,VMG Deutschland GmbH,Pay Gap Mean %,18.24
+2024-11,VMG Deutschland GmbH,Pay Gap Median %,17.92
+2024-11,VMG Deutschland GmbH,Pay Gap Adjusted %,1.94
+2024-12,VMG Deutschland GmbH,Headcount,106.0
+2024-12,VMG Deutschland GmbH,FTE,103.4
+2024-12,VMG Deutschland GmbH,Hires,0.0
+2024-12,VMG Deutschland GmbH,Leavers,2.0
+2024-12,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2024-12,VMG Deutschland GmbH,Leavers Regretted,0.0
+2024-12,VMG Deutschland GmbH,Transfers In,1.0
+2024-12,VMG Deutschland GmbH,Transfers Out,1.0
+2024-12,VMG Deutschland GmbH,Turnover R12 %,
+2024-12,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2024-12,VMG Deutschland GmbH,Early Leavers R12 %,
+2024-12,VMG Deutschland GmbH,Women in Leadership %,18.18
+2024-12,VMG Deutschland GmbH,Pay Gap Mean %,18.34
+2024-12,VMG Deutschland GmbH,Pay Gap Median %,17.92
+2024-12,VMG Deutschland GmbH,Pay Gap Adjusted %,1.92
+2025-01,VMG Deutschland GmbH,Headcount,107.0
+2025-01,VMG Deutschland GmbH,FTE,104.4
+2025-01,VMG Deutschland GmbH,Hires,2.0
+2025-01,VMG Deutschland GmbH,Leavers,1.0
+2025-01,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2025-01,VMG Deutschland GmbH,Leavers Regretted,1.0
+2025-01,VMG Deutschland GmbH,Transfers In,0.0
+2025-01,VMG Deutschland GmbH,Transfers Out,0.0
+2025-01,VMG Deutschland GmbH,Turnover R12 %,
+2025-01,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-01,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-01,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-01,VMG Deutschland GmbH,Pay Gap Mean %,18.38
+2025-01,VMG Deutschland GmbH,Pay Gap Median %,17.68
+2025-01,VMG Deutschland GmbH,Pay Gap Adjusted %,2.89
+2025-02,VMG Deutschland GmbH,Headcount,110.0
+2025-02,VMG Deutschland GmbH,FTE,106.9
+2025-02,VMG Deutschland GmbH,Hires,3.0
+2025-02,VMG Deutschland GmbH,Leavers,0.0
+2025-02,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-02,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-02,VMG Deutschland GmbH,Transfers In,0.0
+2025-02,VMG Deutschland GmbH,Transfers Out,0.0
+2025-02,VMG Deutschland GmbH,Turnover R12 %,
+2025-02,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-02,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-02,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-02,VMG Deutschland GmbH,Pay Gap Mean %,19.53
+2025-02,VMG Deutschland GmbH,Pay Gap Median %,18.65
+2025-02,VMG Deutschland GmbH,Pay Gap Adjusted %,3.21
+2025-03,VMG Deutschland GmbH,Headcount,110.0
+2025-03,VMG Deutschland GmbH,FTE,106.9
+2025-03,VMG Deutschland GmbH,Hires,0.0
+2025-03,VMG Deutschland GmbH,Leavers,0.0
+2025-03,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-03,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-03,VMG Deutschland GmbH,Transfers In,1.0
+2025-03,VMG Deutschland GmbH,Transfers Out,1.0
+2025-03,VMG Deutschland GmbH,Turnover R12 %,
+2025-03,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-03,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-03,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-03,VMG Deutschland GmbH,Pay Gap Mean %,19.53
+2025-03,VMG Deutschland GmbH,Pay Gap Median %,18.65
+2025-03,VMG Deutschland GmbH,Pay Gap Adjusted %,3.21
+2025-04,VMG Deutschland GmbH,Headcount,110.0
+2025-04,VMG Deutschland GmbH,FTE,106.9
+2025-04,VMG Deutschland GmbH,Hires,1.0
+2025-04,VMG Deutschland GmbH,Leavers,1.0
+2025-04,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-04,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-04,VMG Deutschland GmbH,Transfers In,0.0
+2025-04,VMG Deutschland GmbH,Transfers Out,0.0
+2025-04,VMG Deutschland GmbH,Turnover R12 %,
+2025-04,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-04,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-04,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-04,VMG Deutschland GmbH,Pay Gap Mean %,18.97
+2025-04,VMG Deutschland GmbH,Pay Gap Median %,18.95
+2025-04,VMG Deutschland GmbH,Pay Gap Adjusted %,3.03
+2025-05,VMG Deutschland GmbH,Headcount,111.0
+2025-05,VMG Deutschland GmbH,FTE,107.9
+2025-05,VMG Deutschland GmbH,Hires,1.0
+2025-05,VMG Deutschland GmbH,Leavers,0.0
+2025-05,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-05,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-05,VMG Deutschland GmbH,Transfers In,0.0
+2025-05,VMG Deutschland GmbH,Transfers Out,0.0
+2025-05,VMG Deutschland GmbH,Turnover R12 %,
+2025-05,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-05,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-05,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-05,VMG Deutschland GmbH,Pay Gap Mean %,18.78
+2025-05,VMG Deutschland GmbH,Pay Gap Median %,18.6
+2025-05,VMG Deutschland GmbH,Pay Gap Adjusted %,2.96
+2025-06,VMG Deutschland GmbH,Headcount,109.0
+2025-06,VMG Deutschland GmbH,FTE,105.9
+2025-06,VMG Deutschland GmbH,Hires,0.0
+2025-06,VMG Deutschland GmbH,Leavers,2.0
+2025-06,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2025-06,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-06,VMG Deutschland GmbH,Transfers In,0.0
+2025-06,VMG Deutschland GmbH,Transfers Out,0.0
+2025-06,VMG Deutschland GmbH,Turnover R12 %,
+2025-06,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-06,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-06,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-06,VMG Deutschland GmbH,Pay Gap Mean %,19.36
+2025-06,VMG Deutschland GmbH,Pay Gap Median %,18.6
+2025-06,VMG Deutschland GmbH,Pay Gap Adjusted %,2.76
+2025-07,VMG Deutschland GmbH,Headcount,107.0
+2025-07,VMG Deutschland GmbH,FTE,103.9
+2025-07,VMG Deutschland GmbH,Hires,0.0
+2025-07,VMG Deutschland GmbH,Leavers,2.0
+2025-07,VMG Deutschland GmbH,Leavers Voluntary,2.0
+2025-07,VMG Deutschland GmbH,Leavers Regretted,2.0
+2025-07,VMG Deutschland GmbH,Transfers In,0.0
+2025-07,VMG Deutschland GmbH,Transfers Out,0.0
+2025-07,VMG Deutschland GmbH,Turnover R12 %,
+2025-07,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-07,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-07,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-07,VMG Deutschland GmbH,Pay Gap Mean %,19.08
+2025-07,VMG Deutschland GmbH,Pay Gap Median %,18.73
+2025-07,VMG Deutschland GmbH,Pay Gap Adjusted %,2.28
+2025-08,VMG Deutschland GmbH,Headcount,107.0
+2025-08,VMG Deutschland GmbH,FTE,103.9
+2025-08,VMG Deutschland GmbH,Hires,1.0
+2025-08,VMG Deutschland GmbH,Leavers,1.0
+2025-08,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-08,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-08,VMG Deutschland GmbH,Transfers In,0.0
+2025-08,VMG Deutschland GmbH,Transfers Out,0.0
+2025-08,VMG Deutschland GmbH,Turnover R12 %,
+2025-08,VMG Deutschland GmbH,Voluntary Turnover R12 %,
+2025-08,VMG Deutschland GmbH,Early Leavers R12 %,
+2025-08,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-08,VMG Deutschland GmbH,Pay Gap Mean %,19.74
+2025-08,VMG Deutschland GmbH,Pay Gap Median %,18.8
+2025-08,VMG Deutschland GmbH,Pay Gap Adjusted %,2.04
+2025-09,VMG Deutschland GmbH,Headcount,109.0
+2025-09,VMG Deutschland GmbH,FTE,105.9
+2025-09,VMG Deutschland GmbH,Hires,2.0
+2025-09,VMG Deutschland GmbH,Leavers,0.0
+2025-09,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-09,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-09,VMG Deutschland GmbH,Transfers In,0.0
+2025-09,VMG Deutschland GmbH,Transfers Out,0.0
+2025-09,VMG Deutschland GmbH,Turnover R12 %,11.96
+2025-09,VMG Deutschland GmbH,Voluntary Turnover R12 %,6.44
+2025-09,VMG Deutschland GmbH,Early Leavers R12 %,23.08
+2025-09,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-09,VMG Deutschland GmbH,Pay Gap Mean %,19.81
+2025-09,VMG Deutschland GmbH,Pay Gap Median %,18.88
+2025-09,VMG Deutschland GmbH,Pay Gap Adjusted %,1.72
+2025-10,VMG Deutschland GmbH,Headcount,108.0
+2025-10,VMG Deutschland GmbH,FTE,104.9
+2025-10,VMG Deutschland GmbH,Hires,0.0
+2025-10,VMG Deutschland GmbH,Leavers,1.0
+2025-10,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2025-10,VMG Deutschland GmbH,Leavers Regretted,1.0
+2025-10,VMG Deutschland GmbH,Transfers In,0.0
+2025-10,VMG Deutschland GmbH,Transfers Out,0.0
+2025-10,VMG Deutschland GmbH,Turnover R12 %,11.06
+2025-10,VMG Deutschland GmbH,Voluntary Turnover R12 %,6.45
+2025-10,VMG Deutschland GmbH,Early Leavers R12 %,33.33
+2025-10,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-10,VMG Deutschland GmbH,Pay Gap Mean %,19.41
+2025-10,VMG Deutschland GmbH,Pay Gap Median %,18.8
+2025-10,VMG Deutschland GmbH,Pay Gap Adjusted %,1.41
+2025-11,VMG Deutschland GmbH,Headcount,109.0
+2025-11,VMG Deutschland GmbH,FTE,105.9
+2025-11,VMG Deutschland GmbH,Hires,1.0
+2025-11,VMG Deutschland GmbH,Leavers,0.0
+2025-11,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-11,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-11,VMG Deutschland GmbH,Transfers In,0.0
+2025-11,VMG Deutschland GmbH,Transfers Out,0.0
+2025-11,VMG Deutschland GmbH,Turnover R12 %,9.21
+2025-11,VMG Deutschland GmbH,Voluntary Turnover R12 %,5.53
+2025-11,VMG Deutschland GmbH,Early Leavers R12 %,30.0
+2025-11,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-11,VMG Deutschland GmbH,Pay Gap Mean %,19.01
+2025-11,VMG Deutschland GmbH,Pay Gap Median %,18.45
+2025-11,VMG Deutschland GmbH,Pay Gap Adjusted %,1.33
+2025-12,VMG Deutschland GmbH,Headcount,109.0
+2025-12,VMG Deutschland GmbH,FTE,105.9
+2025-12,VMG Deutschland GmbH,Hires,1.0
+2025-12,VMG Deutschland GmbH,Leavers,1.0
+2025-12,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2025-12,VMG Deutschland GmbH,Leavers Regretted,0.0
+2025-12,VMG Deutschland GmbH,Transfers In,0.0
+2025-12,VMG Deutschland GmbH,Transfers Out,0.0
+2025-12,VMG Deutschland GmbH,Turnover R12 %,8.27
+2025-12,VMG Deutschland GmbH,Voluntary Turnover R12 %,4.59
+2025-12,VMG Deutschland GmbH,Early Leavers R12 %,33.33
+2025-12,VMG Deutschland GmbH,Women in Leadership %,18.18
+2025-12,VMG Deutschland GmbH,Pay Gap Mean %,20.04
+2025-12,VMG Deutschland GmbH,Pay Gap Median %,18.88
+2025-12,VMG Deutschland GmbH,Pay Gap Adjusted %,1.4
+2026-01,VMG Deutschland GmbH,Headcount,109.0
+2026-01,VMG Deutschland GmbH,FTE,105.9
+2026-01,VMG Deutschland GmbH,Hires,1.0
+2026-01,VMG Deutschland GmbH,Leavers,1.0
+2026-01,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2026-01,VMG Deutschland GmbH,Leavers Regretted,0.0
+2026-01,VMG Deutschland GmbH,Transfers In,0.0
+2026-01,VMG Deutschland GmbH,Transfers Out,0.0
+2026-01,VMG Deutschland GmbH,Turnover R12 %,8.26
+2026-01,VMG Deutschland GmbH,Voluntary Turnover R12 %,4.59
+2026-01,VMG Deutschland GmbH,Early Leavers R12 %,22.22
+2026-01,VMG Deutschland GmbH,Women in Leadership %,18.18
+2026-01,VMG Deutschland GmbH,Pay Gap Mean %,18.86
+2026-01,VMG Deutschland GmbH,Pay Gap Median %,18.45
+2026-01,VMG Deutschland GmbH,Pay Gap Adjusted %,1.4
+2026-02,VMG Deutschland GmbH,Headcount,109.0
+2026-02,VMG Deutschland GmbH,FTE,105.7
+2026-02,VMG Deutschland GmbH,Hires,2.0
+2026-02,VMG Deutschland GmbH,Leavers,2.0
+2026-02,VMG Deutschland GmbH,Leavers Voluntary,2.0
+2026-02,VMG Deutschland GmbH,Leavers Regretted,0.0
+2026-02,VMG Deutschland GmbH,Transfers In,1.0
+2026-02,VMG Deutschland GmbH,Transfers Out,1.0
+2026-02,VMG Deutschland GmbH,Turnover R12 %,10.1
+2026-02,VMG Deutschland GmbH,Voluntary Turnover R12 %,6.43
+2026-02,VMG Deutschland GmbH,Early Leavers R12 %,27.27
+2026-02,VMG Deutschland GmbH,Women in Leadership %,18.18
+2026-02,VMG Deutschland GmbH,Pay Gap Mean %,20.46
+2026-02,VMG Deutschland GmbH,Pay Gap Median %,19.02
+2026-02,VMG Deutschland GmbH,Pay Gap Adjusted %,2.22
+2026-03,VMG Deutschland GmbH,Headcount,108.0
+2026-03,VMG Deutschland GmbH,FTE,104.7
+2026-03,VMG Deutschland GmbH,Hires,2.0
+2026-03,VMG Deutschland GmbH,Leavers,3.0
+2026-03,VMG Deutschland GmbH,Leavers Voluntary,3.0
+2026-03,VMG Deutschland GmbH,Leavers Regretted,1.0
+2026-03,VMG Deutschland GmbH,Transfers In,0.0
+2026-03,VMG Deutschland GmbH,Transfers Out,0.0
+2026-03,VMG Deutschland GmbH,Turnover R12 %,12.87
+2026-03,VMG Deutschland GmbH,Voluntary Turnover R12 %,9.2
+2026-03,VMG Deutschland GmbH,Early Leavers R12 %,21.43
+2026-03,VMG Deutschland GmbH,Women in Leadership %,18.18
+2026-03,VMG Deutschland GmbH,Pay Gap Mean %,19.8
+2026-03,VMG Deutschland GmbH,Pay Gap Median %,18.75
+2026-03,VMG Deutschland GmbH,Pay Gap Adjusted %,2.16
+2026-04,VMG Deutschland GmbH,Headcount,109.0
+2026-04,VMG Deutschland GmbH,FTE,105.7
+2026-04,VMG Deutschland GmbH,Hires,1.0
+2026-04,VMG Deutschland GmbH,Leavers,0.0
+2026-04,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2026-04,VMG Deutschland GmbH,Leavers Regretted,0.0
+2026-04,VMG Deutschland GmbH,Transfers In,0.0
+2026-04,VMG Deutschland GmbH,Transfers Out,0.0
+2026-04,VMG Deutschland GmbH,Turnover R12 %,11.96
+2026-04,VMG Deutschland GmbH,Voluntary Turnover R12 %,9.2
+2026-04,VMG Deutschland GmbH,Early Leavers R12 %,23.08
+2026-04,VMG Deutschland GmbH,Women in Leadership %,18.18
+2026-04,VMG Deutschland GmbH,Pay Gap Mean %,19.41
+2026-04,VMG Deutschland GmbH,Pay Gap Median %,17.75
+2026-04,VMG Deutschland GmbH,Pay Gap Adjusted %,1.84
+2026-05,VMG Deutschland GmbH,Headcount,110.0
+2026-05,VMG Deutschland GmbH,FTE,106.2
+2026-05,VMG Deutschland GmbH,Hires,2.0
+2026-05,VMG Deutschland GmbH,Leavers,1.0
+2026-05,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2026-05,VMG Deutschland GmbH,Leavers Regretted,0.0
+2026-05,VMG Deutschland GmbH,Transfers In,0.0
+2026-05,VMG Deutschland GmbH,Transfers Out,0.0
+2026-05,VMG Deutschland GmbH,Turnover R12 %,12.89
+2026-05,VMG Deutschland GmbH,Voluntary Turnover R12 %,9.21
+2026-05,VMG Deutschland GmbH,Early Leavers R12 %,21.43
+2026-05,VMG Deutschland GmbH,Women in Leadership %,27.27
+2026-05,VMG Deutschland GmbH,Pay Gap Mean %,16.28
+2026-05,VMG Deutschland GmbH,Pay Gap Median %,16.23
+2026-05,VMG Deutschland GmbH,Pay Gap Adjusted %,1.73
+2026-06,VMG Deutschland GmbH,Headcount,109.0
+2026-06,VMG Deutschland GmbH,FTE,105.2
+2026-06,VMG Deutschland GmbH,Hires,1.0
+2026-06,VMG Deutschland GmbH,Leavers,2.0
+2026-06,VMG Deutschland GmbH,Leavers Voluntary,2.0
+2026-06,VMG Deutschland GmbH,Leavers Regretted,1.0
+2026-06,VMG Deutschland GmbH,Transfers In,0.0
+2026-06,VMG Deutschland GmbH,Transfers Out,0.0
+2026-06,VMG Deutschland GmbH,Turnover R12 %,12.89
+2026-06,VMG Deutschland GmbH,Voluntary Turnover R12 %,10.13
+2026-06,VMG Deutschland GmbH,Early Leavers R12 %,28.57
+2026-06,VMG Deutschland GmbH,Women in Leadership %,27.27
+2026-06,VMG Deutschland GmbH,Pay Gap Mean %,17.59
+2026-06,VMG Deutschland GmbH,Pay Gap Median %,18.93
+2026-06,VMG Deutschland GmbH,Pay Gap Adjusted %,2.41
+2026-07,VMG Deutschland GmbH,Headcount,109.0
+2026-07,VMG Deutschland GmbH,FTE,105.2
+2026-07,VMG Deutschland GmbH,Hires,0.0
+2026-07,VMG Deutschland GmbH,Leavers,0.0
+2026-07,VMG Deutschland GmbH,Leavers Voluntary,0.0
+2026-07,VMG Deutschland GmbH,Leavers Regretted,0.0
+2026-07,VMG Deutschland GmbH,Transfers In,32.0
+2026-07,VMG Deutschland GmbH,Transfers Out,32.0
+2026-07,VMG Deutschland GmbH,Turnover R12 %,11.03
+2026-07,VMG Deutschland GmbH,Voluntary Turnover R12 %,8.28
+2026-07,VMG Deutschland GmbH,Early Leavers R12 %,33.33
+2026-07,VMG Deutschland GmbH,Women in Leadership %,27.27
+2026-07,VMG Deutschland GmbH,Pay Gap Mean %,17.59
+2026-07,VMG Deutschland GmbH,Pay Gap Median %,18.93
+2026-07,VMG Deutschland GmbH,Pay Gap Adjusted %,2.41
+2026-08,VMG Deutschland GmbH,Headcount,107.0
+2026-08,VMG Deutschland GmbH,FTE,103.2
+2026-08,VMG Deutschland GmbH,Hires,0.0
+2026-08,VMG Deutschland GmbH,Leavers,2.0
+2026-08,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2026-08,VMG Deutschland GmbH,Leavers Regretted,0.0
+2026-08,VMG Deutschland GmbH,Transfers In,0.0
+2026-08,VMG Deutschland GmbH,Transfers Out,0.0
+2026-08,VMG Deutschland GmbH,Turnover R12 %,11.95
+2026-08,VMG Deutschland GmbH,Voluntary Turnover R12 %,9.2
+2026-08,VMG Deutschland GmbH,Early Leavers R12 %,38.46
+2026-08,VMG Deutschland GmbH,Women in Leadership %,27.27
+2026-08,VMG Deutschland GmbH,Pay Gap Mean %,17.35
+2026-08,VMG Deutschland GmbH,Pay Gap Median %,18.93
+2026-08,VMG Deutschland GmbH,Pay Gap Adjusted %,2.38
+2026-09,VMG Deutschland GmbH,Headcount,106.0
+2026-09,VMG Deutschland GmbH,FTE,102.2
+2026-09,VMG Deutschland GmbH,Hires,0.0
+2026-09,VMG Deutschland GmbH,Leavers,1.0
+2026-09,VMG Deutschland GmbH,Leavers Voluntary,1.0
+2026-09,VMG Deutschland GmbH,Leavers Regretted,1.0
+2026-09,VMG Deutschland GmbH,Transfers In,0.0
+2026-09,VMG Deutschland GmbH,Transfers Out,0.0
+2026-09,VMG Deutschland GmbH,Turnover R12 %,12.9
+2026-09,VMG Deutschland GmbH,Voluntary Turnover R12 %,10.14
+2026-09,VMG Deutschland GmbH,Early Leavers R12 %,42.86
+2026-09,VMG Deutschland GmbH,Women in Leadership %,27.27
+2026-09,VMG Deutschland GmbH,Pay Gap Mean %,17.84
+2026-09,VMG Deutschland GmbH,Pay Gap Median %,18.93
+2026-09,VMG Deutschland GmbH,Pay Gap Adjusted %,2.5
+2024-09,VMG Luxembourg S.A.,Headcount,26.0
+2024-09,VMG Luxembourg S.A.,FTE,25.8
+2024-09,VMG Luxembourg S.A.,Hires,0.0
+2024-09,VMG Luxembourg S.A.,Leavers,0.0
+2024-09,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2024-09,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2024-09,VMG Luxembourg S.A.,Transfers In,0.0
+2024-09,VMG Luxembourg S.A.,Transfers Out,0.0
+2024-09,VMG Luxembourg S.A.,Turnover R12 %,
+2024-09,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2024-09,VMG Luxembourg S.A.,Early Leavers R12 %,
+2024-09,VMG Luxembourg S.A.,Women in Leadership %,
+2024-09,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2024-09,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2024-09,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2024-10,VMG Luxembourg S.A.,Headcount,26.0
+2024-10,VMG Luxembourg S.A.,FTE,25.8
+2024-10,VMG Luxembourg S.A.,Hires,0.0
+2024-10,VMG Luxembourg S.A.,Leavers,0.0
+2024-10,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2024-10,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2024-10,VMG Luxembourg S.A.,Transfers In,0.0
+2024-10,VMG Luxembourg S.A.,Transfers Out,0.0
+2024-10,VMG Luxembourg S.A.,Turnover R12 %,
+2024-10,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2024-10,VMG Luxembourg S.A.,Early Leavers R12 %,
+2024-10,VMG Luxembourg S.A.,Women in Leadership %,
+2024-10,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2024-10,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2024-10,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2024-11,VMG Luxembourg S.A.,Headcount,26.0
+2024-11,VMG Luxembourg S.A.,FTE,25.8
+2024-11,VMG Luxembourg S.A.,Hires,0.0
+2024-11,VMG Luxembourg S.A.,Leavers,0.0
+2024-11,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2024-11,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2024-11,VMG Luxembourg S.A.,Transfers In,0.0
+2024-11,VMG Luxembourg S.A.,Transfers Out,0.0
+2024-11,VMG Luxembourg S.A.,Turnover R12 %,
+2024-11,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2024-11,VMG Luxembourg S.A.,Early Leavers R12 %,
+2024-11,VMG Luxembourg S.A.,Women in Leadership %,
+2024-11,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2024-11,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2024-11,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2024-12,VMG Luxembourg S.A.,Headcount,26.0
+2024-12,VMG Luxembourg S.A.,FTE,25.8
+2024-12,VMG Luxembourg S.A.,Hires,0.0
+2024-12,VMG Luxembourg S.A.,Leavers,0.0
+2024-12,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2024-12,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2024-12,VMG Luxembourg S.A.,Transfers In,0.0
+2024-12,VMG Luxembourg S.A.,Transfers Out,0.0
+2024-12,VMG Luxembourg S.A.,Turnover R12 %,
+2024-12,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2024-12,VMG Luxembourg S.A.,Early Leavers R12 %,
+2024-12,VMG Luxembourg S.A.,Women in Leadership %,
+2024-12,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2024-12,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2024-12,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-01,VMG Luxembourg S.A.,Headcount,26.0
+2025-01,VMG Luxembourg S.A.,FTE,25.8
+2025-01,VMG Luxembourg S.A.,Hires,0.0
+2025-01,VMG Luxembourg S.A.,Leavers,0.0
+2025-01,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-01,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-01,VMG Luxembourg S.A.,Transfers In,0.0
+2025-01,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-01,VMG Luxembourg S.A.,Turnover R12 %,
+2025-01,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-01,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-01,VMG Luxembourg S.A.,Women in Leadership %,
+2025-01,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2025-01,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2025-01,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-02,VMG Luxembourg S.A.,Headcount,26.0
+2025-02,VMG Luxembourg S.A.,FTE,25.8
+2025-02,VMG Luxembourg S.A.,Hires,0.0
+2025-02,VMG Luxembourg S.A.,Leavers,0.0
+2025-02,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-02,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-02,VMG Luxembourg S.A.,Transfers In,0.0
+2025-02,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-02,VMG Luxembourg S.A.,Turnover R12 %,
+2025-02,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-02,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-02,VMG Luxembourg S.A.,Women in Leadership %,
+2025-02,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2025-02,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2025-02,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-03,VMG Luxembourg S.A.,Headcount,26.0
+2025-03,VMG Luxembourg S.A.,FTE,25.8
+2025-03,VMG Luxembourg S.A.,Hires,0.0
+2025-03,VMG Luxembourg S.A.,Leavers,0.0
+2025-03,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-03,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-03,VMG Luxembourg S.A.,Transfers In,0.0
+2025-03,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-03,VMG Luxembourg S.A.,Turnover R12 %,
+2025-03,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-03,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-03,VMG Luxembourg S.A.,Women in Leadership %,
+2025-03,VMG Luxembourg S.A.,Pay Gap Mean %,37.68
+2025-03,VMG Luxembourg S.A.,Pay Gap Median %,34.6
+2025-03,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-04,VMG Luxembourg S.A.,Headcount,26.0
+2025-04,VMG Luxembourg S.A.,FTE,25.8
+2025-04,VMG Luxembourg S.A.,Hires,0.0
+2025-04,VMG Luxembourg S.A.,Leavers,0.0
+2025-04,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-04,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-04,VMG Luxembourg S.A.,Transfers In,0.0
+2025-04,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-04,VMG Luxembourg S.A.,Turnover R12 %,
+2025-04,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-04,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-04,VMG Luxembourg S.A.,Women in Leadership %,
+2025-04,VMG Luxembourg S.A.,Pay Gap Mean %,37.49
+2025-04,VMG Luxembourg S.A.,Pay Gap Median %,34.69
+2025-04,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-05,VMG Luxembourg S.A.,Headcount,26.0
+2025-05,VMG Luxembourg S.A.,FTE,25.8
+2025-05,VMG Luxembourg S.A.,Hires,0.0
+2025-05,VMG Luxembourg S.A.,Leavers,0.0
+2025-05,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-05,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-05,VMG Luxembourg S.A.,Transfers In,0.0
+2025-05,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-05,VMG Luxembourg S.A.,Turnover R12 %,
+2025-05,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-05,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-05,VMG Luxembourg S.A.,Women in Leadership %,
+2025-05,VMG Luxembourg S.A.,Pay Gap Mean %,37.49
+2025-05,VMG Luxembourg S.A.,Pay Gap Median %,34.69
+2025-05,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-06,VMG Luxembourg S.A.,Headcount,25.0
+2025-06,VMG Luxembourg S.A.,FTE,24.8
+2025-06,VMG Luxembourg S.A.,Hires,0.0
+2025-06,VMG Luxembourg S.A.,Leavers,1.0
+2025-06,VMG Luxembourg S.A.,Leavers Voluntary,1.0
+2025-06,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-06,VMG Luxembourg S.A.,Transfers In,0.0
+2025-06,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-06,VMG Luxembourg S.A.,Turnover R12 %,
+2025-06,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-06,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-06,VMG Luxembourg S.A.,Women in Leadership %,
+2025-06,VMG Luxembourg S.A.,Pay Gap Mean %,36.86
+2025-06,VMG Luxembourg S.A.,Pay Gap Median %,33.74
+2025-06,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-07,VMG Luxembourg S.A.,Headcount,26.0
+2025-07,VMG Luxembourg S.A.,FTE,25.8
+2025-07,VMG Luxembourg S.A.,Hires,1.0
+2025-07,VMG Luxembourg S.A.,Leavers,0.0
+2025-07,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-07,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-07,VMG Luxembourg S.A.,Transfers In,0.0
+2025-07,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-07,VMG Luxembourg S.A.,Turnover R12 %,
+2025-07,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-07,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-07,VMG Luxembourg S.A.,Women in Leadership %,
+2025-07,VMG Luxembourg S.A.,Pay Gap Mean %,35.7
+2025-07,VMG Luxembourg S.A.,Pay Gap Median %,31.47
+2025-07,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-08,VMG Luxembourg S.A.,Headcount,26.0
+2025-08,VMG Luxembourg S.A.,FTE,25.8
+2025-08,VMG Luxembourg S.A.,Hires,0.0
+2025-08,VMG Luxembourg S.A.,Leavers,0.0
+2025-08,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-08,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-08,VMG Luxembourg S.A.,Transfers In,0.0
+2025-08,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-08,VMG Luxembourg S.A.,Turnover R12 %,
+2025-08,VMG Luxembourg S.A.,Voluntary Turnover R12 %,
+2025-08,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-08,VMG Luxembourg S.A.,Women in Leadership %,
+2025-08,VMG Luxembourg S.A.,Pay Gap Mean %,35.7
+2025-08,VMG Luxembourg S.A.,Pay Gap Median %,31.47
+2025-08,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-09,VMG Luxembourg S.A.,Headcount,26.0
+2025-09,VMG Luxembourg S.A.,FTE,25.8
+2025-09,VMG Luxembourg S.A.,Hires,0.0
+2025-09,VMG Luxembourg S.A.,Leavers,0.0
+2025-09,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-09,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-09,VMG Luxembourg S.A.,Transfers In,0.0
+2025-09,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-09,VMG Luxembourg S.A.,Turnover R12 %,3.86
+2025-09,VMG Luxembourg S.A.,Voluntary Turnover R12 %,3.86
+2025-09,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-09,VMG Luxembourg S.A.,Women in Leadership %,
+2025-09,VMG Luxembourg S.A.,Pay Gap Mean %,35.7
+2025-09,VMG Luxembourg S.A.,Pay Gap Median %,31.47
+2025-09,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-10,VMG Luxembourg S.A.,Headcount,25.0
+2025-10,VMG Luxembourg S.A.,FTE,24.8
+2025-10,VMG Luxembourg S.A.,Hires,0.0
+2025-10,VMG Luxembourg S.A.,Leavers,1.0
+2025-10,VMG Luxembourg S.A.,Leavers Voluntary,1.0
+2025-10,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-10,VMG Luxembourg S.A.,Transfers In,0.0
+2025-10,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-10,VMG Luxembourg S.A.,Turnover R12 %,7.74
+2025-10,VMG Luxembourg S.A.,Voluntary Turnover R12 %,7.74
+2025-10,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-10,VMG Luxembourg S.A.,Women in Leadership %,
+2025-10,VMG Luxembourg S.A.,Pay Gap Mean %,36.32
+2025-10,VMG Luxembourg S.A.,Pay Gap Median %,32.46
+2025-10,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-11,VMG Luxembourg S.A.,Headcount,26.0
+2025-11,VMG Luxembourg S.A.,FTE,25.8
+2025-11,VMG Luxembourg S.A.,Hires,1.0
+2025-11,VMG Luxembourg S.A.,Leavers,0.0
+2025-11,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-11,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-11,VMG Luxembourg S.A.,Transfers In,0.0
+2025-11,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-11,VMG Luxembourg S.A.,Turnover R12 %,7.74
+2025-11,VMG Luxembourg S.A.,Voluntary Turnover R12 %,7.74
+2025-11,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-11,VMG Luxembourg S.A.,Women in Leadership %,
+2025-11,VMG Luxembourg S.A.,Pay Gap Mean %,35.76
+2025-11,VMG Luxembourg S.A.,Pay Gap Median %,31.47
+2025-11,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2025-12,VMG Luxembourg S.A.,Headcount,27.0
+2025-12,VMG Luxembourg S.A.,FTE,26.8
+2025-12,VMG Luxembourg S.A.,Hires,1.0
+2025-12,VMG Luxembourg S.A.,Leavers,0.0
+2025-12,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2025-12,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2025-12,VMG Luxembourg S.A.,Transfers In,0.0
+2025-12,VMG Luxembourg S.A.,Transfers Out,0.0
+2025-12,VMG Luxembourg S.A.,Turnover R12 %,7.72
+2025-12,VMG Luxembourg S.A.,Voluntary Turnover R12 %,7.72
+2025-12,VMG Luxembourg S.A.,Early Leavers R12 %,
+2025-12,VMG Luxembourg S.A.,Women in Leadership %,
+2025-12,VMG Luxembourg S.A.,Pay Gap Mean %,35.74
+2025-12,VMG Luxembourg S.A.,Pay Gap Median %,30.49
+2025-12,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-01,VMG Luxembourg S.A.,Headcount,27.0
+2026-01,VMG Luxembourg S.A.,FTE,26.8
+2026-01,VMG Luxembourg S.A.,Hires,0.0
+2026-01,VMG Luxembourg S.A.,Leavers,0.0
+2026-01,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-01,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-01,VMG Luxembourg S.A.,Transfers In,0.0
+2026-01,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-01,VMG Luxembourg S.A.,Turnover R12 %,7.69
+2026-01,VMG Luxembourg S.A.,Voluntary Turnover R12 %,7.69
+2026-01,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-01,VMG Luxembourg S.A.,Women in Leadership %,
+2026-01,VMG Luxembourg S.A.,Pay Gap Mean %,35.74
+2026-01,VMG Luxembourg S.A.,Pay Gap Median %,30.49
+2026-01,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-02,VMG Luxembourg S.A.,Headcount,28.0
+2026-02,VMG Luxembourg S.A.,FTE,27.8
+2026-02,VMG Luxembourg S.A.,Hires,1.0
+2026-02,VMG Luxembourg S.A.,Leavers,0.0
+2026-02,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-02,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-02,VMG Luxembourg S.A.,Transfers In,0.0
+2026-02,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-02,VMG Luxembourg S.A.,Turnover R12 %,7.64
+2026-02,VMG Luxembourg S.A.,Voluntary Turnover R12 %,7.64
+2026-02,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-02,VMG Luxembourg S.A.,Women in Leadership %,
+2026-02,VMG Luxembourg S.A.,Pay Gap Mean %,35.89
+2026-02,VMG Luxembourg S.A.,Pay Gap Median %,32.78
+2026-02,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-03,VMG Luxembourg S.A.,Headcount,27.0
+2026-03,VMG Luxembourg S.A.,FTE,26.8
+2026-03,VMG Luxembourg S.A.,Hires,0.0
+2026-03,VMG Luxembourg S.A.,Leavers,1.0
+2026-03,VMG Luxembourg S.A.,Leavers Voluntary,1.0
+2026-03,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-03,VMG Luxembourg S.A.,Transfers In,0.0
+2026-03,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-03,VMG Luxembourg S.A.,Turnover R12 %,11.43
+2026-03,VMG Luxembourg S.A.,Voluntary Turnover R12 %,11.43
+2026-03,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-03,VMG Luxembourg S.A.,Women in Leadership %,
+2026-03,VMG Luxembourg S.A.,Pay Gap Mean %,37.08
+2026-03,VMG Luxembourg S.A.,Pay Gap Median %,34.73
+2026-03,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-04,VMG Luxembourg S.A.,Headcount,26.0
+2026-04,VMG Luxembourg S.A.,FTE,25.8
+2026-04,VMG Luxembourg S.A.,Hires,0.0
+2026-04,VMG Luxembourg S.A.,Leavers,1.0
+2026-04,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-04,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-04,VMG Luxembourg S.A.,Transfers In,0.0
+2026-04,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-04,VMG Luxembourg S.A.,Turnover R12 %,15.24
+2026-04,VMG Luxembourg S.A.,Voluntary Turnover R12 %,11.43
+2026-04,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-04,VMG Luxembourg S.A.,Women in Leadership %,
+2026-04,VMG Luxembourg S.A.,Pay Gap Mean %,37.44
+2026-04,VMG Luxembourg S.A.,Pay Gap Median %,33.21
+2026-04,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-05,VMG Luxembourg S.A.,Headcount,26.0
+2026-05,VMG Luxembourg S.A.,FTE,25.8
+2026-05,VMG Luxembourg S.A.,Hires,0.0
+2026-05,VMG Luxembourg S.A.,Leavers,0.0
+2026-05,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-05,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-05,VMG Luxembourg S.A.,Transfers In,0.0
+2026-05,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-05,VMG Luxembourg S.A.,Turnover R12 %,15.24
+2026-05,VMG Luxembourg S.A.,Voluntary Turnover R12 %,11.43
+2026-05,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-05,VMG Luxembourg S.A.,Women in Leadership %,
+2026-05,VMG Luxembourg S.A.,Pay Gap Mean %,37.01
+2026-05,VMG Luxembourg S.A.,Pay Gap Median %,33.21
+2026-05,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-06,VMG Luxembourg S.A.,Headcount,27.0
+2026-06,VMG Luxembourg S.A.,FTE,26.8
+2026-06,VMG Luxembourg S.A.,Hires,1.0
+2026-06,VMG Luxembourg S.A.,Leavers,0.0
+2026-06,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-06,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-06,VMG Luxembourg S.A.,Transfers In,0.0
+2026-06,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-06,VMG Luxembourg S.A.,Turnover R12 %,11.36
+2026-06,VMG Luxembourg S.A.,Voluntary Turnover R12 %,7.57
+2026-06,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-06,VMG Luxembourg S.A.,Women in Leadership %,
+2026-06,VMG Luxembourg S.A.,Pay Gap Mean %,37.15
+2026-06,VMG Luxembourg S.A.,Pay Gap Median %,33.89
+2026-06,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-07,VMG Luxembourg S.A.,Headcount,26.0
+2026-07,VMG Luxembourg S.A.,FTE,25.8
+2026-07,VMG Luxembourg S.A.,Hires,0.0
+2026-07,VMG Luxembourg S.A.,Leavers,1.0
+2026-07,VMG Luxembourg S.A.,Leavers Voluntary,1.0
+2026-07,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-07,VMG Luxembourg S.A.,Transfers In,0.0
+2026-07,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-07,VMG Luxembourg S.A.,Turnover R12 %,15.14
+2026-07,VMG Luxembourg S.A.,Voluntary Turnover R12 %,11.36
+2026-07,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-07,VMG Luxembourg S.A.,Women in Leadership %,
+2026-07,VMG Luxembourg S.A.,Pay Gap Mean %,37.59
+2026-07,VMG Luxembourg S.A.,Pay Gap Median %,34.57
+2026-07,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-08,VMG Luxembourg S.A.,Headcount,26.0
+2026-08,VMG Luxembourg S.A.,FTE,25.8
+2026-08,VMG Luxembourg S.A.,Hires,0.0
+2026-08,VMG Luxembourg S.A.,Leavers,0.0
+2026-08,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-08,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-08,VMG Luxembourg S.A.,Transfers In,0.0
+2026-08,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-08,VMG Luxembourg S.A.,Turnover R12 %,15.14
+2026-08,VMG Luxembourg S.A.,Voluntary Turnover R12 %,11.36
+2026-08,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-08,VMG Luxembourg S.A.,Women in Leadership %,
+2026-08,VMG Luxembourg S.A.,Pay Gap Mean %,37.59
+2026-08,VMG Luxembourg S.A.,Pay Gap Median %,34.57
+2026-08,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2026-09,VMG Luxembourg S.A.,Headcount,26.0
+2026-09,VMG Luxembourg S.A.,FTE,25.8
+2026-09,VMG Luxembourg S.A.,Hires,0.0
+2026-09,VMG Luxembourg S.A.,Leavers,0.0
+2026-09,VMG Luxembourg S.A.,Leavers Voluntary,0.0
+2026-09,VMG Luxembourg S.A.,Leavers Regretted,0.0
+2026-09,VMG Luxembourg S.A.,Transfers In,0.0
+2026-09,VMG Luxembourg S.A.,Transfers Out,0.0
+2026-09,VMG Luxembourg S.A.,Turnover R12 %,15.14
+2026-09,VMG Luxembourg S.A.,Voluntary Turnover R12 %,11.36
+2026-09,VMG Luxembourg S.A.,Early Leavers R12 %,
+2026-09,VMG Luxembourg S.A.,Women in Leadership %,
+2026-09,VMG Luxembourg S.A.,Pay Gap Mean %,37.59
+2026-09,VMG Luxembourg S.A.,Pay Gap Median %,34.57
+2026-09,VMG Luxembourg S.A.,Pay Gap Adjusted %,
+2024-09,VMG UK Ltd,Headcount,10.0
+2024-09,VMG UK Ltd,FTE,9.5
+2024-09,VMG UK Ltd,Hires,0.0
+2024-09,VMG UK Ltd,Leavers,0.0
+2024-09,VMG UK Ltd,Leavers Voluntary,0.0
+2024-09,VMG UK Ltd,Leavers Regretted,0.0
+2024-09,VMG UK Ltd,Transfers In,0.0
+2024-09,VMG UK Ltd,Transfers Out,0.0
+2024-09,VMG UK Ltd,Turnover R12 %,
+2024-09,VMG UK Ltd,Voluntary Turnover R12 %,
+2024-09,VMG UK Ltd,Early Leavers R12 %,
+2024-09,VMG UK Ltd,Women in Leadership %,
+2024-09,VMG UK Ltd,Pay Gap Mean %,17.62
+2024-09,VMG UK Ltd,Pay Gap Median %,22.22
+2024-09,VMG UK Ltd,Pay Gap Adjusted %,
+2024-10,VMG UK Ltd,Headcount,10.0
+2024-10,VMG UK Ltd,FTE,9.5
+2024-10,VMG UK Ltd,Hires,0.0
+2024-10,VMG UK Ltd,Leavers,0.0
+2024-10,VMG UK Ltd,Leavers Voluntary,0.0
+2024-10,VMG UK Ltd,Leavers Regretted,0.0
+2024-10,VMG UK Ltd,Transfers In,0.0
+2024-10,VMG UK Ltd,Transfers Out,0.0
+2024-10,VMG UK Ltd,Turnover R12 %,
+2024-10,VMG UK Ltd,Voluntary Turnover R12 %,
+2024-10,VMG UK Ltd,Early Leavers R12 %,
+2024-10,VMG UK Ltd,Women in Leadership %,
+2024-10,VMG UK Ltd,Pay Gap Mean %,17.62
+2024-10,VMG UK Ltd,Pay Gap Median %,22.22
+2024-10,VMG UK Ltd,Pay Gap Adjusted %,
+2024-11,VMG UK Ltd,Headcount,10.0
+2024-11,VMG UK Ltd,FTE,9.5
+2024-11,VMG UK Ltd,Hires,0.0
+2024-11,VMG UK Ltd,Leavers,0.0
+2024-11,VMG UK Ltd,Leavers Voluntary,0.0
+2024-11,VMG UK Ltd,Leavers Regretted,0.0
+2024-11,VMG UK Ltd,Transfers In,1.0
+2024-11,VMG UK Ltd,Transfers Out,1.0
+2024-11,VMG UK Ltd,Turnover R12 %,
+2024-11,VMG UK Ltd,Voluntary Turnover R12 %,
+2024-11,VMG UK Ltd,Early Leavers R12 %,
+2024-11,VMG UK Ltd,Women in Leadership %,
+2024-11,VMG UK Ltd,Pay Gap Mean %,17.62
+2024-11,VMG UK Ltd,Pay Gap Median %,22.22
+2024-11,VMG UK Ltd,Pay Gap Adjusted %,
+2024-12,VMG UK Ltd,Headcount,9.0
+2024-12,VMG UK Ltd,FTE,8.5
+2024-12,VMG UK Ltd,Hires,0.0
+2024-12,VMG UK Ltd,Leavers,1.0
+2024-12,VMG UK Ltd,Leavers Voluntary,1.0
+2024-12,VMG UK Ltd,Leavers Regretted,0.0
+2024-12,VMG UK Ltd,Transfers In,0.0
+2024-12,VMG UK Ltd,Transfers Out,0.0
+2024-12,VMG UK Ltd,Turnover R12 %,
+2024-12,VMG UK Ltd,Voluntary Turnover R12 %,
+2024-12,VMG UK Ltd,Early Leavers R12 %,
+2024-12,VMG UK Ltd,Women in Leadership %,
+2024-12,VMG UK Ltd,Pay Gap Mean %,
+2024-12,VMG UK Ltd,Pay Gap Median %,
+2024-12,VMG UK Ltd,Pay Gap Adjusted %,
+2025-01,VMG UK Ltd,Headcount,9.0
+2025-01,VMG UK Ltd,FTE,8.5
+2025-01,VMG UK Ltd,Hires,0.0
+2025-01,VMG UK Ltd,Leavers,0.0
+2025-01,VMG UK Ltd,Leavers Voluntary,0.0
+2025-01,VMG UK Ltd,Leavers Regretted,0.0
+2025-01,VMG UK Ltd,Transfers In,0.0
+2025-01,VMG UK Ltd,Transfers Out,0.0
+2025-01,VMG UK Ltd,Turnover R12 %,
+2025-01,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-01,VMG UK Ltd,Early Leavers R12 %,
+2025-01,VMG UK Ltd,Women in Leadership %,
+2025-01,VMG UK Ltd,Pay Gap Mean %,
+2025-01,VMG UK Ltd,Pay Gap Median %,
+2025-01,VMG UK Ltd,Pay Gap Adjusted %,
+2025-02,VMG UK Ltd,Headcount,9.0
+2025-02,VMG UK Ltd,FTE,8.5
+2025-02,VMG UK Ltd,Hires,0.0
+2025-02,VMG UK Ltd,Leavers,0.0
+2025-02,VMG UK Ltd,Leavers Voluntary,0.0
+2025-02,VMG UK Ltd,Leavers Regretted,0.0
+2025-02,VMG UK Ltd,Transfers In,0.0
+2025-02,VMG UK Ltd,Transfers Out,0.0
+2025-02,VMG UK Ltd,Turnover R12 %,
+2025-02,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-02,VMG UK Ltd,Early Leavers R12 %,
+2025-02,VMG UK Ltd,Women in Leadership %,
+2025-02,VMG UK Ltd,Pay Gap Mean %,
+2025-02,VMG UK Ltd,Pay Gap Median %,
+2025-02,VMG UK Ltd,Pay Gap Adjusted %,
+2025-03,VMG UK Ltd,Headcount,9.0
+2025-03,VMG UK Ltd,FTE,8.5
+2025-03,VMG UK Ltd,Hires,0.0
+2025-03,VMG UK Ltd,Leavers,0.0
+2025-03,VMG UK Ltd,Leavers Voluntary,0.0
+2025-03,VMG UK Ltd,Leavers Regretted,0.0
+2025-03,VMG UK Ltd,Transfers In,0.0
+2025-03,VMG UK Ltd,Transfers Out,0.0
+2025-03,VMG UK Ltd,Turnover R12 %,
+2025-03,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-03,VMG UK Ltd,Early Leavers R12 %,
+2025-03,VMG UK Ltd,Women in Leadership %,
+2025-03,VMG UK Ltd,Pay Gap Mean %,
+2025-03,VMG UK Ltd,Pay Gap Median %,
+2025-03,VMG UK Ltd,Pay Gap Adjusted %,
+2025-04,VMG UK Ltd,Headcount,9.0
+2025-04,VMG UK Ltd,FTE,8.5
+2025-04,VMG UK Ltd,Hires,0.0
+2025-04,VMG UK Ltd,Leavers,0.0
+2025-04,VMG UK Ltd,Leavers Voluntary,0.0
+2025-04,VMG UK Ltd,Leavers Regretted,0.0
+2025-04,VMG UK Ltd,Transfers In,0.0
+2025-04,VMG UK Ltd,Transfers Out,0.0
+2025-04,VMG UK Ltd,Turnover R12 %,
+2025-04,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-04,VMG UK Ltd,Early Leavers R12 %,
+2025-04,VMG UK Ltd,Women in Leadership %,
+2025-04,VMG UK Ltd,Pay Gap Mean %,
+2025-04,VMG UK Ltd,Pay Gap Median %,
+2025-04,VMG UK Ltd,Pay Gap Adjusted %,
+2025-05,VMG UK Ltd,Headcount,9.0
+2025-05,VMG UK Ltd,FTE,8.5
+2025-05,VMG UK Ltd,Hires,0.0
+2025-05,VMG UK Ltd,Leavers,0.0
+2025-05,VMG UK Ltd,Leavers Voluntary,0.0
+2025-05,VMG UK Ltd,Leavers Regretted,0.0
+2025-05,VMG UK Ltd,Transfers In,0.0
+2025-05,VMG UK Ltd,Transfers Out,0.0
+2025-05,VMG UK Ltd,Turnover R12 %,
+2025-05,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-05,VMG UK Ltd,Early Leavers R12 %,
+2025-05,VMG UK Ltd,Women in Leadership %,
+2025-05,VMG UK Ltd,Pay Gap Mean %,
+2025-05,VMG UK Ltd,Pay Gap Median %,
+2025-05,VMG UK Ltd,Pay Gap Adjusted %,
+2025-06,VMG UK Ltd,Headcount,9.0
+2025-06,VMG UK Ltd,FTE,8.5
+2025-06,VMG UK Ltd,Hires,0.0
+2025-06,VMG UK Ltd,Leavers,0.0
+2025-06,VMG UK Ltd,Leavers Voluntary,0.0
+2025-06,VMG UK Ltd,Leavers Regretted,0.0
+2025-06,VMG UK Ltd,Transfers In,0.0
+2025-06,VMG UK Ltd,Transfers Out,0.0
+2025-06,VMG UK Ltd,Turnover R12 %,
+2025-06,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-06,VMG UK Ltd,Early Leavers R12 %,
+2025-06,VMG UK Ltd,Women in Leadership %,
+2025-06,VMG UK Ltd,Pay Gap Mean %,
+2025-06,VMG UK Ltd,Pay Gap Median %,
+2025-06,VMG UK Ltd,Pay Gap Adjusted %,
+2025-07,VMG UK Ltd,Headcount,9.0
+2025-07,VMG UK Ltd,FTE,8.5
+2025-07,VMG UK Ltd,Hires,0.0
+2025-07,VMG UK Ltd,Leavers,0.0
+2025-07,VMG UK Ltd,Leavers Voluntary,0.0
+2025-07,VMG UK Ltd,Leavers Regretted,0.0
+2025-07,VMG UK Ltd,Transfers In,0.0
+2025-07,VMG UK Ltd,Transfers Out,0.0
+2025-07,VMG UK Ltd,Turnover R12 %,
+2025-07,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-07,VMG UK Ltd,Early Leavers R12 %,
+2025-07,VMG UK Ltd,Women in Leadership %,
+2025-07,VMG UK Ltd,Pay Gap Mean %,
+2025-07,VMG UK Ltd,Pay Gap Median %,
+2025-07,VMG UK Ltd,Pay Gap Adjusted %,
+2025-08,VMG UK Ltd,Headcount,9.0
+2025-08,VMG UK Ltd,FTE,8.5
+2025-08,VMG UK Ltd,Hires,0.0
+2025-08,VMG UK Ltd,Leavers,0.0
+2025-08,VMG UK Ltd,Leavers Voluntary,0.0
+2025-08,VMG UK Ltd,Leavers Regretted,0.0
+2025-08,VMG UK Ltd,Transfers In,0.0
+2025-08,VMG UK Ltd,Transfers Out,0.0
+2025-08,VMG UK Ltd,Turnover R12 %,
+2025-08,VMG UK Ltd,Voluntary Turnover R12 %,
+2025-08,VMG UK Ltd,Early Leavers R12 %,
+2025-08,VMG UK Ltd,Women in Leadership %,
+2025-08,VMG UK Ltd,Pay Gap Mean %,
+2025-08,VMG UK Ltd,Pay Gap Median %,
+2025-08,VMG UK Ltd,Pay Gap Adjusted %,
+2025-09,VMG UK Ltd,Headcount,9.0
+2025-09,VMG UK Ltd,FTE,8.5
+2025-09,VMG UK Ltd,Hires,0.0
+2025-09,VMG UK Ltd,Leavers,0.0
+2025-09,VMG UK Ltd,Leavers Voluntary,0.0
+2025-09,VMG UK Ltd,Leavers Regretted,0.0
+2025-09,VMG UK Ltd,Transfers In,0.0
+2025-09,VMG UK Ltd,Transfers Out,0.0
+2025-09,VMG UK Ltd,Turnover R12 %,10.91
+2025-09,VMG UK Ltd,Voluntary Turnover R12 %,10.91
+2025-09,VMG UK Ltd,Early Leavers R12 %,
+2025-09,VMG UK Ltd,Women in Leadership %,
+2025-09,VMG UK Ltd,Pay Gap Mean %,
+2025-09,VMG UK Ltd,Pay Gap Median %,
+2025-09,VMG UK Ltd,Pay Gap Adjusted %,
+2025-10,VMG UK Ltd,Headcount,9.0
+2025-10,VMG UK Ltd,FTE,8.5
+2025-10,VMG UK Ltd,Hires,0.0
+2025-10,VMG UK Ltd,Leavers,0.0
+2025-10,VMG UK Ltd,Leavers Voluntary,0.0
+2025-10,VMG UK Ltd,Leavers Regretted,0.0
+2025-10,VMG UK Ltd,Transfers In,0.0
+2025-10,VMG UK Ltd,Transfers Out,0.0
+2025-10,VMG UK Ltd,Turnover R12 %,11.01
+2025-10,VMG UK Ltd,Voluntary Turnover R12 %,11.01
+2025-10,VMG UK Ltd,Early Leavers R12 %,
+2025-10,VMG UK Ltd,Women in Leadership %,
+2025-10,VMG UK Ltd,Pay Gap Mean %,
+2025-10,VMG UK Ltd,Pay Gap Median %,
+2025-10,VMG UK Ltd,Pay Gap Adjusted %,
+2025-11,VMG UK Ltd,Headcount,9.0
+2025-11,VMG UK Ltd,FTE,8.5
+2025-11,VMG UK Ltd,Hires,0.0
+2025-11,VMG UK Ltd,Leavers,0.0
+2025-11,VMG UK Ltd,Leavers Voluntary,0.0
+2025-11,VMG UK Ltd,Leavers Regretted,0.0
+2025-11,VMG UK Ltd,Transfers In,0.0
+2025-11,VMG UK Ltd,Transfers Out,0.0
+2025-11,VMG UK Ltd,Turnover R12 %,11.11
+2025-11,VMG UK Ltd,Voluntary Turnover R12 %,11.11
+2025-11,VMG UK Ltd,Early Leavers R12 %,
+2025-11,VMG UK Ltd,Women in Leadership %,
+2025-11,VMG UK Ltd,Pay Gap Mean %,
+2025-11,VMG UK Ltd,Pay Gap Median %,
+2025-11,VMG UK Ltd,Pay Gap Adjusted %,
+2025-12,VMG UK Ltd,Headcount,8.0
+2025-12,VMG UK Ltd,FTE,7.5
+2025-12,VMG UK Ltd,Hires,0.0
+2025-12,VMG UK Ltd,Leavers,1.0
+2025-12,VMG UK Ltd,Leavers Voluntary,1.0
+2025-12,VMG UK Ltd,Leavers Regretted,0.0
+2025-12,VMG UK Ltd,Transfers In,0.0
+2025-12,VMG UK Ltd,Transfers Out,0.0
+2025-12,VMG UK Ltd,Turnover R12 %,11.21
+2025-12,VMG UK Ltd,Voluntary Turnover R12 %,11.21
+2025-12,VMG UK Ltd,Early Leavers R12 %,
+2025-12,VMG UK Ltd,Women in Leadership %,
+2025-12,VMG UK Ltd,Pay Gap Mean %,
+2025-12,VMG UK Ltd,Pay Gap Median %,
+2025-12,VMG UK Ltd,Pay Gap Adjusted %,
+2026-01,VMG UK Ltd,Headcount,8.0
+2026-01,VMG UK Ltd,FTE,7.5
+2026-01,VMG UK Ltd,Hires,0.0
+2026-01,VMG UK Ltd,Leavers,0.0
+2026-01,VMG UK Ltd,Leavers Voluntary,0.0
+2026-01,VMG UK Ltd,Leavers Regretted,0.0
+2026-01,VMG UK Ltd,Transfers In,0.0
+2026-01,VMG UK Ltd,Transfers Out,0.0
+2026-01,VMG UK Ltd,Turnover R12 %,11.32
+2026-01,VMG UK Ltd,Voluntary Turnover R12 %,11.32
+2026-01,VMG UK Ltd,Early Leavers R12 %,
+2026-01,VMG UK Ltd,Women in Leadership %,
+2026-01,VMG UK Ltd,Pay Gap Mean %,
+2026-01,VMG UK Ltd,Pay Gap Median %,
+2026-01,VMG UK Ltd,Pay Gap Adjusted %,
+2026-02,VMG UK Ltd,Headcount,8.0
+2026-02,VMG UK Ltd,FTE,7.5
+2026-02,VMG UK Ltd,Hires,0.0
+2026-02,VMG UK Ltd,Leavers,0.0
+2026-02,VMG UK Ltd,Leavers Voluntary,0.0
+2026-02,VMG UK Ltd,Leavers Regretted,0.0
+2026-02,VMG UK Ltd,Transfers In,0.0
+2026-02,VMG UK Ltd,Transfers Out,0.0
+2026-02,VMG UK Ltd,Turnover R12 %,11.43
+2026-02,VMG UK Ltd,Voluntary Turnover R12 %,11.43
+2026-02,VMG UK Ltd,Early Leavers R12 %,
+2026-02,VMG UK Ltd,Women in Leadership %,
+2026-02,VMG UK Ltd,Pay Gap Mean %,
+2026-02,VMG UK Ltd,Pay Gap Median %,
+2026-02,VMG UK Ltd,Pay Gap Adjusted %,
+2026-03,VMG UK Ltd,Headcount,8.0
+2026-03,VMG UK Ltd,FTE,7.5
+2026-03,VMG UK Ltd,Hires,0.0
+2026-03,VMG UK Ltd,Leavers,0.0
+2026-03,VMG UK Ltd,Leavers Voluntary,0.0
+2026-03,VMG UK Ltd,Leavers Regretted,0.0
+2026-03,VMG UK Ltd,Transfers In,0.0
+2026-03,VMG UK Ltd,Transfers Out,0.0
+2026-03,VMG UK Ltd,Turnover R12 %,11.54
+2026-03,VMG UK Ltd,Voluntary Turnover R12 %,11.54
+2026-03,VMG UK Ltd,Early Leavers R12 %,
+2026-03,VMG UK Ltd,Women in Leadership %,
+2026-03,VMG UK Ltd,Pay Gap Mean %,
+2026-03,VMG UK Ltd,Pay Gap Median %,
+2026-03,VMG UK Ltd,Pay Gap Adjusted %,
+2026-04,VMG UK Ltd,Headcount,8.0
+2026-04,VMG UK Ltd,FTE,7.5
+2026-04,VMG UK Ltd,Hires,0.0
+2026-04,VMG UK Ltd,Leavers,0.0
+2026-04,VMG UK Ltd,Leavers Voluntary,0.0
+2026-04,VMG UK Ltd,Leavers Regretted,0.0
+2026-04,VMG UK Ltd,Transfers In,0.0
+2026-04,VMG UK Ltd,Transfers Out,0.0
+2026-04,VMG UK Ltd,Turnover R12 %,11.65
+2026-04,VMG UK Ltd,Voluntary Turnover R12 %,11.65
+2026-04,VMG UK Ltd,Early Leavers R12 %,
+2026-04,VMG UK Ltd,Women in Leadership %,
+2026-04,VMG UK Ltd,Pay Gap Mean %,
+2026-04,VMG UK Ltd,Pay Gap Median %,
+2026-04,VMG UK Ltd,Pay Gap Adjusted %,
+2026-05,VMG UK Ltd,Headcount,8.0
+2026-05,VMG UK Ltd,FTE,7.5
+2026-05,VMG UK Ltd,Hires,0.0
+2026-05,VMG UK Ltd,Leavers,0.0
+2026-05,VMG UK Ltd,Leavers Voluntary,0.0
+2026-05,VMG UK Ltd,Leavers Regretted,0.0
+2026-05,VMG UK Ltd,Transfers In,0.0
+2026-05,VMG UK Ltd,Transfers Out,0.0
+2026-05,VMG UK Ltd,Turnover R12 %,11.76
+2026-05,VMG UK Ltd,Voluntary Turnover R12 %,11.76
+2026-05,VMG UK Ltd,Early Leavers R12 %,
+2026-05,VMG UK Ltd,Women in Leadership %,
+2026-05,VMG UK Ltd,Pay Gap Mean %,
+2026-05,VMG UK Ltd,Pay Gap Median %,
+2026-05,VMG UK Ltd,Pay Gap Adjusted %,
+2026-06,VMG UK Ltd,Headcount,8.0
+2026-06,VMG UK Ltd,FTE,7.5
+2026-06,VMG UK Ltd,Hires,0.0
+2026-06,VMG UK Ltd,Leavers,0.0
+2026-06,VMG UK Ltd,Leavers Voluntary,0.0
+2026-06,VMG UK Ltd,Leavers Regretted,0.0
+2026-06,VMG UK Ltd,Transfers In,0.0
+2026-06,VMG UK Ltd,Transfers Out,0.0
+2026-06,VMG UK Ltd,Turnover R12 %,11.88
+2026-06,VMG UK Ltd,Voluntary Turnover R12 %,11.88
+2026-06,VMG UK Ltd,Early Leavers R12 %,
+2026-06,VMG UK Ltd,Women in Leadership %,
+2026-06,VMG UK Ltd,Pay Gap Mean %,
+2026-06,VMG UK Ltd,Pay Gap Median %,
+2026-06,VMG UK Ltd,Pay Gap Adjusted %,
+2026-07,VMG UK Ltd,Headcount,9.0
+2026-07,VMG UK Ltd,FTE,8.5
+2026-07,VMG UK Ltd,Hires,1.0
+2026-07,VMG UK Ltd,Leavers,0.0
+2026-07,VMG UK Ltd,Leavers Voluntary,0.0
+2026-07,VMG UK Ltd,Leavers Regretted,0.0
+2026-07,VMG UK Ltd,Transfers In,2.0
+2026-07,VMG UK Ltd,Transfers Out,2.0
+2026-07,VMG UK Ltd,Turnover R12 %,11.88
+2026-07,VMG UK Ltd,Voluntary Turnover R12 %,11.88
+2026-07,VMG UK Ltd,Early Leavers R12 %,
+2026-07,VMG UK Ltd,Women in Leadership %,
+2026-07,VMG UK Ltd,Pay Gap Mean %,
+2026-07,VMG UK Ltd,Pay Gap Median %,
+2026-07,VMG UK Ltd,Pay Gap Adjusted %,
+2026-08,VMG UK Ltd,Headcount,9.0
+2026-08,VMG UK Ltd,FTE,8.5
+2026-08,VMG UK Ltd,Hires,0.0
+2026-08,VMG UK Ltd,Leavers,0.0
+2026-08,VMG UK Ltd,Leavers Voluntary,0.0
+2026-08,VMG UK Ltd,Leavers Regretted,0.0
+2026-08,VMG UK Ltd,Transfers In,0.0
+2026-08,VMG UK Ltd,Transfers Out,0.0
+2026-08,VMG UK Ltd,Turnover R12 %,11.88
+2026-08,VMG UK Ltd,Voluntary Turnover R12 %,11.88
+2026-08,VMG UK Ltd,Early Leavers R12 %,
+2026-08,VMG UK Ltd,Women in Leadership %,
+2026-08,VMG UK Ltd,Pay Gap Mean %,
+2026-08,VMG UK Ltd,Pay Gap Median %,
+2026-08,VMG UK Ltd,Pay Gap Adjusted %,
+2026-09,VMG UK Ltd,Headcount,9.0
+2026-09,VMG UK Ltd,FTE,8.5
+2026-09,VMG UK Ltd,Hires,0.0
+2026-09,VMG UK Ltd,Leavers,0.0
+2026-09,VMG UK Ltd,Leavers Voluntary,0.0
+2026-09,VMG UK Ltd,Leavers Regretted,0.0
+2026-09,VMG UK Ltd,Transfers In,0.0
+2026-09,VMG UK Ltd,Transfers Out,0.0
+2026-09,VMG UK Ltd,Turnover R12 %,11.88
+2026-09,VMG UK Ltd,Voluntary Turnover R12 %,11.88
+2026-09,VMG UK Ltd,Early Leavers R12 %,
+2026-09,VMG UK Ltd,Women in Leadership %,
+2026-09,VMG UK Ltd,Pay Gap Mean %,
+2026-09,VMG UK Ltd,Pay Gap Median %,
+2026-09,VMG UK Ltd,Pay Gap Adjusted %,

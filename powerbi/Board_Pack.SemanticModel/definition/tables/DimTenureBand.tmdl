@@ -1,0 +1,27 @@
+table DimTenureBand
+	lineageTag: d5b1ad8b-e53e-5857-8fa8-68f731e395f5
+
+	column 'Tenure Band'
+		dataType: string
+		lineageTag: e1a210b4-ec53-5663-85d3-f3f984f94996
+		summarizeBy: none
+		sourceColumn: Tenure Band
+		sortByColumn: 'Band Order'
+
+	column 'Band Order'
+		dataType: int64
+		isHidden
+		lineageTag: 87684bb1-29a3-55c3-8251-7f8759d4a347
+		summarizeBy: none
+		sourceColumn: Band Order
+
+	partition DimTenureBand = m
+		mode: import
+		source =
+				// DimTenureBand - length-of-service bands; filters both Snapshot and Movements.
+				#table(
+				    type table [#"Tenure Band" = text, #"Band Order" = Int64.Type],
+				    {{"< 1 year", 1}, {"1–2 years", 2}, {"2–5 years", 3}, {"5+ years", 4}}
+				)
+
+	annotation PBI_ResultType = Table

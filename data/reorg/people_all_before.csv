@@ -1,0 +1,245 @@
+Person ID External,Manager ID,Job Title
+100054,100048,Data Specialist
+100009,100007,Markets Specialist
+100227,100007,External Consultant
+100021,100032,Markets Analyst
+100176,100170,Finance Expert
+100190,100186,HR Associate
+100220,100104,External Consultant
+100214,100210,Senior Risk Analyst
+100195,100186,HR Analyst
+100113,100104,Associate Engineer
+100040,100032,Markets Analyst
+100230,100076,Operations Analyst
+100120,100102,Engineer
+100114,100102,Engineer
+100100,100001,Head of Technology
+100109,100103,Senior Engineer
+100097,100088,Operations Analyst
+100226,100076,External Consultant
+100236,100032,Markets Associate
+100286,100102,Engineer
+100256,100103,Associate Engineer
+100285,100048,Data Associate
+100160,100292,Principal Engineer
+100006,100005,"Team Lead, Trading Services"
+100273,100198,Compliance Associate
+100275,100063,Senior Operations Analyst
+100261,100076,Operations Analyst
+100116,100104,Senior Engineer
+100250,100076,Operations Associate
+100265,100103,Engineer
+100037,100032,Markets Specialist
+100130,100103,Principal Engineer
+100279,100063,Operations Associate
+100030,100006,Senior Markets Analyst
+100163,100292,Senior Engineer
+100161,100292,Principal Engineer
+100150,100138,Associate Engineer
+100243,100103,Senior Engineer
+100010,100006,Markets Analyst
+100141,100139,Principal Engineer
+100022,100006,Markets Associate
+100293,100063,Operations Analyst
+100005,100004,Head of Trading Services
+100026,100006,Markets Analyst
+100264,100170,Finance Associate
+100155,100139,Associate Engineer
+100191,100186,Senior HR Analyst
+100170,100169,Head of Finance
+100177,100170,Finance Analyst
+100099,100088,Operations Specialist
+100076,100061,Head of Settlement Operations
+100252,100139,Engineer
+100070,100063,Senior Operations Analyst
+100025,100007,Markets Specialist
+100035,100032,Markets Analyst
+100128,100104,Engineer
+100178,100170,Senior Finance Analyst
+100115,100103,Senior Engineer
+100011,100007,Markets Specialist
+100198,100169,Head of Legal & Compliance
+100073,100063,Operations Associate
+100017,100007,Senior Markets Analyst
+100217,100210,Risk Analyst
+100102,100101,"Team Lead, Platform Engineering"
+100295,100076,Operations Analyst
+100002,100001,Chief of Staff
+100149,100139,Associate Engineer
+100027,100007,Markets Analyst
+100269,100139,Associate Engineer
+100216,100210,Senior Risk Analyst
+100045,100032,Markets Analyst
+100057,100007,Markets Associate
+100075,100063,Senior Operations Analyst
+100225,100292,External Consultant
+100207,100198,Compliance Associate
+100179,100170,Senior Finance Analyst
+100066,100063,Operations Analyst
+100093,100088,Operations Associate
+100134,100104,Senior Engineer
+100136,100103,Senior Engineer
+100103,100101,"Team Lead, Platform Engineering"
+100023,100007,Senior Markets Analyst
+100044,100032,Senior Markets Analyst
+100296,100292,Senior Engineer
+100033,100032,Senior Markets Analyst
+100038,100032,Markets Associate
+100288,100102,Engineer
+100092,100088,Operations Analyst
+100018,100006,Markets Associate
+100206,100198,Compliance Analyst
+100210,100169,Head of Risk Management
+100233,100210,Risk Analyst
+100253,100088,Operations Associate
+100280,100139,Engineer
+100001,,Chief Executive Officer
+100174,100170,Finance Analyst
+100292,100100,Head of Information Security
+100242,100048,Data Analyst
+100101,100100,Head of Platform Engineering
+100268,100088,Operations Associate
+100067,100063,Senior Operations Analyst
+100008,100006,Markets Associate
+100241,100007,Markets Analyst
+100082,100076,Operations Analyst
+100166,100292,Associate Engineer
+100255,100210,Risk Analyst
+100156,100138,Engineer
+100200,100198,Compliance Analyst
+100196,100186,HR Analyst
+100016,100006,Markets Analyst
+100287,100048,Data Analyst
+100123,100102,Senior Engineer
+100094,100088,Senior Operations Analyst
+100154,100138,Principal Engineer
+100079,100076,Senior Operations Analyst
+100118,100103,Senior Engineer
+100111,100102,Associate Engineer
+100215,100210,Risk Expert
+100263,100292,Engineer
+100282,100138,Engineer
+100270,100076,Operations Analyst
+100192,100186,HR Associate
+100173,100170,Finance Associate
+100083,100076,Operations Analyst
+100087,100076,Operations Associate
+100133,100103,Engineer
+100194,100186,HR Expert
+100183,100170,Finance Analyst
+100053,100048,Data Analyst
+100222,100103,External Consultant
+100189,100186,Senior HR Analyst
+100090,100088,Senior Operations Analyst
+100294,100170,Finance Expert
+100062,100061,Head of Clearing Operations
+100129,100102,Engineer
+100110,100104,Senior Engineer
+100105,100102,Engineer
+100276,100063,Operations Analyst
+100197,100186,HR Analyst
+100167,100292,Engineer
+100147,100139,Principal Engineer
+100258,100210,Risk Analyst
+100290,100139,Principal Engineer
+100015,100007,Markets Analyst
+100072,100063,Senior Operations Analyst
+100122,100104,Principal Engineer
+100185,100170,Senior Finance Analyst
+100013,100007,Senior Markets Analyst
+100046,100032,Markets Associate
+100042,100032,Markets Analyst
+100223,100139,External Consultant
+100051,100048,Data Associate
+100164,100292,Senior Engineer
+100148,100138,Principal Engineer
+100061,100001,Head of Operations
+100247,100102,Senior Engineer
+100239,100186,HR Analyst
+100014,100032,Senior Markets Analyst
+100158,100292,Engineer
+100131,100104,Engineer
+100297,100032,Markets Associate
+100180,100170,Finance Associate
+100121,100103,Senior Engineer
+100168,100292,Senior Engineer
+100031,100004,Head of Listings & Issuer Services
+100032,100031,"Team Lead, Listings & Issuer Services"
+100125,100104,Senior Engineer
+100254,100048,Data Associate
+100169,100001,Head of Corporate Functions
+100209,100198,Compliance Analyst
+100257,100088,Operations Analyst
+100108,100292,Associate Engineer
+100137,100100,Head of IT Infrastructure
+100205,100198,Compliance Expert
+100119,100104,Senior Engineer
+100078,100076,Operations Associate
+100089,100088,Operations Associate
+100041,100032,Senior Markets Analyst
+100064,100063,Operations Analyst
+100104,100101,"Team Lead, Platform Engineering"
+100153,100139,Engineer
+100224,100138,External Consultant
+100172,100170,Finance Associate
+100221,100102,External Consultant
+100065,100063,Operations Analyst
+100201,100198,Compliance Associate
+100047,100004,Head of Market Data
+100091,100088,Operations Specialist
+100020,100006,Senior Markets Analyst
+100240,100048,Data Analyst
+100284,100186,HR Associate
+100271,100032,Markets Analyst
+100126,100102,Principal Engineer
+100096,100088,Operations Specialist
+100218,100210,Risk Analyst
+100138,100137,"Team Lead, IT Infrastructure"
+100208,100198,Senior Compliance Analyst
+100007,100005,"Team Lead, Trading Services"
+100140,100138,Associate Engineer
+100272,100170,Finance Associate
+100259,100063,Senior Operations Analyst
+100244,100102,Principal Engineer
+100283,100104,Associate Engineer
+100043,100032,Markets Associate
+100249,100138,Associate Engineer
+100081,100076,Operations Associate
+100132,100102,Senior Engineer
+100228,100104,Associate Engineer
+100144,100138,Associate Engineer
+100211,100210,Risk Expert
+100186,100169,Head of People & Culture
+100003,100001,Executive Assistant
+100260,100076,Operations Analyst
+100139,100137,"Team Lead, IT Infrastructure"
+100151,100139,Principal Engineer
+100203,100198,Senior Compliance Analyst
+100235,100292,Senior Engineer
+100182,100170,Finance Expert
+100036,100032,Markets Specialist
+100048,100047,"Team Lead, Market Data"
+100237,100138,Engineer
+100204,100198,Compliance Analyst
+100080,100076,Operations Specialist
+100152,100138,Senior Engineer
+100019,100032,Markets Specialist
+100146,100138,Senior Engineer
+100199,100198,Compliance Analyst
+100212,100210,Risk Associate
+100050,100048,Data Specialist
+100266,100076,Operations Analyst
+100162,100292,Engineer
+100029,100007,Senior Markets Analyst
+100024,100006,Senior Markets Analyst
+100074,100063,Operations Analyst
+100112,100103,Engineer
+100004,100001,Head of Markets
+100188,100186,HR Analyst
+100175,100170,Finance Associate
+100107,100104,Senior Engineer
+100193,100186,HR Associate
+100274,100048,Senior Data Analyst
+100063,100062,"Team Lead, Clearing Operations"
+100124,100103,Engineer
+100088,100061,Head of Client Services

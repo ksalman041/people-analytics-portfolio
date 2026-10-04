@@ -1,0 +1,52 @@
+table Eurostat_GPG
+	lineageTag: 5517093e-5bd8-5f31-b78b-2d10648ec751
+
+	column Geo
+		dataType: string
+		lineageTag: 54472a36-705a-58f3-95c6-9c419d1ab199
+		summarizeBy: none
+		sourceColumn: Geo
+
+	column Activity
+		dataType: string
+		lineageTag: 6ab6991e-0f5f-5c78-b735-db163ed196b3
+		summarizeBy: none
+		sourceColumn: Activity
+
+	column Year
+		dataType: int64
+		lineageTag: 0099fe2e-bf96-5abb-8fb8-de116654257d
+		summarizeBy: none
+		sourceColumn: Year
+
+	column 'Pay Gap %'
+		dataType: double
+		formatString: 0.0
+		lineageTag: 69001e36-dcf7-50dc-907a-3b9430173147
+		summarizeBy: none
+		sourceColumn: Pay Gap %
+
+	column Flag
+		dataType: string
+		lineageTag: 27bddd08-a004-543f-b559-6b6401ccd475
+		summarizeBy: none
+		sourceColumn: Flag
+
+	partition Eurostat_GPG = m
+		mode: import
+		source =
+				// Eurostat_GPG - real benchmark: unadjusted gender pay gap (%) by country and activity,
+				// Eurostat dataset earn_gr_gpgr2. Flag: p = provisional, d = definition differs, b = break in series.
+				let
+				    Source = Csv.Document(
+				        File.Contents(ProjectFolder & "\data\external\eurostat_gender_pay_gap.csv"),
+				        [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				    ),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Geo", type text}, {"Activity", type text}, {"Year", Int64.Type}, {"Pay Gap %", type number}, {"Flag", type text}
+				    }, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
