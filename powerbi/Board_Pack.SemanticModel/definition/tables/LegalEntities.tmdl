@@ -1,0 +1,51 @@
+table LegalEntities
+	lineageTag: 72d6ebd9-bd5e-5735-b0ec-a5c2a70bbe78
+
+	column 'Legal Entity'
+		dataType: string
+		lineageTag: 3b273680-c834-5b86-868d-e0973d815d55
+		summarizeBy: none
+		sourceColumn: Legal Entity
+
+	column 'Entity Code'
+		dataType: string
+		lineageTag: 6ee7b18b-ad9b-505a-ad32-a536f43f5a67
+		summarizeBy: none
+		sourceColumn: Entity Code
+
+	column Country
+		dataType: string
+		lineageTag: 8d2e2fab-6be1-5cdb-a138-0abb7c80e040
+		summarizeBy: none
+		sourceColumn: Country
+
+	column Location
+		dataType: string
+		lineageTag: 2e5a6cca-4079-59f7-b56d-b3915aeb4e2c
+		summarizeBy: none
+		sourceColumn: Location
+
+	column Currency
+		dataType: string
+		lineageTag: fa22c707-546b-5d42-9643-ce43a0f93104
+		summarizeBy: none
+		sourceColumn: Currency
+
+	partition LegalEntities = m
+		mode: import
+		source =
+				// LegalEntities - lookup: legal entity -> country, location, currency. Loaded as a dimension.
+				let
+				    Source = Csv.Document(
+				        File.Contents(ProjectFolder & "\data\reference\legal_entities.csv"),
+				        [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				    ),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Legal Entity", type text}, {"Entity Code", type text}, {"Country", type text},
+				        {"Location", type text}, {"Currency", type text}
+				    })
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

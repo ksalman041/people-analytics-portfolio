@@ -1,0 +1,98 @@
+Person ID External,Division,Department,Cost Center,Legal Entity,Job Title,Pay Grade,Employee Class,Manager ID
+100137,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Head of IT Infrastructure,G6,Permanent,100100
+100138,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,"Team Lead, IT Infrastructure",G5,Permanent,100137
+100139,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,"Team Lead, IT Infrastructure",G5,Permanent,100137
+100140,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100138
+100141,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Principal Engineer,G4,Permanent,100139
+100144,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100138
+100146,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100138
+100147,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Principal Engineer,G4,Permanent,100139
+100148,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Principal Engineer,G4,Permanent,100138
+100149,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100139
+100150,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100138
+100151,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Principal Engineer,G4,Permanent,100139
+100152,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100138
+100153,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Engineer,G2,Permanent,100139
+100154,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Principal Engineer,G4,Permanent,100138
+100155,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100139
+100156,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100138
+100223,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,External Consultant,,External,100139
+100224,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,External Consultant,,External,100138
+100237,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100138
+100249,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Fixed-Term,100138
+100252,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100139
+100269,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100139
+100280,Technology,IT Infrastructure,CC-3200,VMG Deutschland GmbH,Engineer,G2,Permanent,100139
+100282,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100138
+100290,Technology,IT Infrastructure,CC-3200,VMG Czech Republic s.r.o.,Principal Engineer,G4,Permanent,100139
+100108,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100292
+100158,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Engineer,G2,Permanent,100292
+100160,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Principal Engineer,G4,Permanent,100292
+100161,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Principal Engineer,G4,Permanent,100292
+100162,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100292
+100163,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100292
+100164,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100292
+100166,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100292
+100167,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100292
+100168,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100292
+100225,Technology,Information Security,CC-3300,VMG Deutschland GmbH,External Consultant,,External,100292
+100235,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100292
+100263,Technology,Information Security,CC-3300,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100292
+100292,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Head of Information Security,G6,Permanent,100100
+100296,Technology,Information Security,CC-3300,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100292
+100047,Markets,Market Data,CC-1300,VMG Czech Republic s.r.o.,Head of Market Data,G6,Permanent,100004
+100048,Markets,Market Data,CC-1300,VMG Deutschland GmbH,"Team Lead, Market Data",G5,Permanent,100047
+100050,Markets,Market Data,CC-1300,VMG UK Ltd,Data Specialist,G4,Permanent,100048
+100051,Markets,Market Data,CC-1300,VMG Deutschland GmbH,Data Associate,G1,Permanent,100048
+100053,Markets,Market Data,CC-1300,VMG Czech Republic s.r.o.,Data Analyst,G2,Permanent,100048
+100054,Markets,Market Data,CC-1300,VMG UK Ltd,Data Specialist,G4,Permanent,100048
+100240,Markets,Market Data,CC-1300,VMG Deutschland GmbH,Data Analyst,G2,Permanent,100048
+100242,Markets,Market Data,CC-1300,VMG Czech Republic s.r.o.,Data Analyst,G2,Permanent,100048
+100254,Markets,Market Data,CC-1300,VMG Czech Republic s.r.o.,Data Associate,G1,Permanent,100048
+100274,Markets,Market Data,CC-1300,VMG Czech Republic s.r.o.,Senior Data Analyst,G3,Permanent,100048
+100285,Markets,Market Data,CC-1300,VMG Deutschland GmbH,Data Associate,G1,Permanent,100048
+100287,Markets,Market Data,CC-1300,VMG Czech Republic s.r.o.,Data Analyst,G2,Permanent,100048
+100100,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Head of Technology,G7,Permanent,100001
+100101,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Head of Platform Engineering,G6,Permanent,100100
+100102,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,"Team Lead, Platform Engineering",G5,Permanent,100101
+100103,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,"Team Lead, Platform Engineering",G5,Permanent,100101
+100104,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,"Team Lead, Platform Engineering",G5,Permanent,100101
+100105,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100102
+100107,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100104
+100109,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100103
+100110,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100104
+100111,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100102
+100112,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100103
+100113,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100104
+100114,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100102
+100115,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100103
+100116,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100104
+100118,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100103
+100119,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100104
+100120,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100102
+100121,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100103
+100122,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Principal Engineer,G4,Permanent,100104
+100123,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100102
+100124,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100103
+100125,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100104
+100126,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Principal Engineer,G4,Permanent,100102
+100128,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100104
+100129,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100102
+100130,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Principal Engineer,G4,Permanent,100103
+100131,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100104
+100132,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100102
+100133,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Engineer,G2,Permanent,100103
+100134,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100104
+100136,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100103
+100220,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,External Consultant,,External,100104
+100221,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,External Consultant,,External,100102
+100222,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,External Consultant,,External,100103
+100228,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100104
+100243,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Senior Engineer,G3,Permanent,100103
+100244,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Principal Engineer,G4,Permanent,100102
+100247,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Senior Engineer,G3,Permanent,100102
+100256,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Associate Engineer,G1,Permanent,100103
+100265,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100103
+100283,Technology,Platform Engineering,CC-3100,VMG Deutschland GmbH,Associate Engineer,G1,Permanent,100104
+100286,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100102
+100288,Technology,Platform Engineering,CC-3100,VMG Czech Republic s.r.o.,Engineer,G2,Permanent,100102

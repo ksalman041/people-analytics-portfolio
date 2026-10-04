@@ -1,0 +1,7 @@
+Type,Rule ID,Rule,Old Department,Detail,Before,After
+Design note,S01,Span above 12,Information Security,Head of Information Security (100292) has 14 direct reports,,
+Design note,S02,Manager with a single report,Data & Analytics,Head of Market Data (100047) has 1 direct report,,
+Design note,S01,Span above 12,Platform & Infrastructure,"Team Lead, Platform Engineering (100102) has 13 direct reports",,
+Design note,S01,Span above 12,Platform & Infrastructure,"Team Lead, Platform Engineering (100103) has 13 direct reports",,
+Design note,S01,Span above 12,Platform & Infrastructure,"Team Lead, Platform Engineering (100104) has 13 direct reports",,
+Design note,S03,Unit gains a management layer,IT Infrastructure,"IT Infrastructure staff go from 5 to 6 layers below the CEO, now inside Platform & Infrastructure",5.0,6.0

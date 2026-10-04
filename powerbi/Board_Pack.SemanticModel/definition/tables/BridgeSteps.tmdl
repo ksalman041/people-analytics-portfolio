@@ -1,0 +1,28 @@
+table BridgeSteps
+	lineageTag: 701ef0c8-fabb-53ae-b1e7-6c79fa90622b
+
+	column Step
+		dataType: string
+		lineageTag: d0db3f5f-71c6-51e4-886d-3f1af68e5287
+		summarizeBy: none
+		sourceColumn: Step
+		sortByColumn: 'Step Order'
+
+	column 'Step Order'
+		dataType: int64
+		isHidden
+		lineageTag: f6253f8d-043a-57b7-8d0e-c6a008edc84c
+		summarizeBy: none
+		sourceColumn: Step Order
+
+	partition BridgeSteps = m
+		mode: import
+		source =
+				// BridgeSteps - the categories of the headcount bridge (waterfall). The waterfall adds the
+				// closing total itself: opening + hires - leavers + net transfers.
+				#table(
+				    type table [#"Step" = text, #"Step Order" = Int64.Type],
+				    {{"Opening", 1}, {"Hires", 2}, {"Voluntary leavers", 3}, {"Involuntary leavers", 4}, {"Retirements", 5}, {"Net transfers", 6}}
+				)
+
+	annotation PBI_ResultType = Table

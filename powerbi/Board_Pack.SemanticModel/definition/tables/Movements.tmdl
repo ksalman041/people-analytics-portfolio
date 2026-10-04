@@ -1,0 +1,181 @@
+table Movements
+	lineageTag: 67fab6f6-11d4-53f1-9488-05bb316a8f53
+
+	column Movement
+		dataType: string
+		lineageTag: a7410fc0-75d1-50f0-8357-b6717db76f95
+		summarizeBy: none
+		sourceColumn: Movement
+
+	column 'Person ID External'
+		dataType: string
+		lineageTag: 0bdc37d2-9699-5d97-8959-fdcd1e1ae935
+		summarizeBy: none
+		sourceColumn: Person ID External
+
+	column Month
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		isHidden
+		lineageTag: 97489161-f9e5-5105-a9db-113c1d950f6d
+		summarizeBy: none
+		sourceColumn: Month
+
+	column Division
+		dataType: string
+		isHidden
+		lineageTag: 6abcc32b-48d1-5ed7-a3f7-1a38d902942f
+		summarizeBy: none
+		sourceColumn: Division
+
+	column Department
+		dataType: string
+		lineageTag: ac9b3ebc-8702-5a5b-bad5-02eb85fef3a1
+		summarizeBy: none
+		sourceColumn: Department
+
+	column 'Legal Entity'
+		dataType: string
+		isHidden
+		lineageTag: 77467326-c14a-5193-b307-461cba8f9593
+		summarizeBy: none
+		sourceColumn: Legal Entity
+
+	column Gender
+		dataType: string
+		lineageTag: 17d2e2ca-f6ba-5031-a820-820d7331d87c
+		summarizeBy: none
+		sourceColumn: Gender
+
+	column Grade
+		dataType: int64
+		lineageTag: 2e049411-c2a3-5c09-8da5-07f8935549af
+		summarizeBy: none
+		sourceColumn: Grade
+
+	column 'Event Reason'
+		dataType: string
+		lineageTag: 7f01ea19-7221-5166-ba02-3129d943c5d6
+		summarizeBy: none
+		sourceColumn: Event Reason
+
+	column 'Leaver Category'
+		dataType: string
+		lineageTag: 4bf0b2c7-e2b6-51bd-ad02-7cdce664620e
+		summarizeBy: none
+		sourceColumn: Leaver Category
+
+	column 'Is Voluntary'
+		dataType: boolean
+		lineageTag: 1bcc16c5-d57c-52de-8ac1-953a3af50690
+		summarizeBy: none
+		sourceColumn: Is Voluntary
+
+	column 'Reason Short'
+		dataType: string
+		lineageTag: b0700cef-6e04-5431-925b-2e9bab6e8526
+		summarizeBy: none
+		sourceColumn: Reason Short
+
+	column 'Tenure Months At Exit'
+		dataType: double
+		formatString: 0.0
+		lineageTag: 4a9b4a61-3862-5f79-b1f2-77ca813b9e1b
+		summarizeBy: none
+		sourceColumn: Tenure Months At Exit
+
+	column 'Tenure Band'
+		dataType: string
+		isHidden
+		lineageTag: 72912d87-8503-53a8-8bbd-8e28edb7833b
+		summarizeBy: none
+		sourceColumn: Tenure Band
+
+	column 'Is Early Leaver'
+		dataType: boolean
+		lineageTag: 532ab19b-5fca-5eec-b1c9-622246973d24
+		summarizeBy: none
+		sourceColumn: Is Early Leaver
+
+	column 'Is Regretted'
+		dataType: boolean
+		lineageTag: 2be0762b-4506-5b21-9ea0-5d5a55dc5677
+		summarizeBy: none
+		sourceColumn: Is Regretted
+
+	column 'Bridge Sign'
+		dataType: int64
+		lineageTag: e98d374b-7933-590b-9ace-1be4f763eb05
+		summarizeBy: none
+		sourceColumn: Bridge Sign
+
+	partition Movements = m
+		mode: import
+		source =
+				// Movements - hires, leavers and transfers, found by comparing each month with the month before.
+				//   in this month, not last month  -> Hire
+				//   in last month, not this month  -> Leaver
+				//   in both, different department  -> Transfer Out (old) + Transfer In (new)
+				// Because every movement comes from the snapshots themselves, the headcount bridge
+				// (opening + hires - leavers + transfers in - transfers out = closing) always closes.
+				// Expected: 335 rows = 92 Hire, 61 Leaver, 91 Transfer In, 91 Transfer Out.
+				let
+				    HC = Table.SelectColumns(Table.SelectRows(Snapshot, each [Is Headcount]),
+				        {"Person ID External", "As Of", "Division", "Department", "Legal Entity", "Gender", "Grade"}),
+				    FirstMonth = List.Min(HC[As Of]),
+				    LastMonth = List.Max(HC[As Of]),
+				    // Shift every snapshot forward one month, so "last month" lines up with "this month"
+				    Prev = Table.TransformColumns(HC, {{"As Of", each Date.EndOfMonth(Date.AddMonths(_, 1)), type date}}),
+				    Joined = Table.NestedJoin(HC, {"Person ID External", "As Of"}, Prev, {"Person ID External", "As Of"},
+				        "Prev", JoinKind.FullOuter),
+				    Expanded = Table.ExpandTableColumn(Joined, "Prev",
+				        {"Person ID External", "As Of", "Division", "Department", "Legal Entity", "Gender", "Grade"},
+				        {"P Person", "P As Of", "P Division", "P Department", "P Legal Entity", "P Gender", "P Grade"}),
+				    // Each joined row becomes zero, one or two movement records
+				    FromThisMonth = (r as record, kind as text) as record => [Movement = kind, Person = r[Person ID External], Month = r[As Of],
+				        Division = r[Division], Department = r[Department], Entity = r[Legal Entity], Gender = r[Gender], Grade = r[Grade]],
+				    FromLastMonth = (r as record, kind as text, month as date) as record => [Movement = kind, Person = r[P Person], Month = month,
+				        Division = r[P Division], Department = r[P Department], Entity = r[P Legal Entity], Gender = r[P Gender], Grade = r[P Grade]],
+				    Classified = Table.AddColumn(Expanded, "Records", each
+				        if [Person ID External] = null then {FromLastMonth(_, "Leaver", [P As Of])}
+				        else if [P Person] = null then {FromThisMonth(_, "Hire")}
+				        else if [Department] <> [P Department] then {FromLastMonth(_, "Transfer Out", [As Of]), FromThisMonth(_, "Transfer In")}
+				        else {}),
+				    OnlyRecords = Table.SelectColumns(Classified, {"Records"}),
+				    OneRowEach = Table.ExpandListColumn(OnlyRecords, "Records"),
+				    NonEmpty = Table.SelectRows(OneRowEach, each [Records] <> null),
+				    AsColumns = Table.ExpandRecordColumn(NonEmpty, "Records",
+				        {"Movement", "Person", "Month", "Division", "Department", "Entity", "Gender", "Grade"},
+				        {"Movement", "Person ID External", "Month", "Division", "Department", "Legal Entity", "Gender", "Grade"}),
+				    // The first month has no "month before", and leavers shifted past the last month don't exist yet
+				    InRange = Table.SelectRows(AsColumns, each [Month] > FirstMonth and [Month] <= LastMonth),
+				    // Leaver details come from that month's termination row
+				    Terminations = Table.SelectColumns(Table.SelectRows(Snapshot, each [Employee Status] = "Terminated"),
+				        {"Person ID External", "As Of", "Event Reason", "Regret Termination", "Hire Date", "Event Date"}),
+				    WithExit = Table.NestedJoin(InRange, {"Person ID External", "Month"}, Terminations, {"Person ID External", "As Of"},
+				        "Exit", JoinKind.LeftOuter),
+				    ExitCols = Table.ExpandTableColumn(WithExit, "Exit", {"Event Reason", "Regret Termination", "Hire Date", "Event Date"}),
+				    WithReason = Table.NestedJoin(ExitCols, {"Event Reason"}, TerminationReasons, {"Event Reason"}, "Reason", JoinKind.LeftOuter),
+				    ReasonCols = Table.ExpandTableColumn(WithReason, "Reason", {"Leaver Category", "Is Voluntary", "Reason Short"}),
+				    AddTenure = Table.AddColumn(ReasonCols, "Tenure Months At Exit", each
+				        if [Event Date] = null then null else Number.Round(Duration.Days([Event Date] - [Hire Date]) / 30.4375, 1),
+				        type nullable number),
+				    AddBand = Table.AddColumn(AddTenure, "Tenure Band", each
+				        if [Tenure Months At Exit] = null then null else if [Tenure Months At Exit] < 12 then "< 1 year"
+				        else if [Tenure Months At Exit] < 24 then "1–2 years" else if [Tenure Months At Exit] < 60 then "2–5 years"
+				        else "5+ years", type nullable text),
+				    AddEarly = Table.AddColumn(AddBand, "Is Early Leaver", each
+				        [Movement] = "Leaver" and [Tenure Months At Exit] <> null and [Tenure Months At Exit] < 12, type logical),
+				    AddRegretted = Table.AddColumn(AddEarly, "Is Regretted", each [Regret Termination] = "Yes", type logical),
+				    // +1 / -1 so a single SUM gives the net change in any slice (used by the bridge)
+				    AddSign = Table.AddColumn(AddRegretted, "Bridge Sign", each
+				        if [Movement] = "Leaver" or [Movement] = "Transfer Out" then -1 else 1, Int64.Type),
+				    Final = Table.TransformColumnTypes(Table.RemoveColumns(AddSign, {"Regret Termination", "Hire Date", "Event Date"}), {
+				        {"Movement", type text}, {"Person ID External", type text}, {"Month", type date}, {"Division", type text},
+				        {"Department", type text}, {"Legal Entity", type text}, {"Gender", type text}, {"Grade", Int64.Type},
+				        {"Event Reason", type text}, {"Leaver Category", type text}, {"Is Voluntary", type logical}, {"Reason Short", type text}
+				    })
+				in
+				    Final
+
+	annotation PBI_ResultType = Table

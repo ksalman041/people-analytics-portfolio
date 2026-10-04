@@ -1,0 +1,899 @@
+table _Measures
+	lineageTag: 70e84f59-d74a-584b-93a4-d30f024de9f8
+
+	measure 'Latest Month' = MAX ( DimDate[Month End] )
+		formatString: mmm yyyy
+		displayFolder: Helpers
+		lineageTag: fb77f459-bde3-502d-bd21-d96e48127cd7
+
+	measure 'PY Month' = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+		formatString: mmm yyyy
+		isHidden
+		displayFolder: Helpers
+		lineageTag: 41260b85-14b0-5263-8740-48d1428fa67b
+
+	measure 'Has Full Year' =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN CALCULATE ( COUNTROWS ( DimDate ), REMOVEFILTERS ( DimDate ), DimDate[Month End] <= _m ) >= 13
+		isHidden
+		displayFolder: Helpers
+		lineageTag: fb8bcf1e-7bd4-553d-ad00-b07ba3525d18
+
+	measure 'Report Subtitle' = "Vltava Market Group  ·  " & FORMAT ( [Latest Month], "mmmm yyyy" ) & "  ·  synthetic data"
+		displayFolder: Helpers
+		lineageTag: cdef1635-f27c-531e-b515-d6691ea32293
+
+	/// Employees on the last day of the month: status Active, not External, effective on or before month-end.
+	measure Headcount =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Snapshot ),
+			        Snapshot[Is Headcount] = TRUE (),
+			        REMOVEFILTERS ( DimDate ),
+			        DimDate[Month End] = _m
+			    )
+		formatString: #,0
+		displayFolder: Workforce
+		lineageTag: 16963a46-7760-58d2-b2c2-88821035f679
+
+	measure 'Headcount PY' =
+			CALCULATE (
+			    [Headcount],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: #,0
+		displayFolder: Workforce
+		lineageTag: fc5f1459-300e-54a5-9040-de3cc8f69498
+
+	/// Contracted capacity in full-time equivalents at month-end; FTE outside 0-1 is treated as missing.
+	measure FTE =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN CALCULATE ( SUM ( Snapshot[FTE] ), Snapshot[Is Headcount] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _m )
+		formatString: #,0.0
+		displayFolder: Workforce
+		lineageTag: c10872c2-c173-5202-8952-1be615e9ad56
+
+	measure 'Headcount Prague' = CALCULATE ( [Headcount], LegalEntities[Location] = "Prague" )
+		formatString: #,0
+		isHidden
+		displayFolder: Workforce
+		lineageTag: c76ff78b-b72b-584e-b32f-03b2f72ca153
+
+	measure 'Headcount Frankfurt' = CALCULATE ( [Headcount], LegalEntities[Location] = "Frankfurt" )
+		formatString: #,0
+		isHidden
+		displayFolder: Workforce
+		lineageTag: 015f0a14-e0c9-5691-958a-87dc157bb3f7
+
+	measure 'Headcount Luxembourg' = CALCULATE ( [Headcount], LegalEntities[Location] = "Luxembourg" )
+		formatString: #,0
+		isHidden
+		displayFolder: Workforce
+		lineageTag: e8840b81-9d55-5c95-be62-b85325411aff
+
+	measure 'Headcount London' = CALCULATE ( [Headcount], LegalEntities[Location] = "London" )
+		formatString: #,0
+		isHidden
+		displayFolder: Workforce
+		lineageTag: b2ad59d9-768d-5c3a-960a-d2de7d424086
+
+	measure 'Headcount Other Entities' = [Headcount] - [Headcount Prague]
+		formatString: #,0
+		isHidden
+		displayFolder: Workforce
+		lineageTag: f79aee42-53fa-58b4-b245-521c9a3b4a87
+
+	/// Employees who joined in the 12 months up to the selected month (found by comparing month-end snapshots).
+	measure 'Hires R12' =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Movements ),
+			        Movements[Movement] = "Hire",
+			        REMOVEFILTERS ( DimDate ),
+			        DimDate[Month End] > EOMONTH ( _m, -12 ),
+			        DimDate[Month End] <= _m
+			    )
+		formatString: #,0
+		displayFolder: Movement
+		lineageTag: 1a519fc5-95ac-5024-9eb0-259f49672d87
+
+	measure 'Hires R12 PY' =
+			CALCULATE (
+			    [Hires R12],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: #,0
+		isHidden
+		displayFolder: Movement
+		lineageTag: 1fc46362-bd30-591a-af6a-c9a281cbddb6
+
+	/// Employees who left in the 12 months up to the selected month (found by comparing month-end snapshots).
+	measure 'Leavers R12' =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Movements ),
+			        Movements[Movement] = "Leaver",
+			        REMOVEFILTERS ( DimDate ),
+			        DimDate[Month End] > EOMONTH ( _m, -12 ),
+			        DimDate[Month End] <= _m
+			    )
+		formatString: #,0
+		displayFolder: Movement
+		lineageTag: 8dba7656-3f36-56e9-995b-bb495b345c0f
+
+	measure 'Transfers In R12' =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Movements ),
+			        Movements[Movement] = "Transfer In",
+			        REMOVEFILTERS ( DimDate ),
+			        DimDate[Month End] > EOMONTH ( _m, -12 ),
+			        DimDate[Month End] <= _m
+			    )
+		formatString: #,0
+		isHidden
+		displayFolder: Movement
+		lineageTag: ba79804d-456a-5859-8836-fb8e63153e57
+
+	measure 'Transfers Out R12' =
+			VAR _m = MAX ( DimDate[Month End] )
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Movements ),
+			        Movements[Movement] = "Transfer Out",
+			        REMOVEFILTERS ( DimDate ),
+			        DimDate[Month End] > EOMONTH ( _m, -12 ),
+			        DimDate[Month End] <= _m
+			    )
+		formatString: #,0
+		isHidden
+		displayFolder: Movement
+		lineageTag: f8cdb211-9a21-5592-be4a-c8dcb56da3fa
+
+	measure 'Avg Headcount R12' =
+			VAR _m = MAX ( DimDate[Month End] )
+			VAR _months = CALCULATETABLE ( VALUES ( DimDate[Month End] ), REMOVEFILTERS ( DimDate ), DimDate[Month End] > EOMONTH ( _m, -12 ), DimDate[Month End] <= _m )
+			RETURN
+			    AVERAGEX (
+			        _months,
+			        VAR _d = DimDate[Month End]
+			        RETURN CALCULATE ( COUNTROWS ( Snapshot ), Snapshot[Is Headcount] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _d ) + 0
+			    )
+		formatString: #,0.0
+		isHidden
+		displayFolder: Movement
+		lineageTag: 6fa8a503-b814-5f03-a6ed-58883302ef0a
+
+	/// Leavers in the last 12 months divided by the average of the 12 month-end headcounts. Hidden below 5 people.
+	measure 'Turnover R12 %' =
+			VAR _avg = [Avg Headcount R12]
+			RETURN IF ( [Has Full Year] && _avg >= 5, DIVIDE ( [Leavers R12] + 0, _avg ) )
+		formatString: 0.0%
+		displayFolder: Movement
+		lineageTag: a9ffb2d2-5370-52b3-931b-339e117975ae
+
+	/// Resignations in the last 12 months divided by the average month-end headcount. Hidden below 5 people.
+	measure 'Voluntary Turnover R12 %' =
+			VAR _avg = [Avg Headcount R12]
+			VAR _vol = CALCULATE ( [Leavers R12], Movements[Leaver Category] = "Voluntary" )
+			RETURN IF ( [Has Full Year] && _avg >= 5, DIVIDE ( _vol + 0, _avg ) )
+		formatString: 0.0%
+		displayFolder: Movement
+		lineageTag: 058294d0-d96b-579e-8031-9baae6e5b016
+
+	measure 'Turnover R12 % PY' =
+			CALCULATE (
+			    [Turnover R12 %],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: 0.0%
+		isHidden
+		displayFolder: Movement
+		lineageTag: 3e77f4ea-d506-508f-bb15-0fc37b012553
+
+	measure 'Voluntary Turnover R12 % PY' =
+			CALCULATE (
+			    [Voluntary Turnover R12 %],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: 0.0%
+		isHidden
+		displayFolder: Movement
+		lineageTag: 1a765e32-f2d0-5460-8f5b-04e337f88922
+
+	measure 'Turnover R12 % Company' = CALCULATE ( [Turnover R12 %], REMOVEFILTERS ( DimDivision ) )
+		formatString: 0.0%
+		displayFolder: Movement
+		lineageTag: fe834fe6-1cd4-5637-ba21-1277874c6784
+
+	measure 'Turnover R12 % Operations' = CALCULATE ( [Turnover R12 %], DimDivision[Division] = "Operations" )
+		formatString: 0.0%
+		displayFolder: Movement
+		lineageTag: b13268bd-f714-53c3-ae9d-6cc3dc3c9d8d
+
+	/// Share of the last 12 months' leavers who left within 12 months of joining. Hidden below 5 leavers.
+	measure 'Early Leavers R12 %' =
+			VAR _l = [Leavers R12]
+			VAR _e = CALCULATE ( [Leavers R12], Movements[Is Early Leaver] = TRUE () )
+			RETURN IF ( [Has Full Year] && _l >= 5, DIVIDE ( _e + 0, _l ) )
+		formatString: 0.0%
+		displayFolder: Movement
+		lineageTag: da602504-870e-5187-bd6f-6828967d8108
+
+	measure 'Bridge Value' =
+			SWITCH (
+			    SELECTEDVALUE ( BridgeSteps[Step] ),
+			    "Opening", [Headcount PY],
+			    "Hires", [Hires R12] + 0,
+			    "Voluntary leavers", - ( CALCULATE ( [Leavers R12], Movements[Leaver Category] = "Voluntary" ) + 0 ),
+			    "Involuntary leavers", - ( CALCULATE ( [Leavers R12], Movements[Leaver Category] = "Involuntary" ) + 0 ),
+			    "Retirements", - ( CALCULATE ( [Leavers R12], Movements[Leaver Category] = "Retirement" ) + 0 ),
+			    "Net transfers", [Transfers In R12] + 0 - ( [Transfers Out R12] + 0 )
+			)
+		displayFolder: Movement
+		lineageTag: 801f57a0-ba81-5ef8-ad69-54248ae56e1b
+		formatStringDefinition = IF ( SELECTEDVALUE ( BridgeSteps[Step] ) IN { "Opening" } || NOT HASONEVALUE ( BridgeSteps[Step] ), "#,0", "+#,0;-#,0;0" )
+
+	/// Women as a share of headcount at month-end.
+	measure 'Women %' =
+			VAR _hc = [Headcount]
+			RETURN IF ( _hc >= 5, DIVIDE ( CALCULATE ( [Headcount], Snapshot[Gender] = "Female" ) + 0, _hc ) )
+		formatString: 0.0%
+		displayFolder: Diversity & Pay
+		lineageTag: 588c048b-71ab-522a-b0c8-5e50cce03993
+
+	measure 'Women % PY' =
+			CALCULATE (
+			    [Women %],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: 0.0%
+		isHidden
+		displayFolder: Diversity & Pay
+		lineageTag: d530004f-b61b-5e78-a43f-4766801a1e09
+
+	/// Women as a share of grades G6-G7 at month-end. Hidden below 5 people.
+	measure 'Women in Leadership %' =
+			VAR _lead = CALCULATE ( [Headcount], Snapshot[Is Leadership] = TRUE () )
+			RETURN IF ( _lead >= 5, DIVIDE ( CALCULATE ( [Headcount], Snapshot[Is Leadership] = TRUE (), Snapshot[Gender] = "Female" ) + 0, _lead ) )
+		formatString: 0.0%
+		displayFolder: Diversity & Pay
+		lineageTag: fceba6aa-c37f-5b14-af34-77e361fc8457
+
+	measure 'Women in Leadership % PY' =
+			CALCULATE (
+			    [Women in Leadership %],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: 0.0%
+		isHidden
+		displayFolder: Diversity & Pay
+		lineageTag: dfcd3257-3fa8-5d4d-821c-64c48e9d9398
+
+	measure Women =
+			VAR _f = CALCULATE ( [Headcount], Snapshot[Gender] = "Female" ) + 0
+			VAR _m = CALCULATE ( [Headcount], Snapshot[Gender] = "Male" ) + 0
+			RETURN IF ( _f + _m >= 5, DIVIDE ( _f, _f + _m ) )
+		formatString: 0%
+		displayFolder: Diversity & Pay
+		lineageTag: 7f70d85b-6de2-5d1c-a3f6-544297c54c8d
+
+	measure Men =
+			VAR _f = CALCULATE ( [Headcount], Snapshot[Gender] = "Female" ) + 0
+			VAR _m = CALCULATE ( [Headcount], Snapshot[Gender] = "Male" ) + 0
+			RETURN IF ( _f + _m >= 5, DIVIDE ( _m, _f + _m ) )
+		formatString: 0%
+		displayFolder: Diversity & Pay
+		lineageTag: adad0eaa-3a9d-5388-b59a-fbff5f7682a0
+
+	/// (Men's mean - women's mean FTE salary in EUR) / men's mean. Needs at least 5 women and 5 men.
+	measure 'Pay Gap Mean %' =
+			VAR _m = MAX ( DimDate[Month End] )
+			VAR _pay = CALCULATETABLE ( Snapshot, Snapshot[Pay Valid] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _m )
+			VAR _men = FILTER ( _pay, Snapshot[Gender] = "Male" )
+			VAR _women = FILTER ( _pay, Snapshot[Gender] = "Female" )
+			VAR _am = AVERAGEX ( _men, Snapshot[Salary FTE EUR] )
+			VAR _aw = AVERAGEX ( _women, Snapshot[Salary FTE EUR] )
+			RETURN IF ( COUNTROWS ( _men ) >= 5 && COUNTROWS ( _women ) >= 5, DIVIDE ( _am - _aw, _am ) )
+		formatString: 0.0%
+		displayFolder: Diversity & Pay
+		lineageTag: 14b84f90-b36e-5cbd-ae76-b0526afbfa55
+
+	/// (Men's median - women's median FTE salary in EUR) / men's median. Needs at least 5 women and 5 men.
+	measure 'Pay Gap Median %' =
+			VAR _m = MAX ( DimDate[Month End] )
+			VAR _pay = CALCULATETABLE ( Snapshot, Snapshot[Pay Valid] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _m )
+			VAR _men = FILTER ( _pay, Snapshot[Gender] = "Male" )
+			VAR _women = FILTER ( _pay, Snapshot[Gender] = "Female" )
+			VAR _am = MEDIANX ( _men, Snapshot[Salary FTE EUR] )
+			VAR _aw = MEDIANX ( _women, Snapshot[Salary FTE EUR] )
+			RETURN IF ( COUNTROWS ( _men ) >= 5 && COUNTROWS ( _women ) >= 5, DIVIDE ( _am - _aw, _am ) )
+		formatString: 0.0%
+		displayFolder: Diversity & Pay
+		lineageTag: d6a5f517-d714-5a30-88e3-88a95c4b1a98
+
+	measure 'Pay Gap Mean % PY' =
+			CALCULATE (
+			    [Pay Gap Mean %],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: 0.0%
+		isHidden
+		displayFolder: Diversity & Pay
+		lineageTag: 26558d25-899a-575b-89c2-a8ae1fcad357
+
+	/// Mean gap inside each legal entity x grade group (5+ women and 5+ men), weighted by group size.
+	measure 'Pay Gap Like-for-like %' =
+			VAR _m = MAX ( DimDate[Month End] )
+			VAR _groups = CALCULATETABLE ( SUMMARIZE ( Snapshot, Snapshot[Legal Entity], Snapshot[Grade] ), Snapshot[Pay Valid] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _m )
+			VAR _t =
+			    ADDCOLUMNS (
+			        _groups,
+			        "@gap", CALCULATE ( [Pay Gap Mean %] ),
+			        "@n", CALCULATE ( COUNTROWS ( Snapshot ), Snapshot[Pay Valid] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _m )
+			    )
+			VAR _valid = FILTER ( _t, NOT ISBLANK ( [@gap] ) )
+			RETURN DIVIDE ( SUMX ( _valid, [@gap] * [@n] ), SUMX ( _valid, [@n] ) )
+		formatString: 0.0%
+		displayFolder: Diversity & Pay
+		lineageTag: 6be0a9a5-15b7-5817-a09d-e1bc5485b097
+
+	measure 'Pay Gap Like-for-like % PY' =
+			CALCULATE (
+			    [Pay Gap Like-for-like %],
+			    REMOVEFILTERS ( DimDate ),
+			    DimDate[Month End] = EOMONTH ( MAX ( DimDate[Month End] ), -12 )
+			)
+		formatString: 0.0%
+		isHidden
+		displayFolder: Diversity & Pay
+		lineageTag: 37ba04a7-5030-5fa7-a5a6-0ec45a07e50e
+
+	/// Eurostat earn_gr_gpgr2: raw gender pay gap, financial & insurance sector, entity's country, latest year.
+	measure 'Sector Benchmark %' =
+			VAR _c = SELECTEDVALUE ( LegalEntities[Country] )
+			VAR _y = CALCULATE ( MAX ( Eurostat_GPG[Year] ), Eurostat_GPG[Geo] = _c, Eurostat_GPG[Activity] = "Financial & insurance" )
+			RETURN DIVIDE ( CALCULATE ( MAX ( Eurostat_GPG[Pay Gap %] ), Eurostat_GPG[Geo] = _c, Eurostat_GPG[Activity] = "Financial & insurance", Eurostat_GPG[Year] = _y ), 100 )
+		formatString: 0.0%
+		displayFolder: Diversity & Pay
+		lineageTag: cbb3ddd5-fc81-51be-9808-354d60371ea3
+
+	measure 'Like-for-like Cell' =
+			VAR _g = SELECTEDVALUE ( Snapshot[Pay Grade] )
+			VAR _v = [Pay Gap Mean %]
+			RETURN
+			    IF (
+			        ISBLANK ( _g ) || _g = "",
+			        BLANK (),
+			        IF ( ISBLANK ( _v ), "—", IF ( _v >= 0.05, "▲ ", "" ) & FORMAT ( _v, "0.0%" ) )
+			    )
+		displayFolder: Diversity & Pay
+		lineageTag: 0a5e7263-55af-541c-b30c-5aee2b4ef8b0
+
+	/// Data-quality rule hits (DQ01-DQ08) across all monthly files.
+	measure 'Rule Exceptions' = COUNTROWS ( DQ_Exceptions ) + 0
+		formatString: #,0;-#,0;
+		displayFolder: Data Quality
+		lineageTag: 403e2370-4cdc-5eca-9e64-898465ffebd1
+
+	measure 'Files Loaded' = COUNTROWS ( LoadStats )
+		formatString: #,0
+		displayFolder: Data Quality
+		lineageTag: 9265ca53-e12f-52fa-a43c-775dd241cf06
+
+	measure 'Rows Loaded' = SUM ( LoadStats[Rows] )
+		formatString: #,0
+		displayFolder: Data Quality
+		lineageTag: aa001e7c-3533-5404-a432-38a30c049892
+
+	/// Raw rows not used for reporting: exact duplicates and future-dated records.
+	measure 'Rows Excluded' = [Rows Loaded] - CALCULATE ( COUNTROWS ( Snapshot ), REMOVEFILTERS () )
+		formatString: #,0
+		displayFolder: Data Quality
+		lineageTag: 7ff83262-6964-5235-a335-23bf8844461d
+
+	measure 'DQ Note Files' = FORMAT ( MIN ( LoadStats[As Of] ), "mmm yyyy" ) & " – " & FORMAT ( MAX ( LoadStats[As Of] ), "mmm yyyy" )
+		isHidden
+		displayFolder: Data Quality
+		lineageTag: ae314344-bdd9-5c36-a25a-1661c85d976f
+
+	measure 'DQ Note Rows' = FORMAT ( DIVIDE ( [Rows Loaded], [Files Loaded] ), "0" ) & " rows per file on average"
+		isHidden
+		displayFolder: Data Quality
+		lineageTag: 24c51546-1044-5033-bb9e-cc2504dd95b6
+
+	measure 'DQ Note Exceptions' = DISTINCTCOUNT ( DQ_Exceptions[Rule ID] ) & " of " & COUNTROWS ( DQ_Rules ) & " rules fired"
+		isHidden
+		displayFolder: Data Quality
+		lineageTag: 516a0eea-9724-5aba-b4bb-22ba07419223
+
+	measure 'DQ Note Excluded' = "duplicates + future-dated records"
+		isHidden
+		displayFolder: Data Quality
+		lineageTag: 58f2a981-7712-5cd0-a77d-4ab96d83d019
+
+	measure 'Delta Headcount' =
+			VAR _c = [Headcount]
+			VAR _p = [Headcount PY]
+			VAR _r = ROUND ( _c - _p, 0 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0" ) & "   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: de229bac-533a-5ef8-a716-34a1f22cbad0
+
+	measure 'Color Delta Headcount' = "#52514E"
+		isHidden
+		displayFolder: Tiles
+		lineageTag: bd45301a-3eff-54c3-acb2-0c6e6abef0e4
+
+	measure 'Delta Hires' =
+			VAR _c = [Hires R12]
+			VAR _p = [Hires R12 PY]
+			VAR _r = ROUND ( _c - _p, 0 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0" ) & "   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 85e52156-9565-5a08-83e5-921ddf415b85
+
+	measure 'Color Delta Hires' = "#52514E"
+		isHidden
+		displayFolder: Tiles
+		lineageTag: d7d877d9-d043-54c2-9202-6737a56b57b3
+
+	measure 'Delta Turnover' =
+			VAR _c = [Turnover R12 %]
+			VAR _p = [Turnover R12 % PY]
+			VAR _r = ROUND ( ( _c - _p ) * 100, 1 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0.0" ) & " pp   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: ad72dda7-18a5-51b7-b3fc-4616f8499689
+
+	measure 'Color Delta Turnover' =
+			VAR _c = [Turnover R12 %]
+			VAR _p = [Turnover R12 % PY]
+			VAR _d = ( _c - _p ) * 100
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _c ) || ISBLANK ( _p ), "#52514E",
+			        NOT ( ABS ( _d ) >= 0.5 ), "#52514E",
+			        _d < 0, "#006300",
+			        "#D03B3B"
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 66859a59-33f1-51bf-b1fb-7ead127e2942
+
+	measure 'Delta Voluntary Turnover' =
+			VAR _c = [Voluntary Turnover R12 %]
+			VAR _p = [Voluntary Turnover R12 % PY]
+			VAR _r = ROUND ( ( _c - _p ) * 100, 1 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0.0" ) & " pp   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: b0162f17-0544-5837-87ef-53184e7c29f3
+
+	measure 'Color Delta Voluntary Turnover' =
+			VAR _c = [Voluntary Turnover R12 %]
+			VAR _p = [Voluntary Turnover R12 % PY]
+			VAR _d = ( _c - _p ) * 100
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _c ) || ISBLANK ( _p ), "#52514E",
+			        NOT ( ABS ( _d ) >= 0.5 ), "#52514E",
+			        _d < 0, "#006300",
+			        "#D03B3B"
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: bc1c67c9-05df-5cb1-a49e-398c2947a04f
+
+	measure 'Delta Women in Leadership' =
+			VAR _c = [Women in Leadership %]
+			VAR _p = [Women in Leadership % PY]
+			VAR _r = ROUND ( ( _c - _p ) * 100, 1 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0.0" ) & " pp   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 2d7da0d4-ccf3-5daa-a08c-a9372dce95fa
+
+	measure 'Color Delta Women in Leadership' =
+			VAR _c = [Women in Leadership %]
+			VAR _p = [Women in Leadership % PY]
+			VAR _d = ( _c - _p ) * 100
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _c ) || ISBLANK ( _p ), "#52514E",
+			        NOT ( ABS ( _d ) >= 0.5 ), "#52514E",
+			        _d > 0, "#006300",
+			        "#D03B3B"
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: c6ab6285-50b0-5d37-81e3-5706f71f47bf
+
+	measure 'Delta Women' =
+			VAR _c = [Women %]
+			VAR _p = [Women % PY]
+			VAR _r = ROUND ( ( _c - _p ) * 100, 1 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0.0" ) & " pp   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 4b6a45f0-6a7c-5da8-832d-7122124de83f
+
+	measure 'Color Delta Women' =
+			VAR _c = [Women %]
+			VAR _p = [Women % PY]
+			VAR _d = ( _c - _p ) * 100
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _c ) || ISBLANK ( _p ), "#52514E",
+			        NOT ( ABS ( _d ) >= 0.5 ), "#52514E",
+			        _d > 0, "#006300",
+			        "#D03B3B"
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 6c031649-ebbf-56da-b51f-0ab57e3fafb8
+
+	measure 'Delta Pay Gap' =
+			VAR _c = [Pay Gap Mean %]
+			VAR _p = [Pay Gap Mean % PY]
+			VAR _r = ROUND ( ( _c - _p ) * 100, 1 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0.0" ) & " pp   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: d4fc5afd-9f8b-54b2-be98-62b00de645e9
+
+	measure 'Color Delta Pay Gap' =
+			VAR _c = [Pay Gap Mean %]
+			VAR _p = [Pay Gap Mean % PY]
+			VAR _d = ( _c - _p ) * 100
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _c ) || ISBLANK ( _p ), "#52514E",
+			        NOT ( ABS ( _d ) >= 0.5 ), "#52514E",
+			        _d < 0, "#006300",
+			        "#D03B3B"
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: e0607e3e-7fb5-51b5-ae28-8d0b89577ea9
+
+	measure 'Delta Pay Gap LfL' =
+			VAR _c = [Pay Gap Like-for-like %]
+			VAR _p = [Pay Gap Like-for-like % PY]
+			VAR _r = ROUND ( ( _c - _p ) * 100, 1 )
+			VAR _arrow = IF ( _r > 0, "▲ +", IF ( _r < 0, "▼ −", "► ±" ) )
+			RETURN
+			    IF (
+			        ISBLANK ( _c ) || ISBLANK ( _p ),
+			        BLANK (),
+			        _arrow & FORMAT ( ABS ( _r ), "0.0" ) & " pp   vs " & FORMAT ( [PY Month], "mmm yyyy" )
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 355eb010-35ba-5c67-8df6-435fbfee8783
+
+	measure 'Color Delta Pay Gap LfL' =
+			VAR _c = [Pay Gap Like-for-like %]
+			VAR _p = [Pay Gap Like-for-like % PY]
+			VAR _d = ( _c - _p ) * 100
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _c ) || ISBLANK ( _p ), "#52514E",
+			        NOT ( ABS ( _d ) >= 0.5 ), "#52514E",
+			        _d < 0, "#006300",
+			        "#D03B3B"
+			    )
+		isHidden
+		displayFolder: Tiles
+		lineageTag: 8a333889-9a60-56c4-8fe5-c3bb9187df34
+
+	measure 'Color Turnover by Division' =
+			VAR _v = [Turnover R12 %]
+			VAR _max = MAXX ( ALLSELECTED ( DimDivision[Division] ), [Turnover R12 %] )
+			RETURN IF ( NOT ISBLANK ( _v ) && _v = _max, "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: 0cbb05ab-5803-53af-b5d9-190b15546647
+
+	measure 'Color Early Leavers' =
+			VAR _v = [Early Leavers R12 %]
+			VAR _max = MAXX ( ALLSELECTED ( DimDivision[Division] ), [Early Leavers R12 %] )
+			RETURN IF ( NOT ISBLANK ( _v ) && _v = _max, "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: c525921f-a1a3-5355-b162-be51e8e3faa8
+
+	measure 'Color Leaver Reason' =
+			VAR _v = [Leavers R12]
+			VAR _max = MAXX ( ALLSELECTED ( Movements[Reason Short] ), [Leavers R12] )
+			RETURN IF ( NOT ISBLANK ( _v ) && _v = _max, "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: dfaaa3ca-55a8-5391-89a1-76d2a139edcf
+
+	measure 'Color DQ Rule' =
+			VAR _v = [Rule Exceptions]
+			VAR _max = MAXX ( ALLSELECTED ( DQ_Rules[Rule Label] ), [Rule Exceptions] )
+			RETURN IF ( NOT ISBLANK ( _v ) && _v = _max, "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: 05813a19-1911-5b54-a9ae-98aa44a33dea
+
+	measure 'Color Tenure Band' = IF ( SELECTEDVALUE ( DimTenureBand[Tenure Band] ) = "< 1 year", "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: ab034eab-13d2-57a8-a808-a220eae51ac8
+
+	measure 'Color DQ File' = IF ( [Rule Exceptions] > 0, "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: 51425508-1794-588f-8a8d-7b8b7fa96373
+
+	measure 'Color Women by Grade' = IF ( SELECTEDVALUE ( Snapshot[Pay Grade] ) IN { "G5", "G6", "G7" }, "#2A78D6", "#898781" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: c5880fdb-1221-5f76-a58b-71a410896411
+
+	measure 'Color LfL Cell' = IF ( [Pay Gap Mean %] >= 0.05, "#D03B3B", "#0B0B0B" )
+		isHidden
+		displayFolder: Colours
+		lineageTag: 74ac8fff-a9ad-5b19-a18e-3fcd2916538a
+
+	measure 'Title Headcount Trend' =
+			VAR _first = CALCULATE ( MIN ( DimDate[Month End] ), REMOVEFILTERS ( DimDate ) )
+			VAR _last = CALCULATE ( MAX ( DimDate[Month End] ), REMOVEFILTERS ( DimDate ) )
+			VAR _h0 = CALCULATE ( [Headcount], REMOVEFILTERS ( DimDate ), DimDate[Month End] = _first )
+			VAR _h1 = CALCULATE ( [Headcount], REMOVEFILTERS ( DimDate ), DimDate[Month End] = _last )
+			VAR _p0 = CALCULATE ( [Headcount Prague], REMOVEFILTERS ( DimDate ), DimDate[Month End] = _first ) + 0
+			VAR _p1 = CALCULATE ( [Headcount Prague], REMOVEFILTERS ( DimDate ), DimDate[Month End] = _last ) + 0
+			VAR _rest = ( _h1 - _p1 ) - ( _h0 - _p0 )
+			RETURN
+			    "Headcount " & FORMAT ( DIVIDE ( _h1, _h0 ) - 1, "+0%;-0%;0%" ) & " since " & FORMAT ( _first, "mmm yyyy" )
+			        & ": Prague " & FORMAT ( _p1 - _p0, "+0;-0;0" ) & ", other entities " & FORMAT ( _rest, "+0;-0;0" )
+		isHidden
+		displayFolder: Titles
+		lineageTag: 0b311d40-2caf-5658-9fbc-78abeaa045e1
+
+	measure 'Title Turnover by Division' =
+			VAR _t = FILTER ( ADDCOLUMNS ( ALLSELECTED ( DimDivision[Division] ), "@v", [Turnover R12 %] ), NOT ISBLANK ( [@v] ) )
+			VAR _top = TOPN ( 1, _t, [@v], DESC )
+			VAR _v = MAXX ( _top, [@v] )
+			VAR _n = ROUND ( DIVIDE ( 1, _v ), 0 )
+			RETURN
+			    IF ( ISBLANK ( _v ), "Turnover by division",
+			        MAXX ( _top, DimDivision[Division] ) & " loses " & IF ( _v > DIVIDE ( 1, _n ), "more than ", "about " )
+			            & "1 in " & _n & " people a year" )
+		isHidden
+		displayFolder: Titles
+		lineageTag: 8ff1b538-bc9a-55b7-a3ba-6880e2a29438
+
+	measure 'Subtitle Turnover by Division' = "Turnover, last 12 months to " & FORMAT ( [Latest Month], "mmm yyyy" ) & " · company " & FORMAT ( [Turnover R12 % Company], "0.0%" )
+		isHidden
+		displayFolder: Titles
+		lineageTag: 26b94e7e-856d-5c54-870c-721cfa4975f3
+
+	measure 'Title Headcount by Entity' =
+			VAR _t = ADDCOLUMNS ( ALLSELECTED ( LegalEntities[Location] ), "@d", [Headcount] - [Headcount PY] )
+			VAR _top = TOPN ( 1, _t, [@d], DESC )
+			VAR _d = MAXX ( _top, [@d] )
+			VAR _others = SUMX ( _t, [@d] ) - _d
+			RETURN
+			    MAXX ( _top, LegalEntities[Location] ) & " " & FORMAT ( _d, "+0;-0;0" ) & " people vs last year; others "
+			        & IF ( _others = 0, "flat", FORMAT ( _others, "+0;-0;0" ) )
+		isHidden
+		displayFolder: Titles
+		lineageTag: f4436504-0ade-5083-86b7-78f524fe6185
+
+	measure 'Title Bridge' =
+			VAR _open = [Headcount PY]
+			VAR _close = [Headcount]
+			VAR _h = [Hires R12] + 0
+			VAR _l = [Leavers R12] + 0
+			RETURN
+			    "Headcount " & FORMAT ( _close - _open, "+0;-0;0" ) & " in 12 months: " & _h & " hires "
+			        & IF ( _h >= _l, "outpaced ", "trailed " ) & _l & " leavers"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 1f56af07-549c-5648-a622-d845e7828768
+
+	measure 'Title Turnover Trend' =
+			VAR _months = FILTER ( ALL ( DimDate[Month End] ), NOT ISBLANK ( [Turnover R12 % Company] ) )
+			VAR _above = COUNTROWS ( FILTER ( _months, [Turnover R12 % Operations] > [Turnover R12 % Company] ) )
+			RETURN IF ( _above = COUNTROWS ( _months ), "Operations turnover above the company all year", "Operations turnover runs above the company" )
+		isHidden
+		displayFolder: Titles
+		lineageTag: 89cc0fb8-d08a-5da8-a6c1-7d6bacd51ecb
+
+	measure 'Subtitle Turnover Trend' =
+			VAR _months = FILTER ( ALL ( DimDate[Month End] ), NOT ISBLANK ( [Turnover R12 % Company] ) )
+			VAR _gap = AVERAGEX ( _months, [Turnover R12 % Operations] - [Turnover R12 % Company] )
+			RETURN "Turnover, rolling 12 months, % · gap averages " & FORMAT ( _gap * 100, "0" ) & " pp"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 676fd4f7-8cf7-55fd-baaf-1818ada83cd4
+
+	measure 'Title Leaver Reasons' =
+			VAR _t = ADDCOLUMNS ( FILTER ( ALL ( Movements[Reason Short] ), NOT ISBLANK ( Movements[Reason Short] ) ), "@n", [Leavers R12] + 0 )
+			VAR _top = TOPN ( 1, _t, [@n], DESC )
+			VAR _name = MAXX ( _top, Movements[Reason Short] )
+			VAR _share = DIVIDE ( MAXX ( _top, [@n] ), SUMX ( _t, [@n] ) )
+			VAR _phrase =
+			    SWITCH ( _name, "Career move", "Career moves", "Personal", "Personal reasons", "Performance", "Performance exits",
+			        "Redundancy", "Redundancies", "Retirement", "Retirements", "Contract ended", "Contract ends", _name )
+			RETURN _phrase & " drive " & FORMAT ( _share * 10, "0" ) & " in 10 exits"
+		isHidden
+		displayFolder: Titles
+		lineageTag: dcd23c05-6b42-5d00-9b71-0aaeda1d4c43
+
+	measure 'Subtitle Leaver Reasons' = "Leavers by reason, last 12 months (n=" & ( [Leavers R12] + 0 ) & ")"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 85df80a2-05dd-5ab5-8e07-31c124048f45
+
+	measure 'Title Early Leavers' =
+			VAR _ops = CALCULATE ( [Early Leavers R12 %], DimDivision[Division] = "Operations" )
+			RETURN FORMAT ( _ops * 10, "0" ) & " in 10 Operations leavers quit in year 1"
+		isHidden
+		displayFolder: Titles
+		lineageTag: be59e674-ed64-5931-ab93-f09c96d46377
+
+	measure 'Title Tenure' =
+			VAR _first = CALCULATE ( [Turnover R12 %], DimTenureBand[Tenure Band] = "< 1 year" )
+			VAR _later = CALCULATE ( [Turnover R12 %], DimTenureBand[Tenure Band] <> "< 1 year" )
+			RETURN "First-year turnover is " & FORMAT ( DIVIDE ( _first, _later ), "0" ) & "x the rate after year one"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 231cfe57-93e3-51c2-90bd-bcab9b5ab63c
+
+	measure 'Title Women by Grade' =
+			VAR _mid = { CALCULATE ( [Women], Snapshot[Pay Grade] = "G2" ), CALCULATE ( [Women], Snapshot[Pay Grade] = "G3" ), CALCULATE ( [Women], Snapshot[Pay Grade] = "G4" ) }
+			VAR _senior = { CALCULATE ( [Women], Snapshot[Pay Grade] = "G5" ), CALCULATE ( [Women], Snapshot[Pay Grade] = "G6" ), CALCULATE ( [Women], Snapshot[Pay Grade] = "G7" ) }
+			RETURN
+			    "Women hold " & FORMAT ( MINX ( _mid, [Value] ), "0%" ) & "–" & FORMAT ( MAXX ( _mid, [Value] ), "0%" )
+			        & " of G2–G4 roles, but at most " & FORMAT ( MAXX ( _senior, [Value] ), "0%" ) & " from G5 up"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 170e43e6-0129-5129-b85c-76b3cb20c7a7
+
+	measure 'Title Gap vs Benchmark' =
+			VAR _t = FILTER ( ADDCOLUMNS ( ALLSELECTED ( LegalEntities[Location] ), "@r", DIVIDE ( [Pay Gap Mean %], [Sector Benchmark %] ) ), NOT ISBLANK ( [@r] ) )
+			VAR _top = TOPN ( 1, _t, [@r], DESC )
+			VAR _r = MAXX ( _top, [@r] )
+			RETURN
+			    MAXX ( _top, LegalEntities[Location] ) & "'s raw gap is "
+			        & IF ( _r >= 1.8 && _r < 2.3, "double", FORMAT ( _r, "0.0" ) & "x" ) & " its sector benchmark"
+		isHidden
+		displayFolder: Titles
+		lineageTag: f99740de-3764-598a-b7ab-5d33363958a5
+
+	measure 'Title Like-for-like' =
+			VAR _m = MAX ( DimDate[Month End] )
+			VAR _cells = CALCULATETABLE ( SUMMARIZE ( Snapshot, Snapshot[Legal Entity], Snapshot[Grade] ), Snapshot[Pay Valid] = TRUE (), REMOVEFILTERS ( DimDate ), DimDate[Month End] = _m )
+			VAR _t = ADDCOLUMNS ( _cells, "@gap", CALCULATE ( [Pay Gap Mean %] ) )
+			VAR _comp = COUNTROWS ( FILTER ( _t, NOT ISBLANK ( [@gap] ) ) )
+			VAR _over = COUNTROWS ( FILTER ( _t, [@gap] >= 0.05 ) ) + 0
+			RETURN
+			    IF ( _over = 0, "All " & _comp & " comparable groups are under the 5% EU trigger",
+			        _over & " of " & _comp & " comparable groups " & IF ( _over = 1, "exceeds", "exceed" ) & " the 5% EU trigger: review" )
+		isHidden
+		displayFolder: Titles
+		lineageTag: 8362e652-7a66-5846-a4b2-2e562af12afe
+
+	measure 'Title DQ Rules' =
+			VAR _t = ADDCOLUMNS ( ALL ( DQ_Rules[Rule] ), "@n", [Rule Exceptions] )
+			RETURN "'" & MAXX ( TOPN ( 1, _t, [@n], DESC ), DQ_Rules[Rule] ) & "' is the most frequent issue"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 3667fa28-b27b-53fb-ba02-4387bced5440
+
+	measure 'Title DQ Files' = DISTINCTCOUNT ( DQ_Exceptions[File] ) & " of " & [Files Loaded] & " monthly files had at least one issue"
+		isHidden
+		displayFolder: Titles
+		lineageTag: 4399528d-b572-5df2-b6df-e73785a6ebfb
+
+	measure 'Key Message' = SWITCH ( SELECTEDVALUE ( KeyMessageSlots[#] ), 1, [Key Message 1], 2, [Key Message 2], 3, [Key Message 3] )
+		displayFolder: Key messages
+		lineageTag: 0178dad0-5718-53a8-83ab-6bc6156e5c6b
+
+	measure 'Key Message 1' =
+			VAR _d = ( [Turnover R12 %] - [Turnover R12 % PY] ) * 100
+			RETURN
+			    IF ( _d > 0, "Turnover is rising: ", "Turnover is falling: " ) & FORMAT ( [Turnover R12 %], "0.0%" ) & " ("
+			        & FORMAT ( _d, "+0.0;-0.0" ) & " pp). Operations is the hotspot at " & FORMAT ( [Turnover R12 % Operations], "0.0%" )
+			        & "; " & FORMAT ( CALCULATE ( [Early Leavers R12 %], DimDivision[Division] = "Operations" ) * 10, "0" )
+			        & " in 10 of its leavers quit in year one."
+		displayFolder: Key messages
+		lineageTag: d7205c03-8798-55e0-99df-828bba484058
+
+	measure 'Key Message 2' =
+			VAR _first = CALCULATE ( MIN ( DimDate[Month End] ), REMOVEFILTERS ( DimDate ) )
+			VAR _p = [Headcount Prague] - CALCULATE ( [Headcount Prague], REMOVEFILTERS ( DimDate ), DimDate[Month End] = _first )
+			VAR _all = [Headcount] - CALCULATE ( [Headcount], REMOVEFILTERS ( DimDate ), DimDate[Month End] = _first )
+			RETURN
+			    "Growth is Prague-led: " & FORMAT ( _p, "+0;-0;0" ) & " people since " & FORMAT ( _first, "mmm yyyy" )
+			        & "; the other entities " & FORMAT ( _all - _p, "+0;-0;0" ) & "."
+		displayFolder: Key messages
+		lineageTag: 626c0f8c-9ee3-57fa-acd9-483297357deb
+
+	measure 'Key Message 3' =
+			"Pay gap is mostly structure: raw " & FORMAT ( [Pay Gap Mean %], "0.0%" ) & ", like-for-like "
+			    & FORMAT ( [Pay Gap Like-for-like %], "0.0%" ) & ". " & [Title Gap vs Benchmark] & "."
+		displayFolder: Key messages
+		lineageTag: ebf568fa-5fa2-5c7a-a05b-b75b56888ffc
+
+	column 'Measure Table'
+		dataType: string
+		isHidden
+		lineageTag: 2e57bddc-db0c-54ed-8917-55b9a3b50f7e
+		summarizeBy: none
+		sourceColumn: Measure Table
+
+	partition _Measures = m
+		mode: import
+		source =
+				// _Measures - an empty table that only exists to hold the report's measures in one place.
+				#table(type table [#"Measure Table" = text], {})
+
+	annotation PBI_ResultType = Table

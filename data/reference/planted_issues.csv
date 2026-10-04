@@ -1,0 +1,20 @@
+File,Person ID External,Rule ID,Rule,Detail
+2025-10.csv,100256,DQ05,Location label not standard,Praha instead of Prague
+2025-10.csv,100246,DQ05,Location label not standard,Praha instead of Prague
+2025-10.csv,100053,DQ05,Location label not standard,Praha instead of Prague
+2025-10.csv,100067,DQ05,Location label not standard,Praha instead of Prague
+2026-06.csv,100168,DQ05,Location label not standard,leading/trailing spaces
+2026-06.csv,100275,DQ05,Location label not standard,leading/trailing spaces
+2026-06.csv,100193,DQ05,Location label not standard,leading/trailing spaces
+2025-11.csv,,DQ06,Non-ISO date format,all dates in file are dd.MM.yyyy
+2025-11.csv,100004,DQ01,Duplicate row,exact duplicate of another row
+2025-11.csv,100018,DQ01,Duplicate row,exact duplicate of another row
+2026-05.csv,100270,DQ01,Duplicate row,exact duplicate of another row
+2026-01.csv,100140,DQ02,Missing manager,Manager ID is blank
+2026-01.csv,100046,DQ02,Missing manager,Manager ID is blank
+2026-03.csv,100003,DQ03,Manager not found,Manager ID 100059 left in 2026-02
+2026-02.csv,100286,DQ04,Future-dated record,hire effective 2026-03-02
+2026-09.csv,100013,DQ04,Future-dated record,transfer to Client Services effective 2026-10-01
+2026-09.csv,100311,DQ04,Future-dated record,hire effective 2026-10-15
+2026-04.csv,100094,DQ07,Currency mismatch,EUR on a Czech contract (amount is CZK)
+2026-07.csv,100107,DQ08,FTE outside 0-1,FTE typed as 10.0 instead of 1.0

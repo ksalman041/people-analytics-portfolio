@@ -1,0 +1,6 @@
+role 'HRBP - Operations'
+	modelPermission: read
+
+	tablePermission DimDivision = [Division] = "Operations"
+
+	annotation PBI_Id = ee5fb7787d615560bd0cbe0b102967f1

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.1.0"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "VltavaBoardPack.json",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.1.0"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU10",
+          "path": "BaseThemes/CY24SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "VltavaBoardPack.json",
+          "path": "VltavaBoardPack.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "bg_1_board_summary.png",
+          "path": "bg_1_board_summary.png",
+          "type": "Image"
+        },
+        {
+          "name": "bg_2_movement_attrition.png",
+          "path": "bg_2_movement_attrition.png",
+          "type": "Image"
+        },
+        {
+          "name": "bg_3_diversity_pay.png",
+          "path": "bg_3_diversity_pay.png",
+          "type": "Image"
+        },
+        {
+          "name": "bg_4_data_quality.png",
+          "path": "bg_4_data_quality.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "useEnhancedTooltips": true,
+    "allowChangeFilterTypes": true
+  }
+}

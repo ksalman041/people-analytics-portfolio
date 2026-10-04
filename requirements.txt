@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=2.0
+faker>=30
+duckdb>=1.1
+openpyxl>=3.1
+matplotlib>=3.9
+truststore>=0.9  # lets Python use the Windows certificate store for the Eurostat/ECB downloads

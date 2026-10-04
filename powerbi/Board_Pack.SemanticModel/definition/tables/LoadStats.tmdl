@@ -1,0 +1,33 @@
+table LoadStats
+	lineageTag: d40ac6c1-67fd-5796-bd00-5a7a89cb55d0
+
+	column File
+		dataType: string
+		lineageTag: 755e57d4-b2c9-599c-9c8a-25bf4ac25da3
+		summarizeBy: none
+		sourceColumn: File
+
+	column 'As Of'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: a4e4cb7a-5aa8-5b9b-ab71-796505334206
+		summarizeBy: none
+		sourceColumn: As Of
+
+	column Rows
+		dataType: int64
+		lineageTag: 0f68dd64-b50e-59c0-be53-454b183ec20c
+		summarizeBy: none
+		sourceColumn: Rows
+
+	partition LoadStats = m
+		mode: import
+		source =
+				// LoadStats - rows per monthly file, for the Data Quality page. No personal data.
+				let
+				    Grouped = Table.Group(Exports_Raw, {"File", "As Of"}, {{"Rows", each Table.RowCount(_), Int64.Type}}),
+				    Typed = Table.TransformColumnTypes(Grouped, {{"File", type text}, {"As Of", type date}})
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

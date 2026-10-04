@@ -1,0 +1,21 @@
+table DimDivision
+	lineageTag: 9dd2586e-5ea0-5323-aa53-de476f5b4d5a
+
+	column Division
+		dataType: string
+		lineageTag: 923b3d64-5659-513e-8754-97dee00f50db
+		summarizeBy: none
+		sourceColumn: Division
+
+	partition DimDivision = m
+		mode: import
+		source =
+				// DimDivision - one row per division. Row-level security sits on this table, so an HR
+				// Business Partner who may only see "Operations" sees only Operations in every fact table.
+				let
+				    Source = Table.Distinct(Table.SelectColumns(Snapshot, {"Division"})),
+				    Sorted = Table.Sort(Source, {{"Division", Order.Ascending}})
+				in
+				    Sorted
+
+	annotation PBI_ResultType = Table

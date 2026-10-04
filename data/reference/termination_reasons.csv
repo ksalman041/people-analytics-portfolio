@@ -1,0 +1,9 @@
+Event Reason,Leaver Category,Is Voluntary,Reason Short
+Resignation - Career Opportunity,Voluntary,Yes,Career move
+Resignation - Compensation,Voluntary,Yes,Pay
+Resignation - Personal Reasons,Voluntary,Yes,Personal
+Resignation - Relocation,Voluntary,Yes,Relocation
+Dismissal - Performance,Involuntary,No,Performance
+Redundancy,Involuntary,No,Redundancy
+End of Fixed-Term Contract,Involuntary,No,Contract ended
+Retirement,Retirement,No,Retirement

@@ -1,0 +1,39 @@
+relationship d549b185-f96d-56f7-a648-ee3b407b44f3
+	fromColumn: Snapshot.'As Of'
+	toColumn: DimDate.'Month End'
+
+relationship 57aabcec-49ab-55d1-99f7-7453db698253
+	fromColumn: Movements.Month
+	toColumn: DimDate.'Month End'
+
+relationship 2a47cc0a-ff8c-5d0a-89b9-d726c833051a
+	fromColumn: DQ_Exceptions.'As Of'
+	toColumn: DimDate.'Month End'
+
+relationship 81f5d599-0ea4-5259-95b6-a82ea1eeaaf0
+	fromColumn: Snapshot.Division
+	toColumn: DimDivision.Division
+
+relationship 0743c2f5-1faa-5363-b383-951b0342252d
+	fromColumn: Movements.Division
+	toColumn: DimDivision.Division
+
+relationship cae2bfed-fd51-5b90-8ff0-0bd6f2058566
+	fromColumn: Snapshot.'Legal Entity'
+	toColumn: LegalEntities.'Legal Entity'
+
+relationship 466dfa1d-9be4-59c3-96f4-1db5d4e17057
+	fromColumn: Movements.'Legal Entity'
+	toColumn: LegalEntities.'Legal Entity'
+
+relationship bb2edf8f-cc5a-5214-835c-d25d8c124dea
+	fromColumn: DQ_Exceptions.'Rule ID'
+	toColumn: DQ_Rules.'Rule ID'
+
+relationship 970dcc39-d5c7-5348-9c60-2350610c3672
+	fromColumn: Snapshot.'Tenure Band'
+	toColumn: DimTenureBand.'Tenure Band'
+
+relationship 017d6912-ef48-54f7-a8e7-7de1fa06a8ff
+	fromColumn: Movements.'Tenure Band'
+	toColumn: DimTenureBand.'Tenure Band'
